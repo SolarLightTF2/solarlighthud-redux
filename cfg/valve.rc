@@ -1,7 +1,7 @@
 
 exec joystick.cfg
 exec autoexec.cfg
-exec m0re_customization.cfg
+exec customization.cfg
 
 stuffcmds
 startupmenu
