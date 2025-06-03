@@ -20,6 +20,6 @@
 	"MeterModulateOverlay" //Changes color of the meter, placed on top of the meter
 	{
 		"fieldName"		"MeterModulateOverlay"
-		"image"			"../vgui/replay/thumbnails/ColorPurpleModulate"			
+		"image"			"replay/thumbnails/ColorPurpleModulate"			
 	}
 }

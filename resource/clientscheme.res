@@ -5392,7 +5392,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5403,7 +5403,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5414,7 +5414,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5425,7 +5425,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5436,7 +5436,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5447,7 +5447,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorRED"
+			"image"					"replay/thumbnails/ColorRED"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5458,7 +5458,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5469,7 +5469,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLU"
+			"image"					"replay/thumbnails/ColorBLU"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5480,7 +5480,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLUTransparent"
+			"image"					"replay/thumbnails/ColorBLUTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5491,7 +5491,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLUTransparent"
+			"image"					"replay/thumbnails/ColorBLUTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -7411,7 +7411,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			//"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional

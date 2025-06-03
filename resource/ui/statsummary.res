@@ -37,7 +37,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/loadingbars2048"
+		"image"			"replay/thumbnails/loadingbars2048"
 		"scaleImage"	"1"				
 	}
 	
@@ -52,7 +52,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/loadingbg"
+		"image"			"replay/thumbnails/loadingbg"
 		"scaleImage"		"1"
 	}
 
@@ -79,7 +79,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/loadingbg"
+			"image"			"replay/thumbnails/loadingbg"
 			"scaleImage"		"1"
 		}
 	

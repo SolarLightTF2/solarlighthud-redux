@@ -41,11 +41,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/SHAPES_DISGUISE_RED"
+		"image"			"replay/thumbnails/SHAPES_DISGUISE_RED"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/replay/thumbnails/SHAPES_DISGUISE_RED"
-		"teambg_2"		"../vgui/replay/thumbnails/SHAPES_DISGUISE_RED"
-		"teambg_3"		"../vgui/replay/thumbnails/SHAPES_DISGUISE_BLU"
+		"teambg_1"		"replay/thumbnails/SHAPES_DISGUISE_RED"
+		"teambg_2"		"replay/thumbnails/SHAPES_DISGUISE_RED"
+		"teambg_3"		"replay/thumbnails/SHAPES_DISGUISE_BLU"
 		
 		"src_corner_height"		"0"				// pixels inside the image
 		"src_corner_width"		"0"

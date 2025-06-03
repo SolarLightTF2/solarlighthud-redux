@@ -254,7 +254,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/linebg_transparent"
+		"image"			"replay/thumbnails/linebg_transparent"
 		"scaleImage"	"1"
 		"alpha"			"50"
 		"mouseinputenabled"	"0"

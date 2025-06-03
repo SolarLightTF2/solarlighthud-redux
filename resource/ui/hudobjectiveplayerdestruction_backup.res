@@ -258,7 +258,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"image"			"../vgui/replay/thumbnails/passtime_ballcontrol_bar"
+			"image"			"replay/thumbnails/passtime_ballcontrol_bar"
 			"scaleImage"	"1"
 		}
 
@@ -303,7 +303,7 @@
 				"visible"		"0"
 				"enabled"		"0"
 				"labelText"		""
-				"image"			"../vgui/replay/thumbnails/passtime_ballcontrol_bar"
+				"image"			"replay/thumbnails/passtime_ballcontrol_bar"
 				"scaleImage"	"1"
 			}
 
