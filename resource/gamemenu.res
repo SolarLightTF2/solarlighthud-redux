@@ -77,7 +77,7 @@
 	"GithubButton"
 	{
 		"label"			"Github"
-		"Command"		"url https://github.com/SolarLightTF2/SolarLightHUD-Classic/"
+		"Command"		"url https://github.com/SolarLightTF2/SolarLightHUD-REDUX/"
 		"tooltip" 		"Github"
 	}
 

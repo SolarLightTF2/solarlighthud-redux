@@ -49,12 +49,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
-
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+		
 		"defaultFgColor_override" "SaleGreen"
-		"defaultBgColor_override" "SaleGreen"
 		"armedFgColor_override" "CreditsGreen"
+		"depressedfgColor_override" "White" //clicked on
 		"image_drawcolor"	"CreditsGreen"
 		"image_armedcolor"	"SaleGreen"
 
