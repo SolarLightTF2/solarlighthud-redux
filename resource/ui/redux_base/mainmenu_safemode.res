@@ -943,66 +943,66 @@
 				}	
 			}	
 			
-        "HatEasterEgg"
-        {
-            "ControlName"	"CExImageButton"
-            "fieldName"		"HatEasterEgg"
-            "xpos"			"0"
-            "ypos"			"0"
-            "zpos"			"4"
-            "wide"			"20"
-            "tall"			"20"
-            "visible"		"1"
-            "enabled"		"1"
-            "use_proportional_insets" "1"
-            "font"			"SLBoldSmall"
-            "textAlignment"	"west"
-            
-            "default"		"1"
-            "sound_armed"		"UI/hint.wav"
-            "sound_depressed"	"vo\demoman_laughlong02.mp3"
-
-            "labeltext"		""
-            "proportionaltoparent"	"1"
-            "command"		"url https://www.youtube.com/@SolarLight?sub_confirmation=1"
-            "actionsignallevel"	"3"
-        
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"1"
-			
-			"defaultFgColor_override" "0 0 0 0"
-			"armedFgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "0 0 0 0"
-			
-			"defaultBgColor_override" "0 0 0 0"
-			"armedBgColor_override" "0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
-			
-            "image_drawcolor"   "255 255 255 255"
-            "image_armedcolor"  "255 255 255 255"
-			"proportionaltoparent"	"1"
-			
-			"pin_to_sibling"	"ExpandButtonAnchor"
-			"pin_corner_to_sibling"		"4"
-			"pin_to_sibling_corner"		"4"
-			
-			"SubImage"
+			"HatEasterEgg"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"ControlName"	"CExImageButton"
+				"fieldName"		"HatEasterEgg"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"4"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/logos/menutextures/hatlogo"
-				"scaleImage"	"1"
+				"use_proportional_insets" "1"
+				"font"			"SLBoldSmall"
+				"textAlignment"	"west"
+				
+				"default"		"1"
+				"sound_armed"		"UI/hint.wav"
+				"sound_depressed"	"vo\demoman_laughlong02.mp3"
+
+				"labeltext"		""
 				"proportionaltoparent"	"1"
-			}		
-        }
+				"command"		"url https://www.youtube.com/@SolarLight?sub_confirmation=1"
+				"actionsignallevel"	"3"
+			
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+				"paintbackground"	"1"
+				
+				"defaultFgColor_override" "0 0 0 0"
+				"armedFgColor_override" "0 0 0 0"
+				"depressedFgColor_override" "0 0 0 0"
+				
+				"defaultBgColor_override" "0 0 0 0"
+				"armedBgColor_override" "0 0 0 0"
+				"depressedBgColor_override" "0 0 0 0"
+				
+				"image_drawcolor"   "255 255 255 255"
+				"image_armedcolor"  "255 255 255 255"
+				"proportionaltoparent"	"1"
+				
+				"pin_to_sibling"	"ExpandButtonAnchor"
+				"pin_corner_to_sibling"		"4"
+				"pin_to_sibling_corner"		"4"
+				
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"20"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"../vgui/logos/menutextures/hatlogo"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}		
+			}
 			
 			"bgline"
 			{
@@ -1037,7 +1037,7 @@
 
 				"bgcolor_override"	"TanDarker"
 			}
-			"TopBarOverlay2" //TanDark third bar, necessary for a cool cooling effect to hide the expand button
+			"TopBarOverlay2" //TanDark third bar, necessary for a cool looking effect to hide the expand button
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"TopBarOverlay2"
@@ -1124,7 +1124,7 @@
 				}	
 			}
 			
-			"BottomBarOverlay" //TanDark third bar, necessary for a cool cooling effect to hide the expand button
+			"BottomBarOverlay" //TanDark third bar, necessary for a cool looking effect to hide the expand button
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"BottomBarOverlay"
@@ -1197,6 +1197,73 @@
 					"proportionaltoparent"	"1"
 				}		
 			}
+			
+			"SLHudTitle"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"SLHudTitle"
+				"font"			"SLItalicMedium"
+				"labelText"		"SOLARLIGHTHUD REDUX"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"c-100"
+				"zpos"			"10"
+				"wide"			"550"
+				"tall"			"40"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"5"
+				"centerwrap"	"1"
+				"fgcolor_override"	"TanLight"
+				"proportionaltoparent"		"1"
+			}
+			
+			"SLHudTitleStroke"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"SLHudTitleStroke"
+				"font"			"SLItalicMediumStroke"
+				"labelText"		"SOLARLIGHTHUD REDUX"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"c-100"
+				"zpos"			"9"
+				"wide"			"550"
+				"tall"			"40"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"5"
+				"centerwrap"	"1"
+				"fgcolor_override"	"TanDarker"
+				"proportionaltoparent"		"1"
+			}
+
+			"CreditsListLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"CreditsListLabel"
+				"font"			"Futura12"
+				"labelText"		"#Customization_Credits"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"c0"
+				"zpos"			"10"
+				"wide"			"550"
+				"tall"			"70"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"5"
+				"centerwrap"	"1"
+				"fgcolor_override"	"TanLight"
+				"proportionaltoparent"		"1"
+			}
+
 				
             "OptionList"
             {
@@ -1211,7 +1278,7 @@
                 "enabled"		"1"
 
                 "allow_mouse_wheel_to_scroll"   "0"
- //               "scroll_step"                   "50"
+//               "scroll_step"                   "50"
                 "restrict_width"                "1"
                 
                 "border"        "MainMenuButtonDefault"
@@ -1246,83 +1313,6 @@
                         "FieldName"		"DownButton"
                         "visible"		"0"
                     }
-                }
-				
-				"SLHudTitle"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"SLHudTitle"
-					"font"			"SLItalicMedium"
-					"labelText"		"SOLARLIGHTHUD REDUX"
-					"textAlignment"	"center"
-					"xpos"			"cs-0.5"
-					"ypos"			"c-100"
-					"zpos"			"10"
-					"wide"			"550"
-					"tall"			"40"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"textinsetx"	"5"
-					"centerwrap"	"1"
-					"fgcolor_override"	"TanLight"
-				}
-				
-				"SLHudTitleStroke"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"SLHudTitleStroke"
-					"font"			"SLItalicMediumStroke"
-					"labelText"		"SOLARLIGHTHUD REDUX"
-					"textAlignment"	"center"
-					"xpos"			"cs-0.5"
-					"ypos"			"c-100"
-					"zpos"			"9"
-					"wide"			"550"
-					"tall"			"40"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"textinsetx"	"5"
-					"centerwrap"	"1"
-					"fgcolor_override"	"TanDarker"
-				}
-				
-				"CreditsLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"CreditsLabel"
-					"font"			"Futura12"
-					"labelText"		"#Customization_Credits"
-					"textAlignment"	"center"
-					"xpos"			"cs-0.5"
-					"ypos"			"c0"
-					"zpos"			"-9"
-					"wide"			"550"
-					"tall"			"50"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"textinsetx"	"5"
-					"centerwrap"	"1"
-                    "proportionaltoparent"		"1"
-				}
-				
-                "seperatorline_4"
-                {
-                    "ControlName"	"ImagePanel"
-                    "fieldName"		"seperatorline_4"
-                    "xpos"      "cs-0.5"
-                    "ypos"      "400"
-                    "zpos"		"0"
-                    "wide"		"280"
-                    "tall"		"0"
-                    "visible"	"1"
-                    "fillcolor" "loop_primary"
-                    "proportionaltoparent"		"1"
                 }
             }
         } //end expandable Credits
