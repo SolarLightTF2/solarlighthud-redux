@@ -143,7 +143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		 "11"
 				"weight"	 "0"
 				"outline"	 "1"
@@ -154,7 +154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		"16"
 				"antialias"		"1"
 			}
@@ -163,7 +163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -174,7 +174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		"16" [!$POSIX]
 				"tall"		"16" [$POSIX]
 				"weight"	"0"
@@ -185,7 +185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		"12"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Asimov"
+				"name"		 "asimov"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"		"1"
@@ -206,7 +206,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -225,7 +225,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -238,7 +238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"17"
 				"weight"	"500"
 			}
@@ -248,7 +248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -256,7 +256,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -264,7 +264,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -273,7 +273,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -282,7 +282,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -296,8 +296,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov" 
-				"name"		"Asimov" 
+				"name"		"asimov" 
+				"name"		"asimov" 
 				"weight"		"1500"
 				"tall"			"16" 
 				"tall"			"18" 
@@ -309,8 +309,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov" 
-				"name"		"Asimov" 
+				"name"		"asimov" 
+				"name"		"asimov" 
 				"weight"		"1500"
 				"tall"			"18" 
 				"tall"			"19" 
@@ -322,8 +322,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov" 
-				"name"		"Asimov" 
+				"name"		"asimov" 
+				"name"		"asimov" 
 				"weight"		"1000"
 				"tall"			"14" 
 				"tall"			"12" 
@@ -398,13 +398,13 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/Futura.ttf"
-			"name" "Futura No2 D Demi Bold"
+			"font" "resource/fonts/futura.ttf"
+			"name" "futurano2d_demibold"
 		}
 		"8"
 		{
-			"font" "resource/fonts/Asimov.otf"
-			"name" "Asimov"
+			"font" "resource/fonts/asimov.otf"
+			"name" "asimov"
 		}
 	}
 }
