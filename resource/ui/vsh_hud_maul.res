@@ -116,7 +116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thinlineborder"
+			"image"			"replay/thinlineborder"
 				
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -185,7 +185,7 @@
 			"visible_minmode"		"0"
 			"enabled"		"1"
 			"enabled_minmode"		"1"
-			"image"                 "../vgui/replay/thumbnails/ColorTanDarkerTransparent"	
+			"image"                 "replay/thumbnails/ColorTanDarkerTransparent"	
 		}
 		
 		"ProgressBarContainer"

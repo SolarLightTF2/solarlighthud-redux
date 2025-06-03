@@ -172,7 +172,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				"image"			"../vgui/replay/thumbnails/ColorRED"
+				"image"			"replay/thumbnails/ColorRED"
 			}
 		}
 

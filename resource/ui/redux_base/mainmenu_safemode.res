@@ -40,7 +40,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/menu_bg/customization_bg"
+			"image"			"replay/thumbnails/menu_bg/customization_bg"
 			"scaleImage"	"1"
 			"alpha"			"255"
 			"mouseinputenabled"	"0"
@@ -213,7 +213,7 @@
 				"fgcolor_override"	"TanLight"
 				"proportionaltoparent"	"1"
 				
-				"image_default"	"../vgui/replay/thumbnails/customizationmenu/presets"
+				"image_default"	"replay/thumbnails/customizationmenu/presets"
 				
 				"SubImage"
 				{
@@ -445,7 +445,7 @@
 				"fgcolor_override"	"TanLight"
 				"proportionaltoparent"	"1"
 				
-				"image_default"	"../vgui/replay/thumbnails/customizationmenu/customization"
+				"image_default"	"replay/thumbnails/customizationmenu/customization"
 				
 				"SubImage"
 				{
@@ -676,7 +676,7 @@
 				"fgcolor_override"	"TanLight"
 				"proportionaltoparent"	"1"
 				
-				"image_default"	"../vgui/replay/thumbnails/customizationmenu/presets"
+				"image_default"	"replay/thumbnails/customizationmenu/presets"
 				
 				"SubImage"
 				{
@@ -920,7 +920,7 @@
 				"proportionaltoparent"	"1"
 				
 				
-				"image_default"	"../vgui/replay/thumbnails/customizationmenu/presets"
+				"image_default"	"replay/thumbnails/customizationmenu/presets"
 				
 				"pin_to_sibling"	"ExpandButtonAnchor"
 				"pin_corner_to_sibling"		"4"
@@ -1015,7 +1015,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/menu_bg/credits_bg"
+				"image"			"replay/thumbnails/menu_bg/credits_bg"
 				"scaleImage"	"1"
 				"alpha"			"50"
 				"mouseinputenabled"	"0"

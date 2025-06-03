@@ -63,7 +63,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/linebg"
+		"image"			"replay/thumbnails/linebg"
 		"scaleImage"	"1"
 		"alpha"			"255"
 		"mouseinputenabled"	"0"

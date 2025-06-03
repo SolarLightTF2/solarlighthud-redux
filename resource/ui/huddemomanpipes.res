@@ -51,7 +51,7 @@
 		"tall"			"3"	
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../vgui/replay/thumbnails/ColorTanLightModulate"
+		"image"			"replay/thumbnails/ColorTanLightModulate"
 		"scaleImage"	"1"				
 	}
 	
@@ -96,7 +96,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/sticky"
+			"image"			"replay/thumbnails/sticky"
 			"scaleImage"	"1"
 		}	
 		

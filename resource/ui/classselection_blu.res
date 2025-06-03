@@ -172,7 +172,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				"image"			"../vgui/replay/thumbnails/ColorBLU"
+				"image"			"replay/thumbnails/ColorBLU"
 			}
 		}
 
