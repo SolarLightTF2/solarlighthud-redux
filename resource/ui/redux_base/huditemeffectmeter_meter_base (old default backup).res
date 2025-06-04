@@ -45,7 +45,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/ColorTanLightModulate"
+		"image"			"replay/thumbnails/ColorTanLightModulate"
 		"scaleImage"	"1"				
 	}
 	
@@ -60,7 +60,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/meter/diagonaloverlay"
+		"image"			"replay/thumbnails/meter/diagonaloverlay"
 		"scaleImage"	"1"				
 	}
 	

@@ -41,11 +41,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"
+		"image"			"replay/thumbnails/bgtransparent"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/replay/thumbnails/bgtransparent"
-		"teambg_2"		"../vgui/replay/thumbnails/bgred"
-		"teambg_3"		"../vgui/replay/thumbnails/bgblue"
+		"teambg_1"		"replay/thumbnails/bgtransparent"
+		"teambg_2"		"replay/thumbnails/bgred"
+		"teambg_3"		"replay/thumbnails/bgblue"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"

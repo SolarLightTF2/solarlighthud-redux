@@ -40,7 +40,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"labelText"		""	"image"			"../vgui/replay/thumbnails/passtime_ballcontrol_bar"
+		"labelText"		""	"image"			"replay/thumbnails/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
 	}
 	

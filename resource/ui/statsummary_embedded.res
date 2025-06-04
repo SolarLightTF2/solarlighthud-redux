@@ -11,7 +11,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/linebg"
+		"image"			"replay/thumbnails/linebg"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}	

@@ -19,7 +19,7 @@
 		"tall"			"106"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"	
+		"image"			"replay/thumbnails/bgtransparent"	
 		"scaleImage"		"1"	
 	}
 

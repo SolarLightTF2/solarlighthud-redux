@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+		"image"			"replay/thumbnails/ColorTanDarkerTransparent"
 
 
 		"src_corner_height"	"23"				// pixels inside the image

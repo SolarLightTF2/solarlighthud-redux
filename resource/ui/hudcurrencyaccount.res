@@ -17,7 +17,7 @@
 		"labelText"		"%currency%"
 		"textinsetx"	"20"
 	}	
-	
+	// NOTE: breaks a bit on some resolutions (800x600, 1176x664, 1280x960)
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"

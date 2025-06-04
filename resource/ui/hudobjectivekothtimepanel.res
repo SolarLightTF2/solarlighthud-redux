@@ -54,7 +54,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/ColorBLUTransparent"
+		"image"			"replay/thumbnails/ColorBLUTransparent"
 	}
 
 	"RedTimer"
@@ -107,7 +107,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/ColorREDTransparent"
+		"image"			"replay/thumbnails/ColorREDTransparent"
 	}
 	
 	"ActiveTimerBG"

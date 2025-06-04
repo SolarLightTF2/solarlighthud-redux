@@ -503,7 +503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -511,7 +511,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -520,7 +520,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -529,7 +529,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -538,7 +538,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -546,14 +546,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -565,7 +565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -573,7 +573,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -583,7 +583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -591,7 +591,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -599,7 +599,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -608,7 +608,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -617,7 +617,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -625,7 +625,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -637,7 +637,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -645,7 +645,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -653,7 +653,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -662,7 +662,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -671,7 +671,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -682,7 +682,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -690,7 +690,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -698,7 +698,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -707,7 +707,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -716,7 +716,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -724,14 +724,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -755,7 +755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -766,14 +766,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -781,21 +781,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias"	"1"
@@ -805,7 +805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -815,7 +815,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -825,7 +825,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -834,7 +834,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -843,7 +843,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -854,7 +854,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -867,7 +867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -880,7 +880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -892,7 +892,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -903,7 +903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -914,7 +914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -926,7 +926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"500"
 				"yres"		"1 1199"
@@ -946,7 +946,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -957,7 +957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -968,7 +968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -981,7 +981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -994,7 +994,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1006,7 +1006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1017,7 +1017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1028,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1040,7 +1040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1051,7 +1051,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1063,7 +1063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1074,7 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1096,7 +1096,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1107,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1118,7 +1118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1129,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1140,7 +1140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1153,7 +1153,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1228,7 +1228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1241,7 +1241,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1254,7 +1254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1265,7 +1265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1276,7 +1276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1289,7 +1289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1301,7 +1301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1311,7 +1311,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1322,7 +1322,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1331,7 +1331,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1340,7 +1340,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1414,7 +1414,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Futura No2 D Demi Bold"
+				"name"  "futurano2d_demibold"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1425,7 +1425,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1436,7 +1436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1448,7 +1448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1459,7 +1459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1471,7 +1471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
@@ -1506,7 +1506,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1516,7 +1516,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1527,7 +1527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1538,7 +1538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1609,7 +1609,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1620,7 +1620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1633,7 +1633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1646,7 +1646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1658,7 +1658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1670,7 +1670,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1684,7 +1684,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1696,7 +1696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1708,7 +1708,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1723,7 +1723,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1735,7 +1735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1745,7 +1745,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1755,7 +1755,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1764,7 +1764,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1773,7 +1773,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1785,7 +1785,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1797,7 +1797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1808,7 +1808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1819,7 +1819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1830,7 +1830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1841,7 +1841,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1853,7 +1853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1867,7 +1867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1875,7 +1875,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1883,7 +1883,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1891,7 +1891,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1899,7 +1899,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1910,7 +1910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1918,7 +1918,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1926,7 +1926,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1934,7 +1934,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1942,7 +1942,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1953,7 +1953,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1961,7 +1961,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1969,7 +1969,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1977,7 +1977,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1985,7 +1985,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2010,7 +2010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2023,7 +2023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2035,7 +2035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2048,7 +2048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -2061,7 +2061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2075,7 +2075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -2088,7 +2088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2098,7 +2098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2108,7 +2108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2136,7 +2136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2145,7 +2145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2154,7 +2154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2164,7 +2164,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2174,7 +2174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2184,7 +2184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2195,7 +2195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2206,7 +2206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2227,7 +2227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2238,7 +2238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2249,7 +2249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2261,7 +2261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2270,7 +2270,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2279,7 +2279,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2292,7 +2292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2303,7 +2303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2314,7 +2314,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2325,7 +2325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2336,7 +2336,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2347,7 +2347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2357,7 +2357,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2368,7 +2368,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2379,7 +2379,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2391,7 +2391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2402,7 +2402,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2414,7 +2414,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2425,7 +2425,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2436,7 +2436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2446,7 +2446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2458,7 +2458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2555,7 +2555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2564,7 +2564,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2573,7 +2573,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2586,7 +2586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2596,7 +2596,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2606,7 +2606,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2620,7 +2620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2629,7 +2629,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2638,7 +2638,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2651,7 +2651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2663,7 +2663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2675,7 +2675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
@@ -2687,7 +2687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2698,7 +2698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2709,7 +2709,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2737,7 +2737,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2745,7 +2745,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2753,7 +2753,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2762,7 +2762,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2771,7 +2771,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2783,7 +2783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2794,7 +2794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2802,7 +2802,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2810,7 +2810,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2819,7 +2819,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2828,7 +2828,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2847,7 +2847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2858,7 +2858,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2869,7 +2869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2882,7 +2882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2893,7 +2893,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2910,7 +2910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2921,7 +2921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2933,7 +2933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2946,7 +2946,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2958,7 +2958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2969,7 +2969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2982,7 +2982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3061,7 +3061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3071,7 +3071,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3081,7 +3081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3091,7 +3091,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3101,7 +3101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3111,7 +3111,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3121,7 +3121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"52"
 				"antialias" 	"1"
 			}
@@ -3131,7 +3131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"52"
 				"antialias" 	"1"
 			}
@@ -3143,7 +3143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3153,7 +3153,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -3163,7 +3163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -3173,7 +3173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"12"
 				"antialias" 	"1"
 			}
@@ -3183,7 +3183,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"12"
 				"antialias" 	"1"
 			}
@@ -3193,7 +3193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3203,7 +3203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3213,7 +3213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3223,7 +3223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3233,7 +3233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3243,7 +3243,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3253,7 +3253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3265,7 +3265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"300"
 				"antialias" 	"1"
 			}
@@ -3275,7 +3275,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3285,7 +3285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3295,7 +3295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3305,7 +3305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3315,7 +3315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"36"
 				"antialias" 	"1"
 			}
@@ -3325,7 +3325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"36"
 				"antialias" 	"1"
 			}
@@ -3335,7 +3335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3345,7 +3345,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3355,7 +3355,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3365,7 +3365,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3375,7 +3375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlk BT"
+				"name"		"futurabt_extrablack"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3385,7 +3385,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE3"
+				"name"		"futurabt_extremestroke3"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3395,7 +3395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3405,7 +3405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura EXTREMESTROKE"
+				"name"		"futurabt_extremestroke"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3415,7 +3415,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold Damage"
+				"name"		"futurano2d_demibold_dmg"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3425,7 +3425,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT Damage"
+				"name"		"futura_extra_black_italic_dmg"
 				"tall"		"30"
 				"antialias" 	"1"
 			}
@@ -3435,7 +3435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"4"
 				"antialias" 	"1"
 			}
@@ -3445,7 +3445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"6"
 				"antialias" 	"1"
 			}
@@ -3455,7 +3455,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -3465,7 +3465,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"10"
 				"antialias" 	"1"
 			}
@@ -3475,7 +3475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"antialias" 	"1"
 			}
@@ -3485,7 +3485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3495,7 +3495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3505,7 +3505,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3515,7 +3515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"28"
 				"antialias" 	"1"
 			}
@@ -3525,7 +3525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3535,7 +3535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"antialias" 	"1"
 			}
@@ -3545,7 +3545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"40"
 				"antialias" 	"1"
 			}
@@ -3555,7 +3555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"44"
 				"antialias" 	"1"
 			}
@@ -3565,7 +3565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3575,7 +3575,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"52"
 				"antialias" 	"1"
 			}
@@ -3585,7 +3585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"56"
 				"antialias" 	"1"
 			}
@@ -3595,7 +3595,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"60"
 				"antialias" 	"1"
 			}
@@ -3605,7 +3605,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"64"
 				"antialias" 	"1"
 			}
@@ -3615,7 +3615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"68"
 				"antialias" 	"1"
 			}
@@ -3625,7 +3625,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"72"
 				"antialias" 	"1"
 			}
@@ -3635,7 +3635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"76"
 				"antialias" 	"1"
 			}
@@ -3645,7 +3645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"80"
 				"antialias" 	"1"
 			}
@@ -3655,7 +3655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"84"
 				"antialias" 	"1"
 			}
@@ -3665,7 +3665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"88"
 				"antialias" 	"1"
 			}
@@ -3675,7 +3675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"92"
 				"antialias" 	"1"
 			}
@@ -3685,7 +3685,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"96"
 				"antialias" 	"1"
 			}
@@ -3695,7 +3695,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"100"
 				"antialias" 	"1"
 			}
@@ -3705,7 +3705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"4"
 				"antialias" 	"1"
 			}
@@ -3715,7 +3715,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -3725,7 +3725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"12"
 				"antialias" 	"1"
 			}
@@ -3735,7 +3735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -3745,7 +3745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -3755,7 +3755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -3765,7 +3765,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"28"
 				"antialias" 	"1"
 			}
@@ -3775,7 +3775,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -3785,7 +3785,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"36"
 				"antialias" 	"1"
 			}
@@ -3795,7 +3795,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"40"
 				"antialias" 	"1"
 			}
@@ -3805,7 +3805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"44"
 				"antialias" 	"1"
 			}
@@ -3815,7 +3815,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -3825,7 +3825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"52"
 				"antialias" 	"1"
 			}
@@ -3835,7 +3835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"56"
 				"antialias" 	"1"
 			}
@@ -3845,7 +3845,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"60"
 				"antialias" 	"1"
 			}
@@ -3855,7 +3855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"64"
 				"antialias" 	"1"
 			}
@@ -3865,7 +3865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"68"
 				"antialias" 	"1"
 			}
@@ -3875,7 +3875,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"72"
 				"antialias" 	"1"
 			}
@@ -3885,7 +3885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"76"
 				"antialias" 	"1"
 			}
@@ -3895,7 +3895,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"80"
 				"antialias" 	"1"
 			}
@@ -3905,7 +3905,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"84"
 				"antialias" 	"1"
 			}
@@ -3915,7 +3915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"88"
 				"antialias" 	"1"
 			}
@@ -3925,7 +3925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"92"
 				"antialias" 	"1"
 			}
@@ -3935,7 +3935,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"96"
 				"antialias" 	"1"
 			}
@@ -3945,7 +3945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"100"
 				"antialias" 	"1"
 			}
@@ -3955,7 +3955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"4"
 				"antialias" 	"1"
 			}
@@ -3965,7 +3965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -3975,7 +3975,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"10"
 				"antialias" 	"1"
 			}
@@ -3985,7 +3985,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"12"
 				"antialias" 	"1"
 			}
@@ -3995,7 +3995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"16"
 				"antialias" 	"1"
 			}
@@ -4005,7 +4005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
@@ -4015,7 +4015,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"24"
 				"antialias" 	"1"
 			}
@@ -4025,7 +4025,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"28"
 				"antialias" 	"1"
 			}
@@ -4035,7 +4035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"32"
 				"antialias" 	"1"
 			}
@@ -4045,7 +4045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"36"
 				"antialias" 	"1"
 			}
@@ -4055,7 +4055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"40"
 				"antialias" 	"1"
 			}
@@ -4065,7 +4065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"44"
 				"antialias" 	"1"
 			}
@@ -4075,7 +4075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"48"
 				"antialias" 	"1"
 			}
@@ -4085,7 +4085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"52"
 				"antialias" 	"1"
 			}
@@ -4095,7 +4095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"56"
 				"antialias" 	"1"
 			}
@@ -4105,7 +4105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"60"
 				"antialias" 	"1"
 			}
@@ -4115,7 +4115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"64"
 				"antialias" 	"1"
 			}
@@ -4125,7 +4125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"68"
 				"antialias" 	"1"
 			}
@@ -4135,7 +4135,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"72"
 				"antialias" 	"1"
 			}
@@ -4145,7 +4145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"76"
 				"antialias" 	"1"
 			}
@@ -4155,7 +4155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"80"
 				"antialias" 	"1"
 			}
@@ -4165,7 +4165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"84"
 				"antialias" 	"1"
 			}
@@ -4175,7 +4175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"88"
 				"antialias" 	"1"
 			}
@@ -4185,7 +4185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"92"
 				"antialias" 	"1"
 			}
@@ -4195,7 +4195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"96"
 				"antialias" 	"1"
 			}
@@ -4205,7 +4205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"100"
 				"antialias" 	"1"
 			}
@@ -4217,7 +4217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"4"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4228,7 +4228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"8"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4239,7 +4239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"12"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4250,7 +4250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"16"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4261,7 +4261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4272,7 +4272,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"24"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4283,7 +4283,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"28"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4294,7 +4294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"32"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4305,7 +4305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"36"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4316,7 +4316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"40"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4327,7 +4327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"44"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4338,7 +4338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"48"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4349,7 +4349,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"52"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4360,7 +4360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"56"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4371,7 +4371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"60"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4382,7 +4382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"64"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4393,7 +4393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"68"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4404,7 +4404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"72"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4415,7 +4415,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"76"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4426,7 +4426,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"80"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4437,7 +4437,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"84"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4448,7 +4448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"88"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4459,7 +4459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"92"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4470,7 +4470,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"96"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4481,7 +4481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"100"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4492,7 +4492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"4"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4503,7 +4503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"8"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4514,7 +4514,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"12"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4525,7 +4525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"16"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4536,7 +4536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"20"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4547,7 +4547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"24"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4558,7 +4558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"28"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4569,7 +4569,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"32"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4580,7 +4580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"36"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4591,7 +4591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"40"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4602,7 +4602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"44"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4613,7 +4613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"48"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4624,7 +4624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"52"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4635,7 +4635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"56"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4646,7 +4646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"60"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4657,7 +4657,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"64"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4668,7 +4668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"68"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4679,7 +4679,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"72"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4690,7 +4690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"76"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4701,7 +4701,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"80"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4712,7 +4712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"84"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4723,7 +4723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"88"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4734,7 +4734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"92"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4745,7 +4745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"96"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4756,7 +4756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura XBlkCnIt BT"
+				"name"		"futura_extra_black_italic"
 				"tall"		"100"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4767,7 +4767,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"4"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4778,7 +4778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"8"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4789,7 +4789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"12"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4800,7 +4800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"16"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4811,7 +4811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"20"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4822,7 +4822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"24"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4833,7 +4833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"28"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4844,7 +4844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"32"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4855,7 +4855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"36"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4866,7 +4866,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"40"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4877,7 +4877,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"44"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4888,7 +4888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"48"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4899,7 +4899,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"52"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4910,7 +4910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"56"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4921,7 +4921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"60"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4932,7 +4932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"64"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4943,7 +4943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"68"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4954,7 +4954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"72"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4965,7 +4965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"76"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4976,7 +4976,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"80"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4987,7 +4987,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"84"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -4998,7 +4998,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"88"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -5009,7 +5009,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"92"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -5020,7 +5020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"96"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -5031,7 +5031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Asimov"
+				"name"		"asimov"
 				"tall"		"100"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -5392,7 +5392,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5403,7 +5403,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5414,7 +5414,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5425,7 +5425,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5436,7 +5436,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5447,7 +5447,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorRED"
+			"image"					"replay/thumbnails/ColorRED"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5458,7 +5458,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorREDTransparent"
+			"image"					"replay/thumbnails/ColorREDTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5469,7 +5469,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLU"
+			"image"					"replay/thumbnails/ColorBLU"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5480,7 +5480,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLUTransparent"
+			"image"					"replay/thumbnails/ColorBLUTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5491,7 +5491,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../vgui/replay/thumbnails/ColorBLUTransparent"
+			"image"					"replay/thumbnails/ColorBLUTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -7411,7 +7411,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../vgui/replay/thumbnails/ColorTanDarkerTransparent"
+			//"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -7829,48 +7829,48 @@ Scheme
 		"7" "resource/ocra.ttf"
 		"8"
 		{
-			"font" "resource/fonts/Futura.ttf"
-			"name" "Futura No2 D Demi Bold"
+			"font" "resource/fonts/futura.ttf"
+			"name" "futurano2d_demibold"
 		}
 		"9"
 		{
-			"font" "resource/fonts/Asimov.otf"
-			"name" "Asimov"
+			"font" "resource/fonts/asimov.otf"
+			"name" "asimov"
 		}
 		"10"
 		{
-			"font" "resource/fonts/Futura Extra Black Italic.ttf"
-			"name" "Futura XBlkCnIt BT"
+			"font" "resource/fonts/futura_extra_black_italic.ttf"
+			"name" "futura_extra_black_italic"
 		}
 		"11"
 		{
-			"font" "resource/fonts/Futura Extra Black Italic Thiccer.ttf"
-			"name" "Futura EXTREMESTROKE"
+			"font" "resource/fonts/futura_extra_black_italic_thiccer.ttf"
+			"name" "futura_extremestroke_italic"
 		}
 		"12"
 		{
-			"font" "resource/fonts/Futura Extra Black Italic Damage Numbers.ttf"
-			"name" "Futura XBlkCnIt BT Damage"
+			"font" "resource/fonts/futura_extra_black_italic_damage_numbers.ttf"
+			"name" "futura_extra_black_italic_dmg"
 		}
 		"13"
 		{
-			"font" "resource/fonts/Futura Damage.ttf"
-			"name" "Futura No2 D Demi Bold Damage"
+			"font" "resource/fonts/futura_damage.ttf"
+			"name" "futurano2d_demibold_dmg"
 		}
 		"14"
 		{
-			"font" "resource/fonts/FuturaBT-EXTREMESTROKE.ttf"
-			"name" "Futura EXTREMESTROKE"
+			"font" "resource/fonts/futurabt_extremestroke.ttf"
+			"name" "futurabt_extremestroke"
 		}
 		"15"
 		{
-			"font" "resource/fonts/Futura Extra Black EXTREMESTROKE3.ttf"
-			"name" "Futura EXTREMESTROKE3"
+			"font" "resource/fonts/futurabt_extremestroke3.ttf"
+			"name" "futurabt_extremestroke3"
 		}
 		"16"
 		{
-			"font" "resource/fonts/Futura Extra Black.ttf"
-			"name" "Futura XBlk BT"
+			"font" "resource/fonts/futurabt_extrablack.ttf"
+			"name" "futurabt_extrablack"
 		}
 	}
 }

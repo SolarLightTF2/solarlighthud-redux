@@ -361,7 +361,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"18"	[$WIN32]
 				"weight"	"700"
 				"yres"		"480 599"
@@ -369,7 +369,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"20"	[$WIN32]
 				"weight"	"700"
 				"yres"		"600 767"
@@ -377,7 +377,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"21"	[$WIN32]
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -385,7 +385,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"23"	[$WIN32]
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -393,7 +393,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Futura No2 D Demi Bold"
+				"name"		"futurano2d_demibold"
 				"tall"		"28"	[$WIN32]
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -811,12 +811,12 @@ Scheme
 		"3"
 		{
 			"font" "resource/fonts/Futura.ttf"
-			"name" "Futura No2 D Demi Bold"
+			"name" "futurano2d_demibold"
 		}
 		"4"
 		{
-			"font" "resource/fonts/Asimov.otf"
-			"name" "Asimov"
+			"font" "resource/fonts/asimov.otf"
+			"name" "asimov"
 		}
 	}
 }

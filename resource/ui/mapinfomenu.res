@@ -80,12 +80,12 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/linebg_transparent"
-		"teambg_1"		"../vgui/replay/thumbnails/linebg_transparent"
-		"teambg_2"		"../vgui/replay/thumbnails/linebg_red_transparent"
-		"teambg_2_lodef"	"../vgui/replay/thumbnails/linebg_red_transparent"
-		"teambg_3"		"../vgui/replay/thumbnails/linebg_blu_transparent"
-		"teambg_3_lodef"	"../vgui/replay/thumbnails/linebg_blu_transparent"
+		"image"			"replay/thumbnails/linebg_transparent"
+		"teambg_1"		"replay/thumbnails/linebg_transparent"
+		"teambg_2"		"replay/thumbnails/linebg_red_transparent"
+		"teambg_2_lodef"	"replay/thumbnails/linebg_red_transparent"
+		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
+		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
 		"scaleImage"	"1"
 		"alpha"			"150"
 		"mouseinputenabled"	"0"
@@ -179,7 +179,28 @@
 		"font"			"Futura20"
 		"fgcolor"		"TanLight"
 	}
-	
+	"MapInfoContinueBind" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinueBind"
+		"xpos"			"9999"
+		"ypos"			"r100"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"Futura20"
+		"fgcolor"		"TanLight"
+	}
 	"MapInfoWatchIntro" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -226,7 +247,27 @@
 		"font"			"Futura20"
 		"fgcolor"		"TanLight"
 	}
-	
+	"MapInfoBackBind" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBackBind"
+		"xpos"			"c-155"
+		"ypos"			"r100"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"Futura20"
+		"fgcolor"		"TanLight"
+	}
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"

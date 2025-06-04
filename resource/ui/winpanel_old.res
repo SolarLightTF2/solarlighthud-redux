@@ -133,7 +133,7 @@
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../vgui/replay/thumbnails/bgtransparent"	
+			"image"			"replay/thumbnails/bgtransparent"	
 			"scaleImage"		"1"	
 		}
 		"SolarBLULogoBG"
@@ -161,7 +161,7 @@
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../vgui/replay/thumbnails/bgtransparent"	
+			"image"			"replay/thumbnails/bgtransparent"	
 			"scaleImage"		"1"	
 		}
 		"SolarREDLogoBG"

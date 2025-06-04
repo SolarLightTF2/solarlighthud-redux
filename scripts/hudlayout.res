@@ -171,8 +171,8 @@
 		"xpos"			"r80"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}

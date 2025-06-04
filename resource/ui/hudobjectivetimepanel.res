@@ -13,10 +13,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	
-        "image"                 "../vgui/replay/thumbnails/ColorTanDarkTransparent"	
-        "teambg_1"              "../vgui/replay/thumbnails/ColorTanDarkTransparent"
-		"teambg_2"              "../vgui/replay/thumbnails/ColorREDTransparent"
-		"teambg_3"              "../vgui/replay/thumbnails/ColorBLUTransparent"
+        "image"                 "replay/thumbnails/ColorTanDarkTransparent"	
+        "teambg_1"              "replay/thumbnails/ColorTanDarkTransparent"
+		"teambg_2"              "replay/thumbnails/ColorREDTransparent"
+		"teambg_3"              "replay/thumbnails/ColorBLUTransparent"
 		"src_corner_height"	    "31"			// pixels inside the image
 		"src_corner_width"	    "23"
 		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional

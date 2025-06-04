@@ -20,7 +20,7 @@
 		"zpos"          "16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"                 "../vgui/replay/thumbnails/ColorTanDarkerTransparent"	
+		"image"                 "replay/thumbnails/ColorTanDarkerTransparent"	
 	}
 
 	"WaveCountLabel"
@@ -94,7 +94,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/ColorBLU"
+		"image"			"replay/thumbnails/ColorBLU"
 		
 		"src_corner_height"	"0"				// pixels inside the image
 		"src_corner_width"	"0"
@@ -114,7 +114,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/bgtransparent"
+		"image"			"replay/thumbnails/bgtransparent"
 		
 		"src_corner_height"	"0"				// pixels inside the image
 		"src_corner_width"	"0"

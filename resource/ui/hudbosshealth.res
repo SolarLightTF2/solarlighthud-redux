@@ -30,7 +30,7 @@
 		"zpos"          "16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"                 "../vgui/replay/thumbnails/ColorTanDarkerTransparent"	
+		"image"                 "replay/thumbnails/ColorTanDarkerTransparent"	
 	}
 	
 	"HealthBarPanel"

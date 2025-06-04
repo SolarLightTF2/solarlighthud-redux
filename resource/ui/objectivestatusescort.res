@@ -249,17 +249,17 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../vgui/replay/thumbnails/solar_payload_neutral"
+			"image"			"replay/thumbnails/solar_payload_neutral"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../vgui/replay/thumbnails/solar_payload_blu"
+				"image"			"replay/thumbnails/solar_payload_blu"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../vgui/replay/thumbnails/solar_payload_red"
+				"image"			"replay/thumbnails/solar_payload_red"
 			}						
 		}
 		
@@ -278,17 +278,17 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../vgui/replay/thumbnails/solar_payload_neutral_bottom"
+			"image"			"replay/thumbnails/solar_payload_neutral_bottom"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../vgui/replay/thumbnails/solar_payload_blu_bottom"
+				"image"			"replay/thumbnails/solar_payload_blu_bottom"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../vgui/replay/thumbnails/solar_payload_red_bottom"
+				"image"			"replay/thumbnails/solar_payload_red_bottom"
 			}		
 		}
 		
@@ -355,7 +355,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../vgui/replay/thumbnails/cart_arrow_left"
+			"image"			"replay/thumbnails/cart_arrow_left"
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains_top"
@@ -384,7 +384,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../vgui/replay/thumbnails/cart_arrow_right"
+			"image"			"replay/thumbnails/cart_arrow_right"
 			"scaleImage"	"1"
 
 			"if_multiple_trains_top"

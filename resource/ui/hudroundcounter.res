@@ -23,7 +23,7 @@
 			"wide"				"4"
 			"tall"				"4"
 			"zpos"				"7"
-			"image"				"../vgui/replay/thumbnails/roundcounter/roundtandark"
+			"image"				"replay/thumbnails/roundcounter/roundtandark"
 			"scaleimage"		"1"
 		}
 
@@ -33,7 +33,7 @@
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"8"
-			"image"				"../vgui/replay/thumbnails/roundcounter/roundred"
+			"image"				"replay/thumbnails/roundcounter/roundred"
 			"scaleimage"		"1"
 		}
 
@@ -43,7 +43,7 @@
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"8"
-			"image"				"../vgui/replay/thumbnails/roundcounter/roundblu"
+			"image"				"replay/thumbnails/roundcounter/roundblu"
 			"scaleimage"		"1"
 		}
 	}	
