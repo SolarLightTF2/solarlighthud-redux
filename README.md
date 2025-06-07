@@ -3,16 +3,16 @@
 Known issues:
 
 * HUD is not designed with ultrawide in mind. I will probably have to make new menu backgrounds to account for this
-  
-* Customization menus scripts require a hud folder to be created in the cfg folder. There is no "first launch" script to create this folder, so for now, this needs to be done manually.
-* Customization.cfg is not executed on launch, needs to be done manually
+
 * No buttons present in customization menu. Commands must be executed manually via launching customization.cfg and then looking for the commands within it (beneath //Actual changes for each section)
-* Customization menu scripts are probably jank as hell, I barely know how this works
 
 * Many placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic"
+
 * Some tip text is probably too long and probably cuts off while loading, especially in 4:3
-* Some HUD issues from SolarLightHUD classic are still present, namely on weapons I rarely use like the Huntsman double meter issue
+
 * HUD meters are completely jank due to the distinction that needs to be made between the multiple "HUD modes" (Default/Centered/Classic). I tried remaking them but it doesn't look great yet. Would ignore for now, this is something for me to do
+
+* anything in the issues tab atm
 
 Below this is the intended readme
 
@@ -29,20 +29,20 @@ A heavily modified version of the old SolarLightHUD from 2018, with tons of new 
 
 # What does it look like?
 
-Screenshots here: https://imgur.com/a/fNbgnk2
+Screenshots here: <https://imgur.com/a/fNbgnk2>
 
 # Join our Discord!
 
-Join the SolarLight Discord for updates: https://discord.gg/solarlight
+Join the SolarLight Discord for updates: <https://discord.gg/solarlight>
 
 # Recommended mods
 
-Persona 5 UI sounds: https://gamebanana.com/sounds/71875
+Persona 5 UI sounds: <https://gamebanana.com/sounds/71875>
 
 
 # Known issues
 
-* Pip-boy Engineer HUD does not work correctly
+* ~~Pip-boy Engineer HUD does not work correctly~~ temp reuse of the default engie ui
 
 * Main menu casual/competitive medal does not like certain resolutions
 
@@ -105,7 +105,6 @@ I will fix these issues whenever I have time.
 
 * New popup for pending alerts when in the loadout/backpack/etc.
 
-
 * Added button sounds to... buttons.
 
 * (In-progress) Please fix the backpack screen clipping with the 20 new backpack pages they added last summer.
@@ -126,11 +125,9 @@ I will fix these issues whenever I have time.
 
 # IN-GAME HUD:
 
-
 * Temporarily removed team goal UI from hudlayout.res until I finish a smaller version.
 
 //TODO: * New team goal description UI (way smaller). Known issue: Overlapping text when two hints are displayed at once (swapping teams on ctf_haarp).
-
 
 * Health, ammo and other central HUD elements have been lowered/adjusted by a tiny bit to make more room for the TargetID and to account for font changes.
 
@@ -148,7 +145,6 @@ I will fix these issues whenever I have time.
 
 * Removed the screenshot reminder from the freeze cam
 
-
 # TARGETID:
 
 * Reduced the size of names in the TargetID.
@@ -158,9 +154,6 @@ I will fix these issues whenever I have time.
 * When looking at an Engineer building, the TargetID now shows an Engineer icon instead of the gears, and the "move building" prompt has also been updated to be less jank.
 
 * Data labels (e.g. Ubercharge, Upgrade Progress, Disguise) now include a box background and fancy coloring
-
-
-
 
 # MISC:
 
