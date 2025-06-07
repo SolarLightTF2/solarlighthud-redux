@@ -1,4 +1,4 @@
-#base "redux_customization/hudplayerhealth_def.res"
+#base "hudplayerhealth_def.res"
 
 //Take the default HUD but make the following changes
 

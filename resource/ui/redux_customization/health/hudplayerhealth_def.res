@@ -1,5 +1,5 @@
-#base "../hudplayerhealth_bg.res"
-#base "../hudplayerhealth_warning.res"
+#base "../../hudplayerhealth_bg.res"
+#base "../../hudplayerhealth_warning.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {	
@@ -132,7 +132,20 @@
 		"font"			"SLMaxHPEXTREMESTROKE"
 		"fgcolor"		"TanDarker"
 	}
-	
+
+	"PlayerStatusAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusAnchor"
+		"xpos"			"-72"
+		"ypos"			"35"
+		"wide"			"0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"			"PlayerStatusHealthValue"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -147,6 +160,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -162,6 +178,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusMilkImage"
 	{
@@ -177,6 +196,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusGasImage"
 	{
@@ -192,6 +214,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -207,6 +232,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -222,6 +250,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -237,6 +268,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -252,6 +286,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -267,8 +304,10 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
-
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -283,6 +322,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -298,6 +340,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -313,9 +358,10 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
-	
-
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -346,6 +392,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -362,6 +411,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -378,6 +430,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_SpyMarked"
 	{
@@ -393,6 +448,9 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -408,6 +466,9 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneStrength"
 	{
@@ -423,6 +484,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneHaste"
 	{
@@ -438,6 +502,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneRegen"
 	{
@@ -453,6 +520,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneResist"
 	{
@@ -468,6 +538,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneVampire"
 	{
@@ -483,6 +556,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneReflect"
 	{
@@ -498,6 +574,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RunePrecision"
 	{
@@ -513,6 +592,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneAgility"
 	{
@@ -528,6 +610,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
@@ -543,6 +628,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneKing"
 	{
@@ -558,6 +646,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RunePlague"
 	{
@@ -573,6 +664,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
@@ -588,6 +682,9 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"PlayerStatusSlowed"
 	{
@@ -603,5 +700,8 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"			"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 }

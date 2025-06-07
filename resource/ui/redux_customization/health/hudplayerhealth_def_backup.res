@@ -1,4 +1,4 @@
-#base "../hudplayerhealth_bg.res"
+#base "../../hudplayerhealth_bg.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {	

@@ -1,4 +1,4 @@
-#base "../redux_base/passtime_notifications_base.res"
+#base "../../redux_base/passtime_notifications_base.res"
 
 // enum PinCorner_e 
 // {
@@ -33,17 +33,17 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-140"
-		"ypos"			"r70"
+		"xpos"			"c-190"
+		"ypos"			"r50"
 		"zpos"			"-10"
-		"wide"			"280"
-		"tall"			"48"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"labelText"		""
-		"image"			"replay/thumbnails/passtime_ballcontrol_bar"
+		"labelText"		""	"image"			"replay/thumbnails/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
 	}
+	
 		
 	"BlueProgressEnd"
 	{
@@ -51,8 +51,10 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-113"
-		"ypos"			"r46"
+		"xpos"			"c-50"
+		"xpos_minmode"			"c0"
+		"ypos"			"r28"
+		"ypos_minmode"			"r34"
 		"visible"		"0"
 	}
 
@@ -62,8 +64,10 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c113"
-		"ypos"			"r46"
+		"xpos"			"c50"
+		"xpos_minmode"			"c0"
+		"ypos"			"r28"
+		"ypos_minmode"			"r34"
 		"visible"		"0"
 	}	
 
@@ -74,8 +78,8 @@
 		"xpos"			"c-162"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -93,8 +97,8 @@
 		"xpos"			"c-132"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -112,8 +116,8 @@
 		"xpos"			"c-102"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -132,8 +136,8 @@
 		"xpos"			"c146"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -151,8 +155,8 @@
 		"xpos"			"c116"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -171,8 +175,8 @@
 		"xpos"			"c86"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -190,8 +194,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"62"
+		"tall"			"62"
+		"wide_minmode"			"40"
+		"tall_minmode"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -209,12 +215,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"scaleImage"	"1"	
@@ -222,47 +228,51 @@
 
 	"ProgressBallCarrierName"
 	{
-		"ControlName"			"cautofittinglabel"
+		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
 		//font					TargetID
 		"visible"				"1"
 		"enabled"				"1"
+		"visible_minmode"		"1"
+		"enabled_minmode"		"1"
 		"font"					"FuturaShadowed12"
 		"fgcolor_override"		"0 200 0 255"
 		"zpos"					"300"
-		"xpos"					"c-60"
-		"ypos"					"40"
-		"wide"					"120"
-		"tall"					"30"
+		"xpos"					"0"
+		"ypos"					"-13"
+		"ypos"					"-13"
+		"wide"					"150"
+		"tall"					"13"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
-		"border"				"SolarPassTimeCarrierPanel"
-		"textinsetx"			"0"
-		"fonts"
-		{
-			"1"
-			{
-				"font"  "Futura12"
-			}
-			"2"
-			{
-				"font"  "Futura10"
-			}
-			"3"
-			{
-				"font"  "Futura7"
-			}
-			"4"
-			{
-				"font"  "Futura6"
-			}
-			"5"
-			{
-				"font"  "Futura4"
-			}
-		}
+		pin_to_sibling			CarrierNameBGBallOnly
+		pin_corner_to_sibling	4
+		pin_to_sibling_corner	6
+		bgcolor_override		"0 0 0 0"
+		"border"					""
+	}
+	
+	"CarrierNameBGBallOnly"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CarrierNameBGBallOnly"
+		"xpos"			"c-55"
+		"ypos"			"r13"
+		"ypos_minmode"					"r13"
+		"zpos"			"11"
+		"wide"			"110"
+		"tall"			"13"
+		"fillcolor"		"TanDarkerTransparent"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"visible_minmode"		"1"
+		"enabled_minmode"		"1"
+		"alpha"			"255"
+		"draw_corner_height" "11"
 	}
 	
 	"BallPowerCluster" 
@@ -271,7 +281,6 @@
 		"fieldName" "BallPowerCluster"
 		"xpos" "0"
 		"ypos" "r41"
-		"ypos_minmode" "r26"
 		"zpos" "5"
 		"wide" "f0"
 		"tall" "f0"
@@ -288,8 +297,8 @@
 			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#TF_BONUS"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -315,22 +324,6 @@
 			"image"			"../passtime/hud/passtime_powerball_meter_frame"
 			"scaleImage"	"1"					
 		}
-		
-		"SolarPassMeterBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SolarPassMeterBG"
-			"xpos"			"c-50"
-			"ypos"			"16"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"10"
-			"fillcolor"		"0 0 0 220"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
 
 		"BallPowerMeterFinalSectionContainer"
 		{
@@ -346,8 +339,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"10"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 
 			"BallPowerMeterFinalSection"
 			{
@@ -360,12 +353,28 @@
 				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"tabPosition"	"0"
 				"image"			"white"
 				"scaleImage"	"1"					
 			}
+		}
+			
+		"SolarPassMeterBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SolarPassMeterBG"
+			"xpos"			"c-50"
+			"ypos"			"16"
+			"zpos"			"2"
+			"wide"			"100"
+			"tall"			"10"
+			"fillcolor"		"0 0 0 220"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"BallPowerMeterFillContainer"
@@ -382,8 +391,8 @@
 			"zpos"				"4"
 			"wide"				"100"
 			"tall"				"11"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 
 			"BallPowerMeterFill"
 			{
@@ -396,8 +405,8 @@
 				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"tabPosition"	"0"
 				"image"			"white"
 				"scaleImage"	"1"					
@@ -411,263 +420,263 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon0"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon1"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon1"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon2"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon3"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon3"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon4"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon4"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon5"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon5"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon6"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon6"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon7"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon7"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon8"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon8"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon9"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon9"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon10"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon10"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon11"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon11"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon12"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon12"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon13"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon13"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon14"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon14"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon15"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon15"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon16"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon16"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon17"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon17"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon18"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon18"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon19"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon19"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon20"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon20"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon21"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon21"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon22"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon22"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon23"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon23"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon24"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon24"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon25"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon25"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon26"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon26"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon27"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon27"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon28"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon28"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon29"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon29"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon30"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon30"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon31"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon31"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 
 	"playericon32"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon32"
-		wide 12
-		tall 12
+		wide 0
+		tall 0
 	}
 }

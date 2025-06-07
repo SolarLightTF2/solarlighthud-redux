@@ -1,4 +1,4 @@
-#base "redux_customization/hudammoweapons_def.res"
+#base "hudammoweapons_def.res"
 
 //Take the default HUD but make the following changes
 
