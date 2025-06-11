@@ -242,6 +242,24 @@ event TeamStatus_PlayerAlive
 
 event ActiveTimerBGPulse
 {
+	RunEventChild RedTimer KOTHTimerAppearRed 0
+	RunEventChild BlueTimer KOTHTimerAppearBlue 0
+}
+
+event KOTHTimerAppearBlue
+{
+	Animate	TimePanelProgressBar 	xpos			"0"							Linear 0 0
+	Animate	TimePanelProgressBar 	zpos			"-100"						Linear 0 0
+	Animate TimePanelProgressBar	color_active	"SolarTeamBLU"				Linear 0 0
+	Animate TimePanelProgressBar	color_inactive	"SolarTeamBLUDark"			Linear 0 0
+}
+
+event KOTHTimerAppearRed
+{
+	Animate	TimePanelProgressBar 	xpos			"31"						Linear 0 0
+	Animate	TimePanelProgressBar 	zpos			"-100"						Linear 0 0
+	Animate TimePanelProgressBar	color_active	"SolarTeamRED"				Linear 0 0
+	Animate TimePanelProgressBar	color_inactive	"SolarTeamREDDark"			Linear 0 0
 }
 
 event ActiveTimerHighlight

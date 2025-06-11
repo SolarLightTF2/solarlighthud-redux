@@ -22,7 +22,7 @@ Scheme
 
 		"SolarTeamBLU"		"101 120 145 255"
 		"SolarTeamBLUDark"	"74 82 94 255"
-		"SolarTeamRED"		"171 56 59 255"
+		"SolarTeamRED"		"180 92 77 255"
 		"SolarTeamREDDark"	"109 50 51 255"
 
 		"SolarBG"		"0 0 0 200"

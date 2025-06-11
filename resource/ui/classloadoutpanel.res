@@ -21,7 +21,7 @@
 		"outoffocus_bgcolor_override" "0 0 0 0"
 		
 		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"165"
+		"item_xpos_offcenter_b"	"170"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -134,6 +134,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -151,6 +152,40 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textinsetx"	"5"
+		"fgcolor_override"	"TanLight"
+	}
+	"ClassLabel2"
+	{
+		"ControlName"	"cautofittinglabel"
+		"fieldName"		"ClassLabel2"
+		"font"			"FuturaItalic100"
+		"labelText"		"#ClassBeingEquipped"
+		"textAlignment"	"center"
+		"xpos"			"cs-0.5"
+		"ypos"			"c-50"
+		"zpos"			"-1"
+		"wide"			"320"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textinsetx"	"0"
+		"proportionaltoparent"	"1"
+		"fgcolor_override"	"TanDarker"
+		
+		//auto-picks a smaller font in the event of clipping
+		"fonts"
+		{
+			"1"
+			{
+				"font"  "FuturaItalic100"
+			}
+			"2"
+			{
+				"font"  "FuturaItalic92"
+			}
+		}
 	}
 
 	"TauntCaratLabel"

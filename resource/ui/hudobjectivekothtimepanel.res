@@ -8,11 +8,11 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"70"
+		"xpos"				"40"
 		"ypos"				"3"
 		"zpos"				"2"
-		"wide"				"30"
-		"tall"				"24"
+		"wide"				"60"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"22"
@@ -27,9 +27,9 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura16"
+			"font"			"FuturaItalic16"
 			"fgcolor"		"TanLight"
-			"xpos"			"0"
+			"xpos"			"30"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"30"
@@ -41,20 +41,20 @@
 		}	
 	}
 
-	"BlueTimerBox"
+	"KOTHBG"
 	{
 		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"BlueTimerBox"
+		"fieldName"		"KOTHBG"
 		"xpos"			"70"
 		"ypos"			"3"
 		"zpos"			"-2"
-		"wide"			"30"
+		"wide"			"60"
 		"tall"	 		"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ColorBLUTransparent"
+		"image"			"replay/thumbnails/timer/koth_timer"
 	}
 
 	"RedTimer"
@@ -64,8 +64,8 @@
 		"xpos"				"100"
 		"ypos"				"3"
 		"zpos"				"2"
-		"wide"				"30"
-		"tall"				"24"
+		"wide"				"60"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"22"
@@ -80,7 +80,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura16"
+			"font"			"FuturaItalic16"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -92,22 +92,6 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}
-	}
-	
-	"RedTimerBox"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"RedTimerBox"
-		"xpos"			"100"
-		"ypos"			"3"
-		"zpos"			"-2"
-		"wide"			"30"
-		"tall"	 		"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/ColorREDTransparent"
 	}
 	
 	"ActiveTimerBG"

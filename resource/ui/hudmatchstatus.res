@@ -179,7 +179,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"0" //off-screen
+		"ypos"			"9999" //off-screen
 		"zpos"			"10"		
 		"wide"			"300"
 		"tall"			"50"
@@ -280,13 +280,13 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura16"
+			"font"			"FuturaItalic16"
 			"fgcolor"		"TanLight"
-			"xpos"			"186"
+			"xpos"			"187"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"44"
-			"tall"			"23"
+			"wide"			"45"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -316,11 +316,11 @@
 		"12v12_gap"	"-1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-32"
+		"team1_base_x"	"c-38"
 		"team1_max_expand"	"168"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c32"
+		"team2_base_x"	"c38"
 		"team2_max_expand"	"168"
 
 		"playerpanels_kv"
@@ -497,14 +497,21 @@
 				"image"			"hud/checkmark"
 				"scaleImage"	"1"
 			}	
-			"RespawntimeColorChangingLabel"
+			"Deathpanel"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"ReadyImage"
+				"visible"		"0"
+				"enabled"		"0"
+			}
+			"RespawntimeEdit"
 			{
 				"controlname" "cautofittinglabel"
-				"fieldName"		"RespawntimeColorChangingLabel"
-				"font"			"Futura16"
-				"xpos"			"cs-0.5"
-				"ypos"			"2"
-				"zpos"			"5"
+				"fieldName"		"RespawntimeEdit"
+				"font"			"SLBoldSmaller"
+				"xpos"			"0"
+				"ypos"			"14"
+				"zpos"			"8"
 				"wide"			"f0"
 				"tall"			"25"
 				"autoResize"	"0"
@@ -520,18 +527,45 @@
 				{
 					"1"
 					{
-						"font"  "Futura16"
+						"font"  "SLBoldSmaller"
 					}
 					"2"
 					{
-						"font"  "Futura12"
+						"font"  "SLBoldSmaller"
 					}
 				}
-				//define text colors
-				"colors"
+			}
+			
+			"RespawntimeEditSTROKE"
+			{
+				"controlname" "cautofittinglabel"
+				"fieldName"		"RespawntimeEditSTROKE"
+				"font"			"SLBoldSmallerStroke"
+				"xpos"			"0"
+				"ypos"			"14"
+				"zpos"			"7"
+				"wide"			"f0"
+				"tall"			"25"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%respawntime%"
+				"fgcolor_override" "TanDark"
+				"textAlignment"	"center"
+				"proportionaltoparent"	"1"
+				
+				//auto-picks a smaller font in the event of clipping
+				"fonts"
 				{
-					"1" "255 170 0 255"
-					"2" "255 170 0 255"
+					"1"
+					{
+						"font"  "SLBoldSmallerStroke"
+					}
+					"2"
+					{
+						"font"  "SLBoldSmallerStroke"
+					}
 				}
 			}
 	

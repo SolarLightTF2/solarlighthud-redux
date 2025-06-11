@@ -205,25 +205,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"intro"
-		"default"		"1"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"TanLight"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"MapInfoBack" [$WIN32]

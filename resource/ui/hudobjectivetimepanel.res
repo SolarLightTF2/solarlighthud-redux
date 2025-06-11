@@ -4,40 +4,40 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimerBox"
-		"xpos"			"170"
-		"ypos"			"0"
+		"xpos"			"148"
+		"ypos"			"-7"
 		"zpos"			"-1"
-		"wide"			"60"
-		"tall"	 		"23"
+		"wide"			"110"
+		"tall"	 		"35"
 		"zpos"          "15"
 		"visible"		"1"
 		"enabled"		"1"
 	
-        "image"                 "replay/thumbnails/ColorTanDarkTransparent"	
-        "teambg_1"              "replay/thumbnails/ColorTanDarkTransparent"
-		"teambg_2"              "replay/thumbnails/ColorREDTransparent"
-		"teambg_3"              "replay/thumbnails/ColorBLUTransparent"
-		"src_corner_height"	    "31"			// pixels inside the image
-		"src_corner_width"	    "23"
-		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+        "image"                 "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"	
+        "teambg_1"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		"teambg_2"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		"teambg_3"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		
+		if_match
+		{
+		}
 	}
 
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"170"
-		"ypos"				"2"
+		"xpos"				"164"
+		"ypos"				"-3"
 		"zpos"				"4"	
-		"wide"				"20"
-		"tall"				"20"	
+		"wide"				"30"
+		"tall"				"30"	
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				""
-		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"TimerProgress.InActive"
+		"color_active"			"TanLight"
+		"color_inactive"		"TanDark"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 
@@ -74,15 +74,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"170"	[$WIN32]
-		"ypos"			"23"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/setuppanel"	
-		"scaleImage"		"1"	
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_match
 		{
@@ -109,17 +104,16 @@
 
 		if_match
 		{
-			"ypos"			"58"
 		}
 	}			
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"170"	[$WIN32]
-		"ypos"			"23"
+		"xpos"			"173"	[$WIN32]
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"55"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -135,7 +129,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
-		"ypos"			"23"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"12"
@@ -157,10 +151,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"170"	[$WIN32]
-		"ypos"			"23"
+		"xpos"			"173"	[$WIN32]
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"55"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -176,7 +170,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"0"
-		"ypos"			"23"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"11"
@@ -198,10 +192,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"170"	[$WIN32]
-		"ypos"			"23"
+		"xpos"			"173"	[$WIN32]
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"55"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -217,7 +211,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"0"
-		"ypos"			"23"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"12"
@@ -239,10 +233,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"170"	[$WIN32]
-		"ypos"			"23"
+		"xpos"			"173"	[$WIN32]
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"55"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
