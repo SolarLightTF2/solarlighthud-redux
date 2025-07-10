@@ -1154,65 +1154,6 @@
 				}		
 			}
 			
-			"EraserButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"EraserButton"
-				"xpos"			"10"
-				"ypos"			"120"
-				"zpos"			"10"
-				"wide"			"180"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"use_proportional_insets" "1"
-				"font"			"SLBoldSmall"
-				"textAlignment"	"west"
-				"textinsetx"	"20"
-				
-				"default"		"1"
-				"sound_armed"		"UI/hint.wav"
-				"sound_depressed"	"vo\demoman_laughlong02.mp3"
-
-				"labeltext"		"hud_reloadscheme"
-				"proportionaltoparent"	"1"
-				"command"		"engine hud_reloadscheme"
-				"actionsignallevel"	"3"
-			
-				"border_default"	"default_rhombus"
-				"border_armed"		"armed_rhombus"
-
-				"paintbackground"	"1"
-				
-				"defaultFgColor_override" "TanLight"
-				"armedFgColor_override" "TanLight"
-				"depressedFgColor_override" "TanLight"
-				
-				"defaultBgColor_override" "0 0 0 0"
-				"armedBgColor_override" "0 0 0 0"
-				"depressedBgColor_override" "0 0 0 0"
-				
-				"image_drawcolor"   "TanLight"
-				"image_armedcolor"  "TanLight"
-				"proportionaltoparent"	"1"
-				
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"20"
-					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"icon_resume"
-					"scaleImage"	"1"
-					"proportionaltoparent"	"1"
-				}		
-			}
-			
 			"bgline"
 			{
 				"ControlName"	"ImagePanel"
@@ -1229,18 +1170,6 @@
 				"alpha"			"50"
 				"mouseinputenabled"	"0"
 			}	
-			
-			"Chalkboard"
-			{
-				"ControlName"    "CDrawingPanel"
-				"xpos"				"0"
-				"ypos"            	"50"
-				"zpos"				"10"
-				"wide"				"f0"
-				"tall"				"f0"
-				"bgcolor_override"	"0 0 0 0"
-				"linecolor"			"255 255 255 255"
-			}
 			
 			"TopBarOverlay1" //TanDark second top bar
 			{
