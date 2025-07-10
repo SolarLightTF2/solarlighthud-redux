@@ -11,6 +11,21 @@
 			"tall"					"f0"
 			"paintbackground"		"1"
     	}
+		
+		"SafeMode" //putting this here so that I can clean the credits drawingpanel with a button
+    	{
+			"ControlName"	"EditablePanel"
+			
+			"ExpandableCredits" 
+			{
+				"ControlName"    "CMatchHistoryEntryPanel"
+				
+				"Chalkboard" 
+				{
+					"ControlName"    "CDrawingPanel"
+				}
+			}
+    	}
 	}
 	
 	"speed1"

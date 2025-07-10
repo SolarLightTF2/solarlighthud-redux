@@ -370,7 +370,6 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"fgcolor_override"	"loop_primary"
 				"proportionaltoparent"	"1"
 				
 				"defaultBgColor_override" "41 41 41 255"
@@ -688,7 +687,7 @@
 				"xpos"			"0"
 				"ypos"			"40"
 				"zpos"			"2"
-				"wide"			"545"
+				"wide"			"550"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
@@ -704,9 +703,9 @@
 
 				"proportionaltoparent"	"1"
 				
-				"defaultBgColor_override" "0 0 0 160"
-				"armedBgColor_override" "100 0 0 160"
-				"depressedBgColor_override" "0 0 0 160"
+				"defaultBgColor_override" "41 41 41 255"
+				"armedBgColor_override" "100 41 41 255"
+				"depressedBgColor_override" "41 41 41 255"
 				
 				"image_drawcolor"   "235 226 202 255"
 				"image_armedcolor"  "TFOrange"
@@ -744,8 +743,6 @@
  //              "scroll_step"                   "50"
                 "restrict_width"                "1"
                 "bgcolor_override"	"TanDarker"
-                
-                "border"        "MainMenuButtonDefault"
 
                 "ScrollBar"
                 {
@@ -787,7 +784,7 @@
 					"labelText"		"#Customization_Warning"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"25"
+					"ypos"			"5"
 					"zpos"			"10"
 					"wide"			"550"
 					"tall"			"22"
@@ -800,20 +797,6 @@
 					"fgcolor_override"	"TFOrange"
 					"proportionaltoparent"	"1"
 				}
-				
-                "seperatorline_4"
-                {
-                    "ControlName"	"ImagePanel"
-                    "fieldName"		"seperatorline_4"
-                    "xpos"      "cs-0.5"
-                    "ypos"      "400"
-                    "zpos"		"0"
-                    "wide"		"280"
-                    "tall"		"0"
-                    "visible"	"1"
-                    "fillcolor" "loop_primary"
-                    "proportionaltoparent"		"1"
-                }
             }
         } //end expandable Customization
 		
@@ -903,7 +886,7 @@
 				"xpos"			"0"
 				"ypos"			"40"
 				"zpos"			"2"
-				"wide"			"545"
+				"wide"			"550"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
@@ -919,9 +902,9 @@
 
 				"proportionaltoparent"	"1"
 				
-				"defaultBgColor_override" "0 0 0 160"
-				"armedBgColor_override" "100 0 0 160"
-				"depressedBgColor_override" "0 0 0 160"
+				"defaultBgColor_override" "41 41 41 255"
+				"armedBgColor_override" "100 41 41 255"
+				"depressedBgColor_override" "41 41 41 255"
 				
 				"image_drawcolor"   "235 226 202 255"
 				"image_armedcolor"  "TFOrange"
@@ -959,8 +942,6 @@
  //               "scroll_step"                   "50"
                 "restrict_width"                "1"
                 "bgcolor_override"	"TanDarker"
-                
-                "border"        "MainMenuButtonDefault"
 
                 "ScrollBar"
                 {
@@ -1002,7 +983,7 @@
 					"labelText"		"#Gamemodes_Note"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"25"
+					"ypos"			"5"
 					"zpos"			"10"
 					"wide"			"550"
 					"tall"			"22"
@@ -1015,20 +996,6 @@
 					"fgcolor_override"	"TFOrange"
 					"proportionaltoparent"	"1"
 				}
-				
-                "seperatorline_4"
-                {
-                    "ControlName"	"ImagePanel"
-                    "fieldName"		"seperatorline_4"
-                    "xpos"      "cs-0.5"
-                    "ypos"      "400"
-                    "zpos"		"0"
-                    "wide"		"280"
-                    "tall"		"0"
-                    "visible"	"1"
-                    "fillcolor" "loop_primary"
-                    "proportionaltoparent"		"1"
-                }
             }
         } //end expandable Gamemodes
 		
@@ -1182,6 +1149,65 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"../vgui/logos/menutextures/hatlogo"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+				}		
+			}
+			
+			"EraserButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"EraserButton"
+				"xpos"			"10"
+				"ypos"			"120"
+				"zpos"			"10"
+				"wide"			"180"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"use_proportional_insets" "1"
+				"font"			"SLBoldSmall"
+				"textAlignment"	"west"
+				"textinsetx"	"20"
+				
+				"default"		"1"
+				"sound_armed"		"UI/hint.wav"
+				"sound_depressed"	"vo\demoman_laughlong02.mp3"
+
+				"labeltext"		"hud_reloadscheme"
+				"proportionaltoparent"	"1"
+				"command"		"engine hud_reloadscheme"
+				"actionsignallevel"	"3"
+			
+				"border_default"	"default_rhombus"
+				"border_armed"		"armed_rhombus"
+
+				"paintbackground"	"1"
+				
+				"defaultFgColor_override" "TanLight"
+				"armedFgColor_override" "TanLight"
+				"depressedFgColor_override" "TanLight"
+				
+				"defaultBgColor_override" "0 0 0 0"
+				"armedBgColor_override" "0 0 0 0"
+				"depressedBgColor_override" "0 0 0 0"
+				
+				"image_drawcolor"   "TanLight"
+				"image_armedcolor"  "TanLight"
+				"proportionaltoparent"	"1"
+				
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"20"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"icon_resume"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
 				}		

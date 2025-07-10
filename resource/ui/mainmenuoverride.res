@@ -433,7 +433,8 @@
 		"paintbackground"	"0"
 		"paintborder"		"1"
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"   "TanLight"
+		"image_armedcolor"  "TanLight"
 
 		"border_default"	"default_rhombus"
 		"border_armed"		"armed_rhombus"
