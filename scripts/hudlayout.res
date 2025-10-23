@@ -1064,10 +1064,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-208"
-		"ypos"			"c-52"
-		"wide"			"416"
-		"tall"			"200"	[$WIN32]
+		"xpos"			"cs-0.5"
+		"ypos"			"c60"
+		"wide"			"150"
+		"tall"			"130"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}	
 	

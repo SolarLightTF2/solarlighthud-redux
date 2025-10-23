@@ -1,7 +1,43 @@
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/disguise_menu/scout_blue.res"
 {
+	//this is here for team color
+	"TitleBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"TitleBG"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"-11"
+		"wide"						"f0"
+		"tall"						"18"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"roundedcorners"			"0"
+		"bgcolor_override"			"SolarTeamREDDark"
+
+		"BottomLine"
+		{
+			"ControlName"			"Panel"
+			"fieldName"				"BottomLine"
+			"xpos"					"0"
+			"ypos"					"rs1"
+			"zpos"					"1"
+			"wide"					"f0"
+			"tall"					"2"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"0"
+			"bgcolor_override"		"0 0 0 35"
+		}
+	}
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
 		"font"			"Default"
@@ -19,46 +55,47 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"15"
+		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"90"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_scout_red"
+		"scaleImage"	"1"
+		"image"			"../hud/leaderboard_class_scout"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"15"
+		"xpos"			"9999"
 		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
-		"visible"		"1"
+		"zpos"			"0"
+		"wide"			"0"
+		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+	//controls number in concise disguise method
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"Futura16"
+		"fgcolor"		"White"
+		"xpos"			"-3"
+		"ypos"			"43"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -71,15 +108,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+	//controls number in normal disguise method
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"Futura16"
+		"fgcolor"		"White"
+		"xpos"			"-3"
+		"ypos"			"43"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"

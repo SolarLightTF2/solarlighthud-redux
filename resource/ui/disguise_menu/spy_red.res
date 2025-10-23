@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/spy_red.res"
+"Resource/UI/disguise_menu/spy_blue.res"
 {
 	"ItemNameLabel"
 	{	
@@ -19,22 +19,22 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassIcon"
-		"xpos"			"0"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"90"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_spy_red"
+		"scaleImage"	"1"
+		"image"			"../hud/leaderboard_class_spy"
 	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -42,9 +42,9 @@
 		"xpos"			"15"
 		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
-		"visible"		"1"
+		"zpos"			"0"
+		"wide"			"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
@@ -55,10 +55,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"Futura16"
+		"fgcolor"		"White"
+		"xpos"			"-3"
+		"ypos"			"3"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -76,10 +76,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"15"
-		"ypos"			"90"
+		"font"			"Futura16"
+		"fgcolor"		"White"
+		"xpos"			"-3"
+		"ypos"			"3"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
