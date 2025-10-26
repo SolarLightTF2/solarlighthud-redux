@@ -1060,19 +1060,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"cs-0.5"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		"ypos"			"c60"
-=======
-		"ypos"			"c40"
->>>>>>> Stashed changes
-=======
-		"ypos"			"c40"
->>>>>>> Stashed changes
-=======
-		"ypos"			"c40"
->>>>>>> Stashed changes
 		"wide"			"150"
 		"tall"			"130"	[$WIN32]
 		"PaintBackgroundType"	"0"

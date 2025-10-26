@@ -937,4 +937,5 @@
 			"font"			"Futura12"
 			"fgcolor"		"HudOffWhite"
 		}	
+	}
 }
