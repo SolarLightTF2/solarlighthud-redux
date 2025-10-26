@@ -11,10 +11,13 @@
 	}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"NewBG"
 	{
 		"ControlName"	"ImagePanel"
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -23,6 +26,9 @@
 	{
 		"ControlName"	"CExLabel"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -33,11 +39,22 @@
 		"wide"			"f0"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bgtransparent"
 		"scaleImage"		"1"
+=======
+		"tall"			"f16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border"		"BorderTanDarkerCornersVerySmall"
+		"proportionaltoparent"	"1"
+>>>>>>> Stashed changes
 =======
 		"tall"			"f16"
 		"autoResize"	"0"
@@ -103,8 +120,13 @@
 		"font"			"Default"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"xpos"			"5"
 		"ypos"			"25"
+=======
+		"xpos"			"0"
+		"ypos"			"27"
+>>>>>>> Stashed changes
 =======
 		"xpos"			"0"
 		"ypos"			"27"

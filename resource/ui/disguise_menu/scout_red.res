@@ -8,6 +8,7 @@
 		"xpos"						"0"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"ypos"						"10"
 		"zpos"						"-11"
 		"wide"						"f0"
@@ -15,11 +16,16 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 		"ypos"						"14"
 		"zpos"						"-11"
 		"wide"						"f0"
 		"tall"						"14"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -29,6 +35,7 @@
 		"paintbackground"			"1"
 		"paintbackgroundtype"		"2"
 		"roundedcorners"			"0"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"bgcolor_override"			"SolarTeamREDDark"
@@ -55,11 +62,16 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 		"bgcolor_override"			"SolarTeamRED"
 	}
 
 	"DisguiseLabel"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -84,6 +96,7 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"ClassIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -144,6 +157,29 @@
 	}
 
 >>>>>>> Stashed changes
+=======
+	"DisguiseLabelStroke"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DisguiseLabelStroke"
+		"font"			"SLBoldMediumSmallerStroke"
+		"xpos"			"0"
+		"ypos"			"6"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Disguise_Title"
+		"textAlignment"	"north"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"SolarTeamRED"
+	}
+
+>>>>>>> Stashed changes
 	"ClassIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -160,6 +196,9 @@
 	}
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
