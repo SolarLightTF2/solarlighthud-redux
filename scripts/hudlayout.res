@@ -529,7 +529,7 @@
 		"xpos"	 "r641"	[$WIN32]
 		"xpos_minmode"	 "r632"	[$WIN32]
 		"ypos"	 "56"	[$WIN32]
-		"ypos_minmode"	 "0"	[$WIN32]
+		"ypos_minmode"	 "35"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 
