@@ -67,7 +67,7 @@ I will fix these issues whenever I have time.
 
 * Tons of fonts are now sporting a thick outline for better visibility (plus it looks cool). This actually inspired my videos, not the other way round.
 
-* Minmode is now an "ultra-minmode". See the minmode section for details.
+* Minmode has been updated. See the "Minmode" section for more details.
 
 * Fixed major Linux bugs
 
