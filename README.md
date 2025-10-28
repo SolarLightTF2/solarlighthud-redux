@@ -69,14 +69,20 @@ I will fix these issues whenever I have time.
 
 * Minmode is now an "ultra-minmode". See the minmode section for details.
 
+* Fixed major Linux bugs
+
 
 # MAIN MENU:
 
-* (In progress) Revamped the main menu entirely.
+* The Main Menu, among other screens, have been completely overhauled.
+
+* Play button is now at the center-left of the screen next to "items", "friends", "quit".
+
+	* Unfortunately, the above change required sacrificing the ability to change queuing options / open party chat while navigating the backpack.
+
+* Friends list is now opened with a button.
 
 * Menu now features custom SFM character images.
-
-* Friends list is now opened with a button. It overlaps the medal/rank panel when opened. Everything just mentioned here has been moved as well.
 
 * Implemented a Dimmer Fix (prevents the darkening effect from cutting off near the bottom of the screen when choosing a matchmaking mode/map)
 
@@ -87,53 +93,61 @@ I will fix these issues whenever I have time.
 
 # OTHER MENUS:
 
-* A new customization menu has been added. Add more details here please.
-
-* Edited Stats Screen, Mann Co. Catalog and Crafting
-
-* Added A-D scrolling to the backpack and Mann Co. Catalog. Your fingers rejoice!
+* Other menus completely overhauled.
 
 * New scrolling background patterns for the loadout screen, backpack, class selection and other places.
 
-* Loadout screen now uses "allow_manip", like many other custom HUDs.
+* A new customization menu has been added. Allows you to select one of three HUD layouts, and lets you tweak specific things.
+
+* Loadout screen now uses "allow_manip", like many other custom HUDs. The layout has also been changed with vertical preset panels, and the class preview is larger.
+
+* Moved Casual rank display to the Stats screen. Thanks to DarSitam for letting me "borrow"...
+
+* Added the new Mann Co. Catalog buttons from that one October 2025 GitHub patch.
+
+* Added custom war paint inspection menu. Some buttons were "borrowed" from Wiethoofd's greenscreen war paint menu and then edited to not be too derivative.
+
+* Advanced Options screen has also been updated to take on a similar appearance to the new Customization screen.
 
 * The hint buttons in the loadout screens now show relevant custom HUD tips instead of default TF2 tips.
 
-* Fixed overlapping issues with the new backpack page buttons added in Summer 2024.
+* Fixed issues regarding the backpack page buttons added in Summer 2024.
 
 * Raised quality of item icons by adding "inventory_image_type" "1" to several itemmodelpanels (this does not affect every single menu yet).
 
 * New popup for pending alerts when in the loadout/backpack/etc.
 
+* Panel that appears when queuing has been updated.
+
 * Added button sounds to... buttons.
 
-* (In-progress) Please fix the backpack screen clipping with the 20 new backpack pages they added last summer.
+* New pop-up warnings (abandon/disconnect, delete item, etc.)
+
+* New borders when mousing over items in the loadout/backpack
 
 
 # IN-GAME MENUS
 
-* Revamped Team Select and Class Select menus. There's a fun surprise. (Also, they now include Highlander and MvM support.)
-
-* Added custom war paint inspection menu. Some buttons were "borrowed" from Wiethoofd's greenscreen war paint menu and then edited to not be too derivative.
+* Reduxed the Team Select and Class Select menus. There's a fun surprise. (Also, they now include Highlander and MvM support.)
 
 * (In progress) Added controller-mode versions of the Team Select, Class Select and Spectator UIs (check MvM upgrade icons there too)
 
-* (In-progress) Tournament Mode Team Entry menu (f4)
-
-* (In progress) Added new class selection buttons to replace the old ones. Only done partially
+* Added new class selection buttons to replace the old ones.
 
 
 # IN-GAME HUD:
 
-* Temporarily removed team goal UI from hudlayout.res until I finish a smaller version.
-
-//TODO: * New team goal description UI (way smaller). Known issue: Overlapping text when two hints are displayed at once (swapping teams on ctf_haarp).
-
 * Health, ammo and other central HUD elements have been lowered/adjusted by a tiny bit to make more room for the TargetID and to account for font changes.
 
-* Moved text and voice chat
-
 * Re-added the health cross to the HP, smaller, to the left.
+
+* Reduxed Engineer building HUD.
+
+* Reduxed the disguise menu, largely contributed by Techno.
+
+* Temporarily removed team goal UI from hudlayout.res until I finish a smaller version.
+
+* Moved text and voice chat
 
 * Moved the health pickup notification text.
 
@@ -143,138 +157,169 @@ I will fix these issues whenever I have time.
 
 * New taunt menu.
 
-* Removed the screenshot reminder from the freeze cam
+* New winpanels.
+
+* Removed the screenshot reminder from the freeze cam.
+
+* Removed "on the bright side" notifications.
+
+* "Queued for Casual" etc. display on the top right has been updated.
+
+* Reduxed spectator UI and respawn counter.
+
+
+# CASUAL MODE:
+
+* New "round begins" text for Casual mode (replaces the 3D sign model that appears on round start)
+
+* New post-game summary screen for Casual mode
+
+
+# COMPETITIVE MODE (VALVE MATCHMAKING):
+
+* No longer supported. If demand is high enough for some reason, I may consider it. But games are so infrequent that it's very hard to test changes.
+
+* Valve is incompetent.
+
+
+# COMPETITIVE PLAY (THIRD-PARTY LEAGUES ETC.)
+
+* Classlimits are more clearly visible in the class selection screen.
+
+* Reduxed Tournament Mode and Stopwatch Mode (in-progress).
+
+* Reduxed tournament spectator UI.
+
+* (IDEA: Add useful resources in place of where Comp Matchmaking would otherwise be.)
+
 
 # TARGETID:
+
+* Changed appearance to match new aesthetic.
 
 * Reduced the size of names in the TargetID.
 
 * Fixed TargetID killstreak count and ammo being misplaced.
 
-* When looking at an Engineer building, the TargetID now shows an Engineer icon instead of the gears, and the "move building" prompt has also been updated to be less jank.
+* When looking at an Engineer building, the "move building" prompt has been updated.
 
 * Data labels (e.g. Ubercharge, Upgrade Progress, Disguise) now include a box background and fancy coloring
+
+* New notifications for switching teams, autobalance, current objective, etc.
+
 
 # MISC:
 
 * The HUD now uses colors from TF2's color palette. No more solid white, no more oversaturated team colors, less solid black boxes with more brown instead.
 
-* Some instances of text were updated to be more colorful in general. English only.
+* Some instances of text now feature multi-color. English only.
 
 * Removed the white killfeed icons. This HUD is now compatible with other killfeed mods, such as the Consistent Kill Icons Pack.
 
 * Some text edits were made to make things more concise, notably in PASS Time. (Thanks, flareshmoney!) English only. Some text panels may be too small in other languages.
 
-* Weapon quality names have been removed. You can re-enable them by removing the overrides I've made in tf_english.txt (the file includes instructions at the top)
+* Weapon quality names have been removed. You can re-enable them by removing the overrides I've made in chat_english.txt (the file includes instructions at the top)
 
 * Some weapons now provide additional information in their descriptions. English only.
 
-* New loading screens
+* New loading screens.
 
 * This HUD is now designed for 1080p rather than 720p, which means several fixes were made on the positioning of certain HUD elements. This may not look right at lower resolutions anymore.
 
-* New tournament mode UI
+* New tournament mode UI.
+
+* Several references to videos are sprinkled around the HUD.
 
 
 # WEAPONS / CLASSES
 
-* Updated Stickybomb counter with a new icon
+* Updated Stickybomb counter with a new icon.
 
-* Updated Engineer metal count with a team-colored icon
+* Updated Engineer metal count with a team-colored icon.
+
+* Items that use counters now have new icons.
 
 
 # TIMER / MATCH STATUS
 
-* Match Status now features solid colors instead of health bars, making it a lot easier to see your team's HP at a glance.
+* Match Status now features health bars as backgrounds behind the class images, making it a lot easier to see your team's HP at a glance.
 
-* Animated death icons, similar to the default HUD.
+* New timer appearance, and borders on the player panels.
+
+* New respawn text appearance.
+ 
+* Added names to the player panels. (An option to turn it off may be added later.)
 
 * Some things have been moved around to accommodate for these changes.
 
-* Note: Death animations reset when you respawn, but this is a Valve issue that also happens on the default HUD.
+* The Match HUD and timer went through many iterations through development, but the final version most closely resembles the one from SolarLightHUD Classic in terms of layout. How funny.
 
 
 # SCOREBOARD (in-progress):
 
-* Slight visual and color update
+* Slight visual and color update.
 
-* Moved server info and player stats to the top and bottom of the screen
+* Moved server info and player stats to the top and bottom of the screen.
 
-* (In-progress) Added an option for 6v6 and 9v9 scoreboards
+* (In-progress) Added an option for 6v6 and 9v9 scoreboards.
 
-* The option to show/hide player stats through editing the .res file has been removed, in favor of the new customizations menu.
+* The option to show/hide player stats through editing the .res file has been removed, in favor of the new customizations menu. (In-progress)
 
-* Use the above option if you don't like the new borders at the top/bottom
+* Use the above option if you don't like the new borders at the top/bottom. (In-progress)
 
-* Fixed missing Casual medals - a bug that appeared in Scream Fortress 2024
+* Fixed missing Casual medals - a bug that appeared in Scream Fortress 2024.
 
-* (In-progress) New, fixed-up duel UI
-
-
+* New, fixed-up duel UI. No longer breaks!
 
 
 # GAMEMODES:
 
-* Added support for Versus Saxton Hale Vscript (todo: Halloween map)
+* Added support for Versus Saxton Hale Vscript.
 
 * Added custom boss health bars for VSH, Halloween, and Carrier (todo: MvM)
 
-* Added new Arena mode player count (only for default Arena, not the community-made Player Destruction remake of Arena)
-
-* TODO: Arena winpanel, arena menu, arena team lineup screen
-
-* Improved CTF HUD with new brown boxes, and with consideration for mutators like Mannpower, Special Delivery and Haarp.
-
-* Revamped PASS Time HUD. Customization menu includes a 4v4 version with no "bonus" meter, and a "ball only" mode, also intended for 4v4 gameplay.
-
-* Minmodes are included for each PASS Time HUD, each one varying slightly depending on which option you picked. (TODO: Default PASS Minmode)
+* Added support for Arena Mode. This includes both the original Arena maps and certain Vscript maps in the official Casual rotation.
 
 * Added support for Player Destruction with a new HUD. Timer changes color depending on the map, since PD lets me do that.
 
+* Added support for Cowerhouse's flank route countdown HUD.
+
+* Reduxed CTF HUD, with consideration for mutators like Mannpower, Special Delivery and Haarp.
+
+* Reduxed PASS Time HUD. Customization menu includes a 4v4 version with no "bonus" meter, and a "ball only" mode, also intended for 4v4 gameplay.
+
+* Minmodes are included for each PASS Time HUD, each one varying slightly depending on which option you picked. (TODO: Default PASS Minmode)
+
 * Every official PD map has been checked for issues and some fixes were made on a per-map basis, since PD lets me do that.
 
-* Tried to edit the HUD used in Perks and Lumberyard Event but they're still a bit jank due to limitations, sorry.
-
-* (In-progress) Fixed forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
+* Tried to edit the HUD used in Perks but it's still a bit jank due to limitations, sorry.
 
 
 # MANN VS. MACHINE:
+
+* (TODO: Lose panel, loot panel, canteen, scoreboard, bomb carrier hud.)
+
+* Improved support for MvM and Freaky Fair, including a new upgrade screen.
 
 * New wave status UI
 
 * Fixed missing money, which apparently broke in a TF2 update
 
-* TODO: Money, upgrades, lose panel, win panel
-
-# TOURNAMENT / COMPETITIVE:
-
-* Revamped tournament spectator UI
-
-* Updated Stopwatch Mode HUD
 
 CONTROLLER / STEAM DECK:
 
 * Added controller support for the team select and class select menus. These menus will appear slightly different than usual, due to limitations.
 
-* (In-progress) I still need to do something for the MOTD (textwindow_sc.res)
-
-* (In-progress) Check to see if MvM and Highlander mode work for team and class select
-
-* (In-progress) Classlimit numbers are bound to be wrong after all the changes I'm making
+* (In-progress) Entire thing is outdated by this point, needs a copy paste job
 
 
 MINMODE:
 
-* Minmode now hides almost everything except the bare necessities to play your class, makes the timer tiny, and shoves the killfeed + match HUD right at the top of the screen.
-
-* Intended for maximum visibility while stomping noobs in a casual setting, without caring about the current objective.
-
-* Consider turning off the match HUD in the settings for the "almost no HUD at all" experience.
+* Minmode hides many large shapes from the HUD, and makes others transparent, mostly keeping the text intact.
 
 * HP and ammo now remain the same size as default.
 
 * Fixed several minmode issues.
-
 
 
 MINOR TWEAKS/FIXES:
@@ -289,17 +334,10 @@ MINOR TWEAKS/FIXES:
 
 * Attempted to fix incorrect health/ammo color when respawning.
 
-* Updated spectator UI and respawn counter
-
 * Fixed MvM/Casual pre-game timer cutting off. (Casual still needs work)
 
 * Fixed [unknown] label appearing on item inspect panels when spectating or dead in a tournament match
 
+* (In-progress) Fixed forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
 
-* (In-progress) Create new borders
-
-* (In-progress) Revamped the killcam HUD. The old one was an unfinished mess. Currently broken on steamdeck still, needs fix.
-
-* (In progress) Updated Engineer building HUD
-
-* (In progress) added new MvM wave bars
+* (In-progress) Reduxed the killcam HUD. The old one was an unfinished mess. Currently broken on steamdeck still, needs fix.
