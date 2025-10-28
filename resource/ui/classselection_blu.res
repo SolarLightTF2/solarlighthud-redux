@@ -237,14 +237,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"SubImage" //soldier tanlight image is bigger for some reason? compensate by reducing size
+			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"wide"			"48"
-				"tall"			"48"
+				"wide"			"50"
+				"tall"			"50"
 				"scaleImage"	"1"
 				"visible"		"1"
 				"enabled"		"1"
