@@ -2,6 +2,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"										"cs-0.5"
+		"xpos"										"c110"
 	}
 }
