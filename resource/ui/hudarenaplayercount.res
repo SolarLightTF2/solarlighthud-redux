@@ -5,16 +5,17 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"		"VSStar"
-		"xpos"			"c-13"
-		"ypos"			"12"
+		"xpos"			"cs-0.5"
+		"ypos"			"3"
 		"zpos"			"3"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"46"
+		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"glyph_achievements"
+		"image"			"replay/thumbnails/bgshapes/winpanel_star"
 		"scaleImage"	"1"
 		"drawcolor" "TanLight"
+		"proportionaltoparent"	"1"
 	}
 	
 	"VSLabel"

@@ -129,7 +129,7 @@
 	{
 		"ControlName"    "Panel"
 		"xpos"            "10"
-		"ypos"            "240"
+		"ypos"            "270"
 	}
 	"partychat"
 	{

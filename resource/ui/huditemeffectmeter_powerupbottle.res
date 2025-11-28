@@ -5,8 +5,8 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"x_offset"		"22"
-		"ypos"			"c117"	[$WIN32]
+		"x_offset"		"12"
+		"ypos"			"r20"	[$WIN32]
 	}
 	
 	"EyelanderIcon"
@@ -35,7 +35,7 @@
 	"ItemEffectMeterCountShadow"
 	{
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"		"11"
+		"xpos"		"10"
 		"textAlignment"			"center"
 		"wide"		"30"
 	}
@@ -47,7 +47,7 @@
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"0"
-		"wide"			"f0"
+		"wide"			"40"
 		"tall"			"12"
 		"fillcolor"		"46 43 42 230"
 		"autoResize"	"0"

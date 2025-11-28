@@ -210,28 +210,29 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
+			"font"			"SLItalicMediumSmaller"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"19"
+			"zpos"			"2"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 		
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"SLItalicMediumSmallerStroke"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
-			"xpos"			"1"
-			"ypos"			"20"
+			"xpos"			"0"
+			"ypos"			"19"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"Black"
+			"fgcolor"		"TanDarker"
 		}
 	}
 

@@ -8,7 +8,7 @@
 		"x_offset"		"0"
 		"xpos"			"c-122"	[$WIN32]
 		"ypos"			"c114"	[$WIN32]
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"22"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -80,7 +80,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"80"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -98,11 +98,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"1"
-		"ypos"					"0"
+		"xpos"					"0"
+		"ypos"					"1"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"21"	
+		"wide"					"80"
+		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

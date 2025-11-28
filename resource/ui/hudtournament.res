@@ -753,8 +753,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"SLHealthAmmoReserve"
-		"xpos"			"220"
+		"font"			"SLBoldMedium"
+		"xpos"			"cs-0.5"
 		"ypos"			"r55"
 		"wide"			"60"
 		"tall"			"40"
@@ -772,7 +772,7 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
+			"ypos"			"r55"
 		}
 
 		if_readymode
@@ -786,8 +786,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"SLHealthAmmoReserveOutline"
-		"xpos"			"220"
+		"font"			"SLBoldMediumStroke"
+		"xpos"			"cs-0.5"
 		"ypos"			"r55"
 		"wide"			"60"
 		"tall"			"40"
