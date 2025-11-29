@@ -46,6 +46,10 @@ Scheme
 	}
 	BaseSettings
 	{
+	
+		Frame.FocusTransitionEffectTime	"0"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		
 		// scheme-specific colors
 		Border.Bright					"TFTanLightDark"	// the lit side of a control
 		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
@@ -81,8 +85,8 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
+		Frame.BgColor					"Blank"
+		Frame.OutOfFocusBgColor			"Blank"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
@@ -139,6 +143,133 @@ Scheme
 	
 	Fonts
 	{
+	
+		"Trebuchet24" //MGE 3 2 1 FIGHT
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+				"yres"	"480 1199"
+			}
+			"2" // misyl: Proportional
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"16"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+		
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"		"futura_extra_black_italic"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"futura_extra_black_italic"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		// HUD numbers
+		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
+		"HUDNumber"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"40"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber1"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"41"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber2"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"42"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber3"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"43"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber4"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"44"
+				"weight"	"900"
+			}
+		}
+		"HUDNumber5"
+		{
+			"1"
+			{
+				"name"		"futurano2d_demibold"
+				"tall"		"45"
+				"weight"	"900"
+			}
+		}
+		
 		"DefaultFixedOutline"
 		{
 			"1"
@@ -218,19 +349,6 @@ Scheme
 			"1"	[$X360]
 			{
 				"tall_hidef"		"24"
-			}
-		}
-
-		"ServerBrowserTitle"
-		{
-			"1"
-			{
-				"name"		"asimov"
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 
@@ -333,6 +451,22 @@ Scheme
 
 	}
 	
+	Borders
+	{
+		FrameBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/borders/console_border"
+			"src_corner_height"		"20"				// pixels inside the image
+			"src_corner_width"		"20"
+
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
+		}
+	}
+	
 	CustomFontFiles
 	{
 		"6" 
@@ -405,6 +539,11 @@ Scheme
 		{
 			"font" "resource/fonts/asimov.otf"
 			"name" "asimov"
+		}
+		"9"
+		{
+			"font" "resource/fonts/futura_extra_black_italic.ttf"
+			"name" "futura_extra_black_italic"
 		}
 	}
 }

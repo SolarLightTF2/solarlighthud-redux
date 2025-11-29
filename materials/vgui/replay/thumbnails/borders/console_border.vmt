@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/borders/border_white_corners"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$alphatest" 1
+	"$allowAlphaToCoverage" 1
+	"$color"            "{46 43 42}"
+}
+
