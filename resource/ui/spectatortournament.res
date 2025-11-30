@@ -303,6 +303,7 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"border"		"BorderTanDarkerCornersVerySmall"
 	
 		if_mvm
 		{
