@@ -1,8 +1,8 @@
-//#base "HudObjectivePlayerDestruction.res"
+//#base "hudobjectiveplayerdestruction.res"
 
 //This is Perks
 
-"Resource/UI/HudObjectiveArenaHybrid.res"
+"resource/ui/hudobjectivearenahybrid.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

@@ -1,6 +1,6 @@
 #base "hudsolarcountbase.res"
 
-"Resource/UI/HudItemEffectMeter_spy.res"
+"resource/ui/huditemeffectmeter_sniper.res"
 {
 	HudItemEffectMeter
 	{
@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_spy.vtf"
+		"image"			"../hud/leaderboard_class_sniper.vtf"
 		"scaleImage"	"1"				
 	}
 	

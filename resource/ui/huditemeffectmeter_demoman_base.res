@@ -1,5 +1,5 @@
 //used for demoman eyelander head count
-"Resource/UI/HudItemEffectMeter_demoman.res"
+"resource/ui/huditemeffectmeter_demoman.res"
 {
 	HudItemEffectMeter
 	{

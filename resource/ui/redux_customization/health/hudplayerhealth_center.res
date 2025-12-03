@@ -2,7 +2,7 @@
 
 //Take the default HUD but make the following changes
 
-"Resource/UI/HudHealthAccount.res"
+"resource/ui/hudhealthaccount.res"
 {	
 
 	"HudPlayerHealth"

@@ -1,6 +1,6 @@
 //minmode raises the mvm enemy count. hard-coded. had to work around it in wavestatuspanel.res
 
-"Resource/UI/EnemyCountPanel.res"
+"resource/ui/enemycountpanel.res"
 {	
 	"EnemyCountPanel"
 	{

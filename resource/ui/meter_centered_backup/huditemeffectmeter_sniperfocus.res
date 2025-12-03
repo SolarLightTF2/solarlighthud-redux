@@ -1,6 +1,6 @@
-#base "HudItemEffectMeter.res"
+#base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_Sniperfocus.res"
+"resource/ui/huditemeffectmeter_sniperfocus.res"
 {
 	HudItemEffectMeter
 	{

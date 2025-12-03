@@ -1,5 +1,5 @@
 #base "huditemeffectmeter_demoman.res"
-"Resource/UI/HudItemEffectMeter_engineer.res"
+"resource/ui/huditemeffectmeter_engineer.res"
 {
 	"EyelanderIcon"
 	{

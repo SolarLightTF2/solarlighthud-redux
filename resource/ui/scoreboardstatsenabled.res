@@ -1,4 +1,4 @@
-"Resource/UI/scoreboardstatsENABLED.res"
+"resource/ui/scoreboardstatsenabled.res"
 {
 	"BGHeader"
 	{

@@ -1,12 +1,11 @@
 #base "hudsolarcountbase.res"
 
-"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
+"resource/ui/huditemeffectmeter_spy.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"x_offset"		"22"
-		"ypos"			"c117"	[$WIN32]
 	}
 	
 	"EyelanderIcon"
@@ -20,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ico_powerup_critboost_red"
+		"image"			"../hud/leaderboard_class_spy.vtf"
 		"scaleImage"	"1"				
 	}
 	

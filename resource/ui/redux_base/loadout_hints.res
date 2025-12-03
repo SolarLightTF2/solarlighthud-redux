@@ -1,6 +1,6 @@
 //modified from loophud because lazy and dumb
 
-"Resource/UI/FullLoadoutPanel.res"
+"resource/ui/fullloadoutpanel.res"
 {
     "ExpandableHints" 
 	{

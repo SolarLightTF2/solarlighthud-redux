@@ -1,6 +1,6 @@
 //modified from loophud because lazy and dumb
 
-"Resource/UI/CharInfoLoadoutSubPanel.res"
+"resource/ui/charinfoloadoutsubpanel.res"
 {
     "ExpandableHintsSubMenu" 
 	{

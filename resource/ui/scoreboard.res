@@ -1,8 +1,8 @@
 // To disable the scoreboard stats, change ENABLED to DISABLED on the line below
 
-#base "scoreboardstatsENABLED.res"
+#base "scoreboardstatsenabled.res"
 
-"Resource/UI/Scoreboard.res"
+"resource/ui/scoreboard.res"
 {
 	"VSStar"
 	{

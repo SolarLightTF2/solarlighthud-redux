@@ -1,6 +1,6 @@
 //minmode raises the mvm enemy count. hard-coded. had to work around it
 
-"Resource/UI/WaveStatusPanel.res"
+"resource/ui/wavestatuspanel.res"
 {
 	"Background"
 	{

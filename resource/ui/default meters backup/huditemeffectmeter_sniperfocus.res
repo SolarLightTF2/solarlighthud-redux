@@ -1,6 +1,6 @@
-#base "redux_base/HudItemEffectMeter_meter_base.res"
+#base "redux_base/huditemeffectmeter_meter_base.res"
 
-"Resource/UI/HudItemEffectMeter_Pyro.res"
+"resource/ui/huditemeffectmeter_sniperfocus.res"
 {
 	HudItemEffectMeter
 	{
@@ -10,11 +10,11 @@
 	"ItemEffectMeterLabelNew"
 	{
 		"fieldName"				"ItemEffectMeterLabelNew"
-		"labelText"				"#TF_PyroRage"
+		"labelText"				"#TF_SniperRage"
 	}
 	"ItemEffectMeterLabelOutline"
 	{
 		"fieldName"				"ItemEffectMeterLabelOutline"
-		"labelText"				"#TF_PyroRage"
+		"labelText"				"#TF_SniperRage"
 	}
 }

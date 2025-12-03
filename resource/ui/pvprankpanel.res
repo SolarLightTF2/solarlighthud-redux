@@ -1,6 +1,6 @@
 //stolen from darhud and then reduxed
 
-"Resource/UI/PvPRankPanel.res"
+"resource/ui/pvprankpanel.res"
 {
 	"ModelContainer"
 	{

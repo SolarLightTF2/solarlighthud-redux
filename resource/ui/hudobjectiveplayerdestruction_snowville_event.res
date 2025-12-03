@@ -1,6 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
-"Resource/UI/HudObjectivePlayerDestruction_snowville_event.res"
+"resource/ui/hudobjectiveplayerdestruction_snowville_event.res"
 {
 	"CarriedContainer"
 	{

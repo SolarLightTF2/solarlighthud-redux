@@ -1,5 +1,5 @@
 //thanks hypnotize
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 
 	///SULFUR, doesn't work...///

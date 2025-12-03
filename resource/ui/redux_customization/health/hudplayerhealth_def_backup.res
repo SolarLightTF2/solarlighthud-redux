@@ -1,6 +1,6 @@
 #base "../../hudplayerhealth_bg.res"
 
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {	
 	// player health data
 	"HudPlayerHealth"

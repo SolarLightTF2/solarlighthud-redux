@@ -1,6 +1,6 @@
 #base "hudsolarcountbase.res"
 
-"Resource/UI/HudItemEffectMeter_engineer.res"
+"resource/ui/huditemeffectmeter_organs.res"
 {
 	HudItemEffectMeter
 	{
@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_engineer.vtf"
+		"image"			"../hud/leaderboard_class_medic.vtf"
 		"scaleImage"	"1"				
 	}
 	

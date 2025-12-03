@@ -1,6 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
-"Resource/UI/farmageddonhud.res"
+"resource/ui/farmageddonhud.res"
 {
     "CarriedContainer"
     {

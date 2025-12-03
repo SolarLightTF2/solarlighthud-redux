@@ -6,7 +6,7 @@
 //Some of the text is team colored, so they're not here. Such as the text used for the number of each class (classlimits).
 //Anchors for the class limits are still here, so they can be moved without editing them twice.
 
-"Resource/UI/ClassSelection.res"
+"resource/ui/classselection.res"
 {
 
 	"YourTeam" [$WIN32] //outline is in the team-colored files

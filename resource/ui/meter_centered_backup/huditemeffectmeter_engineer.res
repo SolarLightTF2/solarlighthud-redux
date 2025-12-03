@@ -1,6 +1,6 @@
 #base "hudsolarcountbase.res"
 
-"Resource/UI/HudItemEffectMeter_engineer.res"
+"resource/ui/huditemeffectmeter_engineer.res"
 {
 	HudItemEffectMeter
 	{

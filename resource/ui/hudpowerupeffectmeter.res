@@ -1,6 +1,6 @@
-#base "HudItemEffectMeter.res"
+#base "huditemeffectmeter.res"
 
-"Resource/UI/HudPowerupEffectMeter.res"
+"resource/ui/hudpowerupeffectmeter.res"
 {
 	HudItemEffectMeter
 	{

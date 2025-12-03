@@ -1,6 +1,6 @@
 //modified from loophud because lazy and dumb
 
-"Resource/UI/mainmenuoverride.res"
+"resource/ui/mainmenuoverride.res"
 {
     "SafeMode"
 	{

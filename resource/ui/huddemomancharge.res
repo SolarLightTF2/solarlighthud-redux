@@ -1,5 +1,5 @@
 //file for demoknight charge meter
-"Resource/UI/HudDemomanCharge.res"
+"resource/ui/huddemomancharge.res"
 {	
 	"ChargeMeter"
 	{	

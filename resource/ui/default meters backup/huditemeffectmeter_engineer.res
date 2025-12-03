@@ -1,6 +1,6 @@
 #base "hudsolarcountbase.res"
 
-"Resource/UI/HudItemEffectMeter_demoman.res"
+"resource/ui/huditemeffectmeter_engineer.res"
 {
 	HudItemEffectMeter
 	{
@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_demoknight.vtf"
+		"image"			"../hud/leaderboard_class_engineer.vtf"
 		"scaleImage"	"1"				
 	}
 	

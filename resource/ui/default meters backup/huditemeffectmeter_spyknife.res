@@ -1,6 +1,6 @@
-#base "redux_base/HudItemEffectMeter_meter_base.res"
+#base "redux_base/huditemeffectmeter_meter_base.res"
 
-"Resource/UI/HudItemEffectMeter_RayGun.res"
+"resource/ui/huditemeffectmeter_spyknife.res"
 {
 	HudItemEffectMeter
 	{
@@ -11,11 +11,11 @@
 	"ItemEffectMeterLabelNew"
 	{
 		"fieldName"				"ItemEffectMeterLabelNew"
-		"labelText"				"#TF_Bison"
+		"labelText"				"#TF_KNIFE"
 	}
 	"ItemEffectMeterLabelOutline"
 	{
 		"fieldName"				"ItemEffectMeterLabelOutline"
-		"labelText"				"#TF_Bison"
+		"labelText"				"#TF_KNIFE"
 	}
 }

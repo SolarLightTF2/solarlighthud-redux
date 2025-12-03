@@ -1,7 +1,7 @@
 #base "redux_base/mainmenu_safemode.res"
 
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	MainMenuOverride
 	{

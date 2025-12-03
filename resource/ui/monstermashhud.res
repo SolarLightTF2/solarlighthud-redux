@@ -1,6 +1,6 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
-"Resource/UI/WatergateHUD.res"
+"resource/ui/watergatehud.res"
 {
 	"CarriedContainer"
 	{

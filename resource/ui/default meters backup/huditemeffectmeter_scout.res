@@ -1,12 +1,11 @@
-#base "redux_base/HudItemEffectMeter_meter_base.res"
+#base "redux_base/huditemeffectmeter_meter_base.res"
 
-"Resource/UI/HudItemEffectMeter.res"
+"resource/ui/huditemeffectmeter_scout.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"r130"
-		"ypos"			"r100"
+		"xpos"			"r270"
 	}
 
 	"ItemEffectMeterLabel"

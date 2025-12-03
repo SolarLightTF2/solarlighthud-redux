@@ -3,7 +3,7 @@
 //Take the default HUD but make the following changes
 
 
-"Resource/UI/HudAmmoWeapons.res"
+"resource/ui/hudammoweapons.res"
 {
 	HudWeaponAmmo
 	{

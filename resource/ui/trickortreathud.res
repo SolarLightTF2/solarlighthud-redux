@@ -1,8 +1,8 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
 //This is Pit of Death
 
-"Resource/UI/WatergateHUD.res"
+"resource/ui/watergatehud.res"
 {
 	"CarriedContainer"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/hudsolarcountbase.res"
+"resource/ui/hudsolarcountbase.res"
 {
 	HudItemEffectMeter
 	{

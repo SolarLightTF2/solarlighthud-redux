@@ -1,6 +1,6 @@
 //This controls the disconnect popup warning
 
-"Resource/UI/ConfirmDialogAbandonSafe.res"
+"resource/ui/confirmdialogabandonsafe.res"
 {
 	"ConfirmDialog"
 	{

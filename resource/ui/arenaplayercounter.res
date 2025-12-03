@@ -1,8 +1,8 @@
-//#base "HudObjectivePlayerDestruction.res"
+//#base "hudobjectiveplayerdestruction.res"
 
 //this is lumberyard event, graveyard
 
-"Resource/UI/HudObjectiveArenaHybrid.res"
+"resource/ui/hudobjectivearenahybrid.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

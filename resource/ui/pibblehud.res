@@ -1,4 +1,4 @@
-"Resource/UI/pibblehud.res"
+"resource/ui/pibblehud.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

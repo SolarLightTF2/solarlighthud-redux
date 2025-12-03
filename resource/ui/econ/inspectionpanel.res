@@ -1,6 +1,6 @@
 //This is the War Paint inspection menu
 
-"Resource/UI/econ/QuestEditorPanel.res"
+"resource/ui/econ/questeditorpanel.res"
 {
 	"BGImage"
 	{

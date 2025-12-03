@@ -1,7 +1,7 @@
 #base "../../hudplayerhealth_bg.res"
 #base "../../hudplayerhealth_warning.res"
 
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {	
 	// player health data
 	"HudPlayerHealth"

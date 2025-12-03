@@ -1,6 +1,6 @@
 #base "redux_base/loadout_hints.res"
 
-"Resource/UI/FullLoadoutPanel.res"
+"resource/ui/fullloadoutpanel.res"
 {
 	"class_loadout_panel"
 	{

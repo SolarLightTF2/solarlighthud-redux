@@ -10,7 +10,7 @@
 
 //I can feel Whisker's pain
 
-"Resource/UI/ConfirmDialog.res"
+"resource/ui/confirmdialog.res"
 {
 	"ConfirmDialog"
 	{

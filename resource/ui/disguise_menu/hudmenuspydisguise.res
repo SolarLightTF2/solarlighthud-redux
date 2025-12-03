@@ -1,6 +1,6 @@
 //this file and everything related to it is a pain to work with.
 //* note: the disguise banner colors are controlled by scout_blue/red.res in the same folders.
-"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+"resource/ui/disguise_menu/hudmenuspydisguise.res"
 {
 	"MainBackground"
 	{

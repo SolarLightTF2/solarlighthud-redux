@@ -3,7 +3,7 @@
 #base "redux_base/mainmenu_preload.res"
 
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	MainMenuOverride
 	{

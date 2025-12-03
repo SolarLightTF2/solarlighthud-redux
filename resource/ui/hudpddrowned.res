@@ -1,8 +1,8 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
 //This is cursed cove
 
-"Resource/UI/HudPDDrowned.res"
+"resource/ui/hudpddrowned.res"
 {
     "CarriedContainer"
     {

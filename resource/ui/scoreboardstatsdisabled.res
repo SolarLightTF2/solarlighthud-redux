@@ -1,4 +1,4 @@
-"Resource/UI/scoreboardstatsDISABLED.res"
+"resource/ui/scoreboardstatsdisabled.res"
 {
 	"StatsBox"
 	{
