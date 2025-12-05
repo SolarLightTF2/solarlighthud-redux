@@ -1,5 +1,3 @@
-#base "redux_base/loadout_submenu_hints.res"
-
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"

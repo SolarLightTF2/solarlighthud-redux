@@ -1,5 +1,3 @@
-#base "redux_base/loadout_hints.res"
-
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"

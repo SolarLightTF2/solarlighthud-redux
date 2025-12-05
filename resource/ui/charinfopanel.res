@@ -79,48 +79,6 @@
 		"enabled"		"1"
 	}
 	
-	"SolarFooterGradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SolarFooterGradient"
-		"xpos"		"0"
-		"ypos"		"457"
-		"wide"		"p0.5"
-		"tall"		"23"
-		"zpos"	"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"2"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"100"
-
-		"image"		"gradient_pure_black"
-		}	
-	
-	"ReloadScheme"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"	"TReloadScheme"
-		"xpos"	"2"
-		"ypos"	"459"
-		"zpos"	"250"
-		"wide"	"30"
-		"tall"	"20"
-		"autoResize"	"1"
-		"pinCorner"	"0"
-		"visible"	"1"
-		"enabled"	"1"
-		"tabPosition"	"0"
-		"labelText"	"Reload"
-		"font"	"Default"
-		"textAlignment"	"center"
-		"dulltext"	"0"
-		"brighttext"	"0"
-		"Command"	"reloadscheme"
-	}	
-	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
