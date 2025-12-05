@@ -86,7 +86,6 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
 			"border"		"BorderTanDarkerCornersVerySmall"
 
 			"NavToRelay"	"TourList"
@@ -101,7 +100,7 @@
 				"wide"			"400"
 				"tall"			"225"
 				"visible"		"0"
-				"bgcolor_override"	"128 128 128 128"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"TourList"
@@ -115,6 +114,8 @@
 				"wide"			"400"
 				"tall"			"197"
 				"linespacing"	"12"
+				"border"		"NoBorder"
+				"bgcolor_override"	"0 0 0 0"
 			}
 		}
 
@@ -148,7 +149,6 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
 		"border"		"BorderTanDarkerCornersVerySmall"
 
 		"TourLootImage"
@@ -206,7 +206,6 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
 		"border"		"BorderTanDarkerCornersVerySmall"
 
 		"NavToRelay"	"OpenHelpButton"
@@ -468,7 +467,6 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
 		"border"		"BorderTanDarkerCornersVerySmall"
 
 		"NavToRelay"	"MannUpNowButton"
@@ -631,7 +629,6 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
 			"border"		"BorderTanDarkerCornersVerySmall"
 
 			"NavToRelay"	"ChallengeList"
