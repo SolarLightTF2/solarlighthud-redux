@@ -479,7 +479,7 @@
 		"enabled"		"1"
 
 
-		"max_size"	"24"
+		"max_size"	"31"
 
 		"6v6_gap"	"1"
 		"12v12_gap"	"1"
@@ -495,7 +495,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"24"
+			"wide"			"31"
 			"tall"			"50"
 			"zpos"			"1"
 
