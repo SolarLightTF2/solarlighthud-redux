@@ -163,10 +163,10 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
-	"LOGOTEST"
+	"TFLogoOctagon"
 	{
-		"ControlName"	"CTFLogoPanel"
-		"fieldName"		"LOGOTEST"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TFLogoOctagon"
 		"xpos"			"c-310"
 		"ypos"			"18"
 		"zpos"			"19"
@@ -175,12 +175,28 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-		"alpha"			"255"
-
-		"radius"		"10"
-		"velocity"		"30"
-		"fgcolor_override"	"TanLight"
 		"border"		"OctagonBGTANDARKER"
+	}
+	
+	"TFLogoSpinner"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogoSpinner"
+		"xpos"			"0"
+		"ypos"			"-5"
+		"zpos"			"22"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/tf2logo/tf2_logo_spinner"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		"drawcolor"		"TanLight"
+		
+		"pin_to_sibling"	"TFLogoOctagon"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 	
 	"CaratLabel"
