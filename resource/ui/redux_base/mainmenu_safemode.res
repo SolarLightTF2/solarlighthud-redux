@@ -910,7 +910,7 @@
 				"fgcolor_override"	"TanLight"
 				"proportionaltoparent"	"1"
 				
-				"image_default"	"replay/thumbnails/customizationmenu/presets"
+				"image_default"	"replay/thumbnails/customizationmenu/gamemodes"
 				
 				"SubImage"
 				{
@@ -1121,9 +1121,6 @@
 				"fgcolor_override"	"TanLight"
 				"proportionaltoparent"	"1"
 				
-				
-				"image_default"	"replay/thumbnails/customizationmenu/presets"
-				
 				"pin_to_sibling"	"ExpandButtonAnchor"
 				"pin_corner_to_sibling"		"4"
 				"pin_to_sibling_corner"		"4"
@@ -1132,8 +1129,8 @@
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"r100"
-					"ypos"			"0"
+					"xpos"			"9999"
+					"ypos"			"9999"
 					"zpos"			"1"
 					"wide"			"100"
 					"tall"			"25"
