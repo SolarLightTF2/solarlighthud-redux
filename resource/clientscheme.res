@@ -3066,6 +3066,16 @@ Scheme
 			}
 		}
 		
+		"LoadoutSLBold"
+		{
+			"1"
+			{
+				"name"		"futurabt_extrablack"
+				"tall"		"50"
+				"antialias" 	"1"
+			}
+		}
+		
 		// ITALIC
 		
 		"SLItalicSmallest"
