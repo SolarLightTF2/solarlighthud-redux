@@ -55,7 +55,7 @@
 		"ypos"			"457"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"23"
+		"tall"			"f0"
 		"fillcolor"		"TanDarker"
 		"autoResize"	"0"
 		"pinCorner"		"0"
