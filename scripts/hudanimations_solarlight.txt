@@ -373,10 +373,9 @@ event SurveySubmitSequence
 
 event HudTournament_ShowTimerCompetitive
 {
-	Animate CountdownLabel ypos 150 Linear 0 0
-	Animate CountdownLabelShadow ypos 150 Linear 0 0
+	Animate CountdownLabel ypos 0 Linear 0 0
+	Animate CountdownLabelShadow ypos 0 Linear 0 0
 
-	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 }
@@ -386,14 +385,12 @@ event HudTournament_ShowTimerDefault
 	Animate CountdownLabel ypos 400 Linear 0 0
 	Animate CountdownLabelShadow ypos 400 Linear 0 0
 
-	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 }
 
 event HudTournament_HideTimer
 {
-	SetVisible CountdownBG  0 0
 	SetVisible CountdownLabel 0 0
 	SetVisible CountdownLabelShadow 0 0
 }
@@ -404,20 +401,44 @@ event HudTournament_HideTimer
 
 event HudMatchStatus_ShowMatchStartDoors //COMP MATCH STARTS, CLOSE DOORS AND SHOW TEAMS+NAMES, RE-OPEN AFTER DELAY
 {
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-	Animate CountdownLabel ypos 150 Linear 0 0
-	Animate CountdownLabelShadow ypos 150 Linear 0 0
+	
+	//leftbar, rightbar
+	SetVisible	PreGameLeftBar	1	0
+	SetVisible	PreGameRightBar	1	0
+	
+	//Cleanup
+	Animate PreGameLeftBar xpos "c-2000" Linear 0 0
+	Animate PreGameRightBar xpos "c1000" Linear 0 0
+	
+	//Slide in
+	Animate PreGameLeftBar xpos "c-1000" Linear 0 0.3
+	Animate PreGameRightBar xpos "c0" Linear 0 0.3
 
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-3 Gain 0.75 0 0.4
-
+	//Slide out
+	Animate PreGameLeftBar xpos "c-2000" Linear 2.2 0.3
+	Animate PreGameRightBar xpos "c1000" Linear 2.2 0.3
+	
+	
+	//countdown stuff.
+	//disable it frame 1, re-enable 2 seconds later
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownLabel 1 2
+	SetVisible CountdownLabelShadow 1 2
+	
+	//reset countdown position
+	Animate CountdownLabel ypos 0 Linear 0 0
+	Animate CountdownLabelShadow ypos 0 Linear 0 0
+	
+	//hide countdown
 	SetVisible CountdownLabel 0 9.9
 	SetVisible CountdownLabelShadow 0 9.9
 
 	RunEvent HudTournament_DoorsCleanup 10
 	
-	SetVisible CountdownBG 1 11
+	PlaySound 0 "ui/trade_changed.wav"
+	PlaySound 0.25 "ui/itemcrate_smash_common.wav"
+	PlaySound 2 "ui/trade_changed.wav"
 }
 
 //COMP MODE GAME WIN, DOORS CLOSE THEN RE-OPEN
@@ -466,6 +487,19 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 	Animate PostGameBottomBar ypos r-5 Linear 30 0
 	Animate PostGameBGLine alpha 0 Linear 25 0
 	Animate PostGameBGColor alpha 0 Linear 25 0
+}
+
+//ONLY THE TIMER - BETWEEN ROUNDS
+event HudMatchStatus_ShowCountdown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 150 Linear 0 0
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
+	SetVisible CountdownLabel 0 9.9
+	SetVisible CountdownLabelShadow 0 9.9
 }
 
 event HudTournament_DoorsCleanup

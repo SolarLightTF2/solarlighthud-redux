@@ -8,7 +8,43 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
+
+//Testing new start of game animations
+
+	"PreGameLeftBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PreGameLeftBar"
+		"xpos"			"c-2000"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"1000"
+		"tall"			"f0"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}	
 	
+	"PreGameRightBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PreGameRightBar"
+		"xpos"			"c1000"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"1000"
+		"tall"			"f0"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}	
+
 //A new round begins...
 
 	"NewRoundBeginsAnchor"

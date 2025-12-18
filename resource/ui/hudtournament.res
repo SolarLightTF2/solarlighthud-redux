@@ -705,7 +705,7 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
+			"ypos"			"10"
 		}
 
 		if_readymode
