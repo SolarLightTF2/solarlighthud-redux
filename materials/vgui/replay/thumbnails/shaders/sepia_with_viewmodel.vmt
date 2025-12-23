@@ -1,0 +1,17 @@
+screenspace_general
+{
+	$pixshader "sepia_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 0
+	$ignorez 1
+
+	// Sepia strength (0.0 - 1.0)
+	$c0_x     1.0
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}
