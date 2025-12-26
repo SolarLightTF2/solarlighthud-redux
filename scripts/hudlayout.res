@@ -28,6 +28,13 @@
 		"enabled"       "1"
 	}
 	
+	"EscortHilightSwoop"
+	{
+		"ControlName" "CControlPointIconSwoop"
+		"xpos" "9999"
+		"alpha" "0"
+	}	
+	
 	"speed1"
 	{
 		"controlName" "CTFImagePanel"
@@ -966,9 +973,10 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"cs-0.5"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"600" //this needs to be bigger because it raises during the winpanel, hard-coded
+		"proportionaltoparent"	"1"
 	}
 
 	FreezePanelCallout

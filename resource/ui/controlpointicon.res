@@ -132,6 +132,15 @@
 		"fillcolor"				"SolarTeamBLU"
 		"PaintBackgroundType"	"0"
 	}
+	
+	"CapHighlightImage" //idk what to do with this but I'm adding it for later maybe
+	{
+		"ControlName"	"CControlPointIconSwoop"
+		"fieldName"		"CapHighlightImage"
+//		"xpos"			"9999"
+//		"alpha"			"0"
+		"image" "../sprites/obj_icons/capture_highlight"
+	}
 
 	"CapNumPlayers"
 	{	
