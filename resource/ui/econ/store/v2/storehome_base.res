@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 180"
-		"infocus_bgcolor_override" "0 0 0 180"
-		"outoffocus_bgcolor_override" "0 0 0 180"
+		"bgcolor_override"	"0 0 0 0"
+		"infocus_bgcolor_override" "0 0 0 0"
+		"outoffocus_bgcolor_override" "0 0 0 0"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
@@ -314,13 +314,13 @@
 			"scaleImage"		"1"
 			"font"			"HudFontSmallestBold"
 			
-			"fgcolor"	"124 114 99 255"
-			"defaultBgColor_override" "38 35 33 255"
-			"defaultFgColor_override" "124 114 99 255"
-			"armedBgColor_override" "30 30 30 255"
-			"armedFgColor_override" "124 114 99 255"
-			"selectedBgColor_override" "10 10 10 255"
-			"selectedFgColor_override"	"235 227 203 255"
+			"fgcolor"	"0 0 255 255"
+			"defaultFgColor_override"         "White"
+			"defaultBgColor_override"         "Black"
+			"armedFgColor_override"           "Black"
+			"armedBgColor_override"           "White"
+			"selectedBgColor_override" "80 80 80 255"
+			"selectedFgColor_override"	"White"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -358,6 +358,16 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"         "White"
+		"defaultBgColor_override"         "Black"
+		"armedFgColor_override"           "Black"
+		"armedBgColor_override"           "White"
+		"selectedBgColor_override" "80 80 80 255"
+		"selectedFgColor_override"	"White"
+		"depressedBgColor_override" "80 80 80 255"
+		"depressedFgColor_override"	"White"
+		"disabledfgcolor2_override"	"128 128 128 255"
 	}		
 	
 	"CurPageLabel"
@@ -401,6 +411,16 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"         "White"
+		"defaultBgColor_override"         "Black"
+		"armedFgColor_override"           "Black"
+		"armedBgColor_override"           "White"
+		"selectedBgColor_override" "80 80 80 255"
+		"selectedFgColor_override"	"White"
+		"depressedBgColor_override" "80 80 80 255"
+		"depressedFgColor_override"	"White"
+		"disabledfgcolor2_override"	"128 128 128 255"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -419,6 +439,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"	"White"
 	}
 	
 	"CartButton"
@@ -442,6 +463,15 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"         "White"
+		"defaultBgColor_override"         "Black"
+		"armedFgColor_override"           "Black"
+		"armedBgColor_override"           "White"
+		"selectedBgColor_override" "80 80 80 255"
+		"selectedFgColor_override"	"White"
+		"depressedBgColor_override" "80 80 80 255"
+		"depressedFgColor_override"	"White"
 	}
 	
 	"CartImage"
@@ -506,7 +536,16 @@
 		"default"		"1"
 		"Command"		"marketplace"
 		"paintbackground"	"1"
-		"defaultBgColor_override" "46 43 42 255"
+		
+		"defaultFgColor_override"         "White"
+		"defaultBgColor_override"         "Black"
+		"armedFgColor_override"           "Black"
+		"armedBgColor_override"           "White"
+		"selectedBgColor_override" "80 80 80 255"
+		"selectedFgColor_override"	"White"
+		"depressedBgColor_override" "80 80 80 255"
+		"depressedFgColor_override"	"White"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

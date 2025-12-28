@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 180"
-		"infocus_bgcolor_override" "0 0 0 180"
-		"outoffocus_bgcolor_override" "0 0 0 180"
+		"bgcolor_override"	"0 0 0 0"
+		"infocus_bgcolor_override" "0 0 0 0"
+		"outoffocus_bgcolor_override" "0 0 0 0"
 		
 		"max_cart_model_panels"	"10"
 		
@@ -765,7 +765,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ReloadSchemeButton"
 		"xpos"			"c0"
-		"ypos"			"330"
+		"ypos"			"30"
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"

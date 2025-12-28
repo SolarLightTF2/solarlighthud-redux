@@ -128,6 +128,13 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"fgcolor"	"Black"
+				
+				"defaultFgColor_override"         "Black"
+				"defaultBgColor_override"         "White"
+
+				"armedFgColor_override"           "White"
+				"armedBgColor_override"           "Black"
 			}	
 			
 			"PriceLabel"
@@ -146,7 +153,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "White"
 			}
 
 			"PreviewItemLabel"
@@ -165,7 +172,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%preview_item%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "White"
 			}
 		}
 	}
@@ -224,36 +231,85 @@
 		"enabled"		"1"
 	}	
 	
-	"bglineblu"
+	"BLU_TOP"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bglineblu"
+		"fieldName"		"BLU_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"p0.5"
+		"fillcolor"		"69 75 87 255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_blu"
-		"scaleImage"	"1"
-		"alpha"			"255"
-		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
-	}	
+	}
 	
-	"bglinered"
+	"RED_BOTTOM"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bglinered"
+		"fieldName"		"RED_BOTTOM"
 		"xpos"			"0"
 		"ypos"			"c0"
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"p0.5"
+		"fillcolor"		"100 63 56 255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_red"
+		"proportionaltoparent"	"1"
+	}
+	
+	"bgline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgline"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-99"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+	}
+	
+	"Ultrawide_Left"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Ultrawide_Left"
+		"xpos"			"c-2400"
+		"ypos"			"0"
+		"zpos"			"-96"
+		"wide"			"2000"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu_bg/mann_co_store_gap_color_only"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+	}		
+	"Ultrawide_Right"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Ultrawide_Right"
+		"xpos"			"c400"
+		"ypos"			"0"
+		"zpos"			"-96"
+		"wide"			"2000"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu_bg/mann_co_store_gap_color_only"
 		"scaleImage"	"1"
 		"alpha"			"255"
 		"mouseinputenabled"	"0"
@@ -264,10 +320,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"bggap"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"-10"
 		"zpos"			"-98"
-		"wide"			"f0"
+		"wide"			"814"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -278,22 +334,22 @@
 		"proportionaltoparent"	"1"
 	}	
 	
-	"bggradient"
+	"bgseperatorbar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bggradient"
-		"xpos"			"0"
-		"ypos"			"40"
-		"zpos"			"-99"
-		"wide"			"f0"
-		"tall"			"f80"
+		"fieldName"		"bgseperatorbar"
+		"xpos"			"cs-0.5"
+		"ypos"			"-50"
+		"zpos"			"-97"
+		"wide"			"814"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"training/gradient_black"
+		"image"			"replay/thumbnails/bgshapes/store_broken_seperator_bar"
 		"scaleImage"	"1"
-		"alpha"			"200"
+		"alpha"			"255"
 		"mouseinputenabled"	"0"
-		"drawcolor"        "120 0 0 255"    
+		"proportionaltoparent"	"1"
 	}	
 
 	"ClientArea"
@@ -383,6 +439,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
+			"fgcolor"	"White"
 		}
 		
 		"ItemListContainerScroller"
@@ -395,7 +452,7 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"White"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"0 0 0 0"
 			"autohide_buttons" "1"
 			
@@ -463,7 +520,7 @@
 					"ControlName"	"EditablePanel"
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
-					"tall"			"110"
+					"tall"			"65"
 					"bgcolor_override"	"0 0 0 0"	
 					
 					"EstimatedTotalLabel"
@@ -482,6 +539,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
+						"fgcolor"	"White"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
@@ -499,7 +557,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor"	"White"
 					}
 					"TotalSubtextLabelB"
 					{
@@ -517,7 +575,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor"	"White"
 					}
 					
 					"TotalPriceLabel"
@@ -536,7 +594,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override"	"White"
 					}
 					
 				}

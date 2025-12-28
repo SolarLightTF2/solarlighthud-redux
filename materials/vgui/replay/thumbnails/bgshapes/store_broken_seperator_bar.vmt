@@ -1,11 +1,10 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/menu_bg/mann_co_store_gap_horizontal"
+	"$basetexture" "vgui/replay/thumbnails/bgshapes/store_broken_seperator_bar"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
-	"$vertexalpha" 1
 }
 

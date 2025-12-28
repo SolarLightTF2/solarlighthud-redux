@@ -63,10 +63,10 @@
 		"enabled"		"1"
 	}	
 	
-	"bgline"
+	"bgblack"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bgline"
+		"fieldName"		"bgblack"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
@@ -74,29 +74,27 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_blu"
+		"image"			"replay/thumbnails/menu_bg/mann_co_store_gap_color_only"
 		"scaleImage"	"1"
-		"alpha"			"255"
 		"mouseinputenabled"	"0"
 	}	
 	
-	"bggradient"
+	"bgvalvelogo"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bggradient"
+		"fieldName"		"bgvalvelogo"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"c96"
 		"zpos"			"-99"
 		"wide"			"f0"
-		"tall"			"f80"
+		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"training/gradient_black"
-		"scaleImage"	"1"
-		"alpha"			"200"
+		"image"			"replay/thumbnails/menu_bg/store_valve_logo_looping"
+		"scaleImage"	"0"
 		"mouseinputenabled"	"0"
-		"drawcolor"        "0 0 120 255"    
-	}	
+		"alpha"			"20"
+	}
 	
 	"Sheet"
 	{
@@ -124,7 +122,7 @@
 			"font"				"SLBoldSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"defaultBgColor_override"	"43 43 43 255"
 			"paintbackground"	"0"
 			"activeborder_override"	"BorderTanDarkCornersVerySmall"
 			"normalborder_override" "BorderBlackCornersVerySmall"
