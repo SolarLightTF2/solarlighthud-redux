@@ -51,22 +51,22 @@
 			"continued_velocity"	"1"
 		}
 	}
-	
-	"BGHeader"
+
+	"bgline"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BGFooter"
+		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-15"
 		"wide"			"f0"
-		"tall"			"40"
-		"fillcolor"		"TanDark"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+
 		"consume_mode"
 		{
 			"visible"	"0"
@@ -79,10 +79,10 @@
 		"fieldName"		"bg"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-15"
+		"zpos"			"-16"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"		"TanDarker"
+		"fillcolor"		"20 20 20 255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -93,30 +93,6 @@
 			"visible"	"0"
 		}
 	}	
-	
-	"bggradient"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"bggradient"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-14"
-		"wide"			"f-20"
-		"tall"			"f-20"
-		"drawcolor"     "100 75 128 255"    
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"training/gradient_black"
-		"alpha"			"230"
-		"proportionaltoparent"	"1"
-		
-		"consume_mode"
-		{
-			"visible"	"0"
-		}
-	}
 	
 	"ModelBG"
 	{
