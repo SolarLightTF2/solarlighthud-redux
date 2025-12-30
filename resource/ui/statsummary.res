@@ -40,7 +40,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/loadingbars2048"
-		"scaleImage"	"1"				
+		"scaleImage"	"1"			
+		"drawcolor"		"TanDarker"
 	}
 	
 	"BackgroundEdit"

@@ -21,7 +21,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"46 43 44 255"
+		"bgcolor_override"	"TanDarker"
 	//	"visible"		"1"
 	}
 	

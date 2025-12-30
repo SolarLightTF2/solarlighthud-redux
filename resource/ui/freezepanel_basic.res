@@ -126,6 +126,7 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/bgshapes/SHAPES_HP_BG_NOCLASS"
 			"scaleImage"	"1"	
+			"drawcolor"		"TanDarker"
 		}
 
 		"FreezeLabelKiller"
@@ -296,6 +297,7 @@
 		"image"			"replay/thumbnails/loadingbars2048"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
+		"drawcolor"		"TanDarker"
 	}
 	
 	"VictoryLabel" 
