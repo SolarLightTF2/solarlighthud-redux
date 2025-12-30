@@ -5,27 +5,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGHeader"
 		"xpos"			"0"
-		"ypos"			"r25"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"25"
-		"fillcolor"		"TanDarkerTransparent"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	
-	"BGFooter"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGFooter"
-		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
@@ -40,6 +19,22 @@
 		{
 			"visible"		"0"
 		}
+	}
+
+	"BGFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGFooter"
+		"xpos"			"0"
+		"ypos"			"r25"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"25"
+		"fillcolor"		"TanDarkerTransparent"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 //HEADER STUFF
@@ -155,7 +150,6 @@
 		
 		if_mvm
 		{
-			"ypos"			"9999"
 		}
 
 		"KillsLabel"

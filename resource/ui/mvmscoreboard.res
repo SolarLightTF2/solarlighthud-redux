@@ -22,10 +22,10 @@
 		"font"			"Futura16"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
-		"xpos"			"c-263"
-		"ypos"			"20"
+		"xpos"			"c-260"
+		"ypos"			"86"
 		"wide"			"160"
-		"tall"			"40"
+		"tall"			"18"
 		"wrap"			"1"
 		"fgcolor"		"TanLight"
 	}
@@ -34,8 +34,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c100"
-		"ypos"			"30"
+		"xpos"			"c110"
+		"ypos"			"86"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
@@ -46,12 +46,13 @@
 			"fieldName"		"DifficultyLabel"
 			"font"			"Futura12"
 			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"center"
+			"textAlignment"	"east"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"10"
 			"fgcolor"		"TanLight"
+			"visible"		"0"
 		}
 		
 		"DifficultyValue"
@@ -60,11 +61,11 @@
 			"fieldName"		"DifficultyValue"
 			"font"			"Futura16"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
+			"textAlignment"	"east"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"0"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"18"
 			"fgcolor"		"TanLight"
 		}
 	}
@@ -73,22 +74,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"25"
-		"ypos"			"75"
-		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"150"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"scaleImage"		"1"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
 	}
 	
 	"MvMPlayerList"
@@ -96,7 +83,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-265"
-		"ypos"			"79"
+		"ypos"			"99"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -113,7 +100,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"c-200"
-		"ypos"			"230"
+		"ypos"			"250"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
@@ -144,14 +131,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Futura24"
+			"font"			"SLItalicMediumSmall"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"8"
-			"ypos"			"8"
-			"wide"			"100"
+			"xpos"			"0"
+			"ypos"			"6"
+			"wide"			"f0"
 			"tall"			"25"
+			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
+			"proportionaltoparent"	"1"
 		}
 		
 		"PreviousWaveCreditInfoPanel"

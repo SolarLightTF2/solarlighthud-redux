@@ -67,7 +67,7 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamBox2"
+	"BlueTeamBox2" //disabled in mvm
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueTeamBox2"
@@ -102,16 +102,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		if_mvm
 		{
-			"xpos"			"c-265"
-			"wide"			"530"
-			"ypos"			"c-160"
-			"tall"			"3"
+			"visible"	"0"
 		}
 	}
-	"RedTeamBox2"
+	"RedTeamBox2" //not used for mvm
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBox2"
@@ -129,9 +126,50 @@
 		
 		if_mvm
 		{
-			"xpos"			"c-265"
-			"wide"			"530"
-			"ypos"			"c-160"
+			"visible"	"0"
+		}
+	}
+	
+	"MvMTeamBox"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMTeamBox"
+		"xpos"			"c-265"
+		"ypos"			"c-152"
+		"zpos"			"1"
+		"wide"			"530"
+		"tall"			"14"
+		"fillcolor"		"SolarTeamRED"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"	"1"
+		}
+	}
+	
+	"MvMTeamBox2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMTeamBox2"
+		"xpos"			"c-265"
+		"ypos"			"c-140"
+		"zpos"			"0"
+		"wide"			"530"
+		"tall"			"140"
+		"fillcolor"		"0 0 0 0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
+		"visible"		"0"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"	"1"
 		}
 	}
 	"MvMCreditsBox"
@@ -139,11 +177,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMCreditsBox"
 		"xpos"			"c-200"
-		"ypos"			"c-10"
-		"zpos"			"0"
+		"ypos"			"c10"
+		"zpos"			"1"
 		"wide"			"400"
-		"tall"			"2"
-		"fillcolor"		"SolarTeamRED"
+		"tall"			"3"
+		"fillcolor"		"SaleGreen"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -159,13 +197,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMCreditsBox2"
 		"xpos"			"c-200"
-		"ypos"			"c-10"
+		"ypos"			"c10"
 		"zpos"			"0"
 		"wide"			"400"
-		"tall"			"148"
-		"fillcolor"		"0 0 0 75"
+		"tall"			"134"
+		"fillcolor"		"0 0 0 0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
 		"visible"		"0"
 		"enabled"		"1"
 
@@ -592,8 +631,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"r40"
 			"visible"		"1"
+			"textAlignment"		"center"
 		}
 	}
 	"TimerBG"
@@ -735,11 +775,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Futura12"
-		"bgcolor_override"    "TanDarkerTransparent"
+		"bgcolor_override"    "0 0 0 0"
 		"auto_wide_tocontents"	"1"
 		"centerwrap"	"0"
 		"textinsetx"	"0"
 		"textAlignment"	"center"
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
 		
 		"colors"
 		{
@@ -769,6 +810,11 @@
 		"tabPosition"			"0"	
 		"fillcolor"				"SolarTeamBLU"
 		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"ypos"					"60"
+		}
 	}
 
 	"SpectatorsInQueue"
