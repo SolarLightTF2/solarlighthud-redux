@@ -14,5 +14,6 @@
 		"image"			"replay/thumbnails/bgshapes/SHAPES_HP_BG"
 		"image_minmode"			"replay/thumbnails/bgshapes/SHAPES_HP_BG_NOCLASS"
 		"scaleImage"	"1"	
+		"drawcolor"		"TanDarker"
 	}
 }
