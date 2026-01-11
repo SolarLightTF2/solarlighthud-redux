@@ -205,44 +205,24 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
-		
-		"Background"
-		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"c-150"
-			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
+		"visible"		"1"
 	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
 			"font"			"HudFontSmall"
-			"textAlignment"	"center"
+			"textAlignment"	"south"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-150"
-			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"xpos"			"c-140"
+			"ypos"			"374"
+			"wide"			"280"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"tanlight"		
+			"border"		"BorderTargetIDTanDarker"
+			"textinsety"	"-30"
 		}
 	}
-	
 }
