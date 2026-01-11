@@ -29,6 +29,8 @@ Scheme
 		"PDHUDPurple"		"94 56 120 255"
 		"PDHUDGreen"		"53 75 26 255"
 		"PDHUDBlood"		"132 40 40 255"
+		
+		//scoreboard color
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -379,7 +381,7 @@ Scheme
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"235 226 202 32" //scoreboard local player bg color
 
 		Slider.NobColor				"108 108 108 255"
 		Slider.TextColor			"127 140 127 255"
