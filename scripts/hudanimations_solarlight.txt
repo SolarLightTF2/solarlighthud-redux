@@ -452,6 +452,8 @@ event HudMatchStatus_ShowMatchStartDoors //CASUAL MATCH STARTS, CLOSE DOORS AND 
 	Animate PreGameVSStarTanDarker xpos "c-125" Linear 0 0
 	Animate PreGameVSStarTanDarker ypos "c-125" Linear 0 0
 	Animate PreGameVSStarTanDarker alpha "255" Linear 0 0
+	Animate PreGameVSTextOnly xpos "0"	Linear 0 0
+	Animate PreGameVSTextOnly ypos "0"	Linear 0 0
 	
 	//Slide in
 	Animate PreGameVSStar xpos "c-125" Linear 0 0.3
