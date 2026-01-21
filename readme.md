@@ -280,6 +280,6 @@ MINOR TWEAKS/FIXES:
 * Fixed additional time gained not appearing next to the timer.
 * Fixed a CTF HUD issue when there are no flags present (on Attack-Defend/CTF hybrid maps like ctf\_haarp).
 * Attempted to fix incorrect health/ammo color when respawning.
-* Fixed MvM/Casual pre-game timer cutting off. (Casual still needs work)
+* Fixed MvM/Casual pre-game timer cutting off.
 * Fixed \[unknown] label appearing on item inspect panels when spectating or dead in a tournament match
 * (In-progress) Fixed forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
