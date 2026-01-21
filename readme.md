@@ -3,11 +3,9 @@
 Known issues:
 
 * HUD is not designed with ultrawide in mind. I will probably have to make new menu backgrounds to account for this
-* No buttons present in customization menu. Commands must be executed manually via launching customization.cfg and then looking for the commands within it (beneath //Actual changes for each section)
+* Some buttons present in customization menu. Commands must be executed manually via launching customization.cfg and then looking for the commands within it (beneath //Actual changes for each section)
 * Many placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic"
 * Some tip text is probably too long and probably cuts off while loading, especially in 4:3
-* HUD meters are completely jank due to the distinction that needs to be made between the multiple "HUD modes" (Default/Centered/Classic). I tried remaking them but it doesn't look great yet. Would ignore for now, this is something for me to do
-* anything in the issues tab atm
 
 Below this is the intended readme
 
@@ -38,15 +36,16 @@ Join the SolarLight Discord for updates: [https://discord.gg/solarlight](https:/
 
 Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.com/sounds/71875)
 
+Consistent Kill Icons: [https://gamebanana.com/mods/591386](https://gamebanana.com/mods/591386)
 
 
 # Known issues
 
 * ~~Pip-boy Engineer HUD does not work correctly~~ temp reuse of the default engie ui
-* Main menu casual/competitive medal does not like certain resolutions
 * Menu backgrounds do not support ultrawide
+* Need to optimize by removing unused elements
 
-I will fix these issues whenever I have time.
+To fix, or not to fix? That is the question.
 
 
 
@@ -54,10 +53,13 @@ I will fix these issues whenever I have time.
 
 # MAJOR:
 
+* Added a startup video. Remove -novid from your launch options if you're curious.
+	* If you're using -novid in your launch options, there is a main menu button to view it anyway.
+	* If it stutters, switch to windowed mode or windowed borderless mode.
 * Completely overhauled the HUD! By default, it is essentially a brand new one, with a similar layout to TF2's default HUD, and lots of new shapes.
 * You can still play with the "classic" layout by enabling it in the Customization menu.
 * Added a Customization Menu! More details in the "CUSTOMIZATION" section.
-* Replaced all of the in-game tips with over 130 Demoknight-related tips. English only.
+* Replaced all of the in-game tips with over 200 custom ones, most of which are for Demoknight. English only.
 * Added new fonts, used all over the HUD.
 * Tons of fonts are now sporting a thick outline for better visibility (plus it looks cool). This actually inspired my videos, not the other way round.
 * Minmode has been updated. See the "Minmode" section for more details.
@@ -87,9 +89,9 @@ I will fix these issues whenever I have time.
 
 
 
-* Default HUD mode resembles the TF2 vanilla HUD layout, with HP and ammo in the corners of the screen.
-* Centered HUD mode moves HP and ammo closer to the middle, similar to Middlemann or Counter Strike 2's HUD layout.
-* Classic HUD mode turns HP and ammo into floating numbers in the middle of the screen. This resembles the 2018 "SolarLightHUD Classic" HUD layout from 2018, and is more suitable for competitive / serious play.
+  * *Default HUD mode* resembles the TF2 vanilla HUD layout, with HP and ammo in the corners of the screen.
+  * *Centered HUD mode* moves HP and ammo closer to the middle, similar to Middlemann or Counter Strike 2's HUD layout.
+  * *Classic HUD mode* turns HP and ammo into floating numbers in the middle of the screen. This resembles the 2018 "SolarLightHUD Classic" HUD layout from 2018, and is more suitable for competitive / serious play.
 
 
 
@@ -110,10 +112,9 @@ I will fix these issues whenever I have time.
 * Added the new Mann Co. Catalog buttons from that one October 2025 GitHub patch.
 * Added custom war paint inspection menu. Some buttons were "borrowed" from Wiethoofd's greenscreen war paint menu and then edited to not be too derivative.
 * Advanced Options screen has also been updated to take on a similar appearance to the new Customization screen.
-* Gave the Mann Co. Store a basic menu reskin for now.
-* The hint buttons in the loadout screens now show relevant custom HUD tips instead of default TF2 tips.
+* Mann Co. Store has been updated. The terrors of greed.
 * Fixed issues regarding the backpack page buttons added in Summer 2024.
-* Raised quality of item icons by adding "inventory\_image\_type" "1" to several itemmodelpanels (this does not affect every single menu yet).
+* Raised quality of item icons by adding "inventory\_image\_type" "1" to several itemmodelpanels.
 * New popup for pending alerts when in the loadout/backpack/etc.
 * Panel that appears when queuing has been updated.
 * Added button sounds to... buttons.
@@ -137,7 +138,6 @@ I will fix these issues whenever I have time.
 * Health, ammo and other central HUD elements have been lowered/adjusted by a tiny bit to make more room for the TargetID and to account for font changes.
 * Re-added the health cross to the HP, smaller, to the left.
 * Reduxed Engineer building HUD.
-* Temporarily removed team goal UI from hudlayout.res until I finish a smaller version.
 * Moved text and voice chat
 * Moved the health pickup notification text.
 * Damage indicators are now using the small ones present in many other HUDs. The old Quake-Champions-inspired ones were quite big.
@@ -153,8 +153,9 @@ I will fix these issues whenever I have time.
 
 # CASUAL MODE:
 
-* New "round begins" text for Casual mode (replaces the 3D sign model that appears on round start)
-* New post-game summary screen for Casual mode
+* Reintroduced the doors. The 3D models are replaced with 2D assets and custom animations.
+* New "round begins" text for Casual mode (replaces the 3D sign model that appears on round start).
+* New post-game summary screen for Casual mode.
 
 
 
@@ -203,7 +204,8 @@ I will fix these issues whenever I have time.
 
 * Updated Stickybomb counter with a new icon.
 * Updated Engineer metal count with a team-colored icon.
-* Items that use counters now have new icons.
+* New meters, contributed by Techno.
+* Items that use counters now have new icons (joint effort between me and Techno)
 
 
 
@@ -223,8 +225,8 @@ I will fix these issues whenever I have time.
 * Slight visual and color update.
 * Moved server info and player stats to the top and bottom of the screen.
 * (In-progress) Added an option for 6v6 and 9v9 scoreboards.
-* The option to show/hide player stats through editing the .res file has been removed, in favor of the new customizations menu. (In-progress)
-* Use the above option if you don't like the new borders at the top/bottom. (In-progress)
+* The option to show/hide player stats through editing the .res file has been removed, in favor of the new customizations menu.
+  * There is also a new option for just showing Kills, Deaths and Assists while hiding the top and bottom bars.
 * Fixed missing Casual medals - a bug that appeared in Scream Fortress 2024.
 * New, fixed-up duel UI. No longer breaks!
 
@@ -233,10 +235,11 @@ I will fix these issues whenever I have time.
 # GAMEMODES:
 
 * Added support for Versus Saxton Hale Vscript.
-* Added custom boss health bars for VSH, Halloween, and Carrier (todo: MvM)
+* Added custom boss health bars for VSH, Halloween, Carrier and MvM.
 * Added support for Arena Mode. This includes both the original Arena maps and certain Vscript maps in the official Casual rotation.
 * Added support for Player Destruction with a new HUD. Timer changes color depending on the map, since PD lets me do that.
 * Added support for Cowerhouse's flank route countdown HUD.
+* Added support for bumper car minigames.
 * Reduxed CTF HUD, with consideration for mutators like Mannpower, Special Delivery and Haarp.
 * Reduxed PASS Time HUD. Customization menu includes a 4v4 version with no "bonus" meter, and a "ball only" mode, also intended for 4v4 gameplay.
 * Minmodes are included for each PASS Time HUD, each one varying slightly depending on which option you picked. (TODO: Default PASS Minmode)
@@ -271,12 +274,12 @@ MINMODE:
 
 MINOR TWEAKS/FIXES:
 
+* Many minor bugfixes that I've forgotten by now.
+* Ran the HUD through Cueki's HUD Normalizer.
 * Fixed font scaling issues that were introduced in Scream Fortress 2024.
 * Fixed additional time gained not appearing next to the timer.
-* (In-progress) Updated tournament mode HUD.
 * Fixed a CTF HUD issue when there are no flags present (on Attack-Defend/CTF hybrid maps like ctf\_haarp).
 * Attempted to fix incorrect health/ammo color when respawning.
 * Fixed MvM/Casual pre-game timer cutting off. (Casual still needs work)
 * Fixed \[unknown] label appearing on item inspect panels when spectating or dead in a tournament match
 * (In-progress) Fixed forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
-* (In-progress) Reduxed the killcam HUD. The old one was an unfinished mess. Currently broken on steamdeck still, needs fix.
