@@ -381,7 +381,7 @@
 		"xpos"			"c-233"
 		"ypos"			"360"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -482,7 +482,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		"border"			"BorderBlackCornersVerySmall"
+		"border"			"BorderBlackCornersVerySmall" //seems inconsistent. adding another panel below didn't fix it either. might be hardcoded
 		
 		"attriblabel"
 		{

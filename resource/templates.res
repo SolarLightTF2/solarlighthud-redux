@@ -43,3 +43,55 @@
 //  = 0x03 (ETX)
 //  = 0x04 (EOT)
 //  = 0x05 (ENQ)
+
+	"CheckButtonToggle"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CheckButtonToggle"
+		"xpos"					"20"
+		"ypos"					"100"
+		"zpos"					"16"
+		"wide"					"150"
+		"tall"					"26"
+		"visible"				"1"
+		"enabled"				"1"
+		"proportionaltoparent"	"1"
+		
+		"CheckButton"
+		{
+			"controlName"					"CExButton"
+			"fieldName"						"CheckButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"150"
+			"tall"							"26"
+			"visible"						"1"
+			"enabled"						"1"
+			"labelText"						""
+			"command"						"engine toggle command"
+			"actionsignallevel"				"2"
+			"paintbackground"				"0"
+			"font"							"HudFontSmall"
+			"textAlignment"					"center"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+		
+		"Checkbox"
+		{
+			"ControlName"					"CvarToggleCheckButton"
+			"fieldName"						"Checkbox"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"150"
+			"tall"							"26"
+			"proportionaltoparent"			"1"
+			"font"							"HudFontSmall"
+			"labeltext"						"Command name label"
+			"textAlignment"					"west"
+			"smallcheckimage"				"1"
+			"button_activation_type"		"1"
+			"cvar_name"						"command"
+			"mouseinputenabled"				"0"
+		}
+	}

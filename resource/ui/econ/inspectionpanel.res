@@ -43,6 +43,18 @@
 		"text_forcesize"	"4"
 		"name_only"	"1"
 
+		"MainContentsContainer" //add the border to the namelabel
+		{
+			"ControlName"	"MainContentsContainer"
+
+			"namelabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"namelabel"
+				"border"		"BorderTanDarkerCornersVerySmall"
+			}
+		}
+			
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -59,8 +71,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-15"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"1000"
+		"tall"			"1000"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
@@ -73,7 +85,30 @@
 		}
 	}
 	
-	"bg"
+	"TF2LogoSpinner"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TF2LogoSpinner"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-15"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/tf2logo/tf2_logo_spinner_very_big"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+		"drawcolor"		"TanLight"
+
+		"consume_mode"
+		{
+			"visible"	"0"
+		}
+	}
+	
+	"bg" //blank BG needed because the line overlay is transparent
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"bg"
@@ -94,19 +129,42 @@
 		}
 	}	
 	
-	"ModelBG"
+	"UltrawideBlockerLeft"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ModelBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"fieldName"		"UltrawideBlockerLeft"
+		"xpos"			"c-2400"
+		"ypos"			"0"
 		"zpos"			"-14"
-		"wide"			"600"
-		"tall"			"300"
+		"wide"			"2000"
+		"tall"			"f0"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"border"		"BorderTanDarkerCornersVerySmall"
+		"proportionaltoparent"	"1"
+		
+		"consume_mode"
+		{
+			"visible"	"0"
+		}
+	}	
+	
+	"UltrawideBlockerRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"UltrawideBlockerRight"
+		"xpos"			"c400"
+		"ypos"			"0"
+		"zpos"			"-14"
+		"wide"			"2000"
+		"tall"			"f0"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		
 		"consume_mode"
@@ -365,7 +423,7 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"fillcolor"		"0 0 0 200"
+			"fillcolor"		"10 10 10 255"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -722,13 +780,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"fixed_item"
+			"consume_mode"
 			{
-				"ypos"		"50"
-			}
-			"fixed_paintkit"
-			{
-				"ypos"		"30"
+				"ypos"			"35"
 			}
 		}
 		

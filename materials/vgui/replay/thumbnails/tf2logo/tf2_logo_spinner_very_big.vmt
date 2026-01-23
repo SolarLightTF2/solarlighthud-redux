@@ -1,0 +1,34 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/tf2logo/tf2_logo_spinner_very_big"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$vertexcolor" 1
+
+      	  "$angle" 0.0
+      	  "$translate" "[0.0 0.0]"
+      	  "$center" "[0.5 0.5]"
+
+      	  "Proxies"
+      	  {
+        	    "LinearRamp"
+         	   {
+          	      "rate" -3
+            	    "initialValue" 0.0
+             	   "resultVar" "$angle"
+          	  }
+
+           	 "TextureTransform"
+          	  {
+           	     "translateVar" "$translate"
+             	   "rotateVar" "$angle"
+              	  "centerVar" "$center"
+              	  "resultVar" "$basetexturetransform"
+          	  }
+        }
+}
+
+

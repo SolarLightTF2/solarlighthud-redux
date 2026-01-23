@@ -45,32 +45,45 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"SolarTeamBLU"
 
-			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_BLU"
+			"image"					"replay/thumbnails/bgshapes/octagon_white"
 		}
 
 		OctagonBGRED
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"SolarTeamRED"
 
-			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_RED"
+			"image"					"replay/thumbnails/bgshapes/octagon_white"
 		}
 
 		OctagonBGTANDARK
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"TanDark"
 
-			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_TANDARK"
+			"image"					"replay/thumbnails/bgshapes/octagon_white"
 		}
 
 		OctagonBGTANDARKER
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"TanDarker"
 
-			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_TANDARKER"
+			"image"					"replay/thumbnails/bgshapes/octagon_white"
+		}
+		
+		OctagonBGLargeTANDARKER
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"TanDarker"
+
+			"image"					"replay/thumbnails/bgshapes/octagon_white_large"
 		}
 
 		SolarPassTimeCarrierPanel
@@ -918,7 +931,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"replay/thumbnails/borders/border_black_corners"
+			"image"					"replay/thumbnails/borders/econ_border"
 			"src_corner_height"		"20"				// pixels inside the image
 			"src_corner_width"		"20"
 
