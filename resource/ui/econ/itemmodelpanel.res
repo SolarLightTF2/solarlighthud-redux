@@ -127,7 +127,7 @@
 			"ypos"			"28"
 			"zpos"			"2"
 			"wide"			"35"
-			"tall"			"10"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -135,8 +135,7 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"border"		"BorderBlackCornersVerySmall"
 		}
 	
 		"paint_icon"
@@ -161,8 +160,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"12"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -170,8 +169,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"border"		"BorderBlackCornersVerySmall"
 		}
 
 		"serieslabel"
@@ -182,8 +180,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"14"
-			"tall"			"10"
+			"wide"			"20"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -191,8 +189,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"border"		"BorderBlackCornersVerySmall"
 		}
 
 		"matcheslabel"
@@ -204,7 +201,7 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"20"
-			"tall"			"10"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -212,8 +209,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"border"		"BorderBlackCornersVerySmall"
 		}
 
 		"vision_restriction_icon"
