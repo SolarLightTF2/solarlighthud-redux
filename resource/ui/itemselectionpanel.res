@@ -34,7 +34,7 @@
 			"text_ypos"			"0"
 			"text_forcesize"	"2"
 			"text_center"		"0"
-			"text_yoffset"		"2"
+			"text_yoffset"		"-1"
 			"inset_eq_y"		"55"
 
 			"deferred_description"	"1"
@@ -53,18 +53,30 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_xpos"	"2"
-			"model_ypos"	"5" 
+			"model_center_x"		"1"
+			"model_ypos"			"5"
 			"model_wide"	"50"
 			"model_tall"	"35"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"name_only"		"1"
+			"text_wide"		"100"
+			"text_ypos"				"0"
+			"text_forcesize"		"0"
+			"text_center"			"0"
+			"text_yoffset"			"-1"
+			"name_only"				"1"
+			"standard_text_color"	"0"
 			
-			"inset_eq_x"	"4"
-			"inset_eq_y"	"2"
+			"MainContentsContainer" //add the border to the namelabel
+			{
+				"ControlName"	"MainContentsContainer"
 
-			"deferred_description"	"1"
+				"namelabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"namelabel"
+					"font"			"ItemFontNameLarge"
+					"border"		"BorderTanDarkerCornersTransparentVerySmall" //I can't get the bottom corners to work consistently so I'm using tandarker so that it perfectly blends in with the tandarker box behind it
+				}
+			}
 			
 			"itemmodelpanel"
 			{
@@ -259,7 +271,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"SLBoldSmall"
-		"labelText"		"#PrimaryWeapon"
+		"labelText"		"#Item"
 		"textAlignment"	"south"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -371,10 +383,10 @@
 		"labelText"		"#OnlyAllowUniqueQuality"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-306"
-		"ypos"			"340"
+		"xpos"			"c-90"
+		"ypos"			"380"
 		"zpos"			"1"
-		"wide"			"290"
+		"wide"			"180"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

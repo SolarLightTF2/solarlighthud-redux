@@ -44,17 +44,24 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TanLight"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_center_x"	"1"
-			"model_ypos"		"5"			
-			"model_tall"		"55"
-			"model_wide"		"82"
-			"text_ypos"			"54"
-			"text_center"		"1"
-			"name_only"			"1"
+			"model_center_x"		"1"
+			"model_ypos"			"5"
+			"model_tall"			"55"
+			"model_wide"			"82"
+			"text_wide"		"140"
+			"text_ypos"				"0"
+			"text_forcesize"		"0"
+			"text_center"			"0"
+			"text_yoffset"			"-1"
+			"name_only"				"1"
+			"standard_text_color"	"0"
+
+
+
 			
 			"attriblabel"
 			{
@@ -62,12 +69,29 @@
 				"visible"		"0"
 			}
 			
+			"MainContentsContainer" //add the border to the namelabel
+			{
+				"ControlName"	"MainContentsContainer"
+
+				"namelabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"namelabel"
+					"font"			"ItemFontNameLarge"
+					"border"		"BorderTanDarkerCornersTransparentVerySmall" //I can't get the bottom corners to work consistently so I'm using tandarker so that it perfectly blends in with the tandarker box behind it
+					"textAlignment"	"south"
+				}
+			}
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"inventory_image_type"	"1"
 				"allow_rot"				"0"
+				"name_label_alignment" "7"   // added: 7 == a_south (bottom)
 			}
+			
+			"inset_eq_y"	"0"
 		}
 
 		"itemoptionpanels_kv"

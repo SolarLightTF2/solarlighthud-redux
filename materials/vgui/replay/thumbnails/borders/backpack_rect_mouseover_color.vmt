@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\borders\backpack_rect_mouseover_color"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
+
