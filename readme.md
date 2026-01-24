@@ -122,7 +122,8 @@ To fix, or not to fix? That is the question.
 * Added button sounds to... buttons.
 * New pop-up warnings (abandon/disconnect, delete item, etc.)
 * New borders when mousing over items in the loadout/backpack.
-
+* New screen for crafting chemistry sets / killstreak fabricators
+* New item model panels (loadout / backpack item display)
 
 
 # IN-GAME MENUS
