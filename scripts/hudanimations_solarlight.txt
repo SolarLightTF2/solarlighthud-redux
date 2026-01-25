@@ -70,8 +70,6 @@ event FlagOutlineHide //runs on every map load?
 
 event SpawnAnim
 {
-//	SetVisible CustomShaderOverlayHudLayout 1 0
-//	SetVisible CustomShaderOverlayHudLayout 0 0.25
 }
 
 event HPSpawnAnim
