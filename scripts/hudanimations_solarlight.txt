@@ -65,6 +65,7 @@ event CompetitiveGame_RestoreChatWindow //runs on every spawn
 event FlagOutlineHide //runs on every map load?
 {
 	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
+	RunEventChild HudMatchStatus HudTournament_DoorsCleanup 0
 }
 
 event SpawnAnim
@@ -689,4 +690,56 @@ event HudTournament_DoorsCleanup
 
 	Animate RedTeamPanel xpos r-5 Accel 0 0
 	Animate BlueTeamPanel xpos -155 Accel 0 0
+}
+
+//Tradeup letter, fixed starting position of the LetterBack elements being too high (lowered to 500, default is 400)
+
+event CollectionCrafting_Intro
+{
+	// Reset
+	SetVisible ApplyStampButton		0					0
+	SetVisible Stamp				0					0
+	Animate Stamp					xpos c140	Accel	0 0
+	Animate DrawingPanel			xpos c0		Accel	0 0
+	Animate DrawingPanel			wide 0		Accel	0 0
+	Animate LetterFront				xpos c0		Accel	0 0
+	Animate LetterFront				wide 0		Accel	0 0
+	Animate LetterBack_Top		xpos c-250	Accel	0 0
+	Animate LetterBack_Top		ypos 500	Accel	0 0
+	Animate LetterBack_Top		wide 500	Accel	0 0
+	Animate LetterBack_Bottom		xpos c-250	Accel	0 0
+	Animate LetterBack_Bottom		ypos 500	Accel	0 0
+	Animate LetterBack_Bottom		wide 500	Accel	0 0
+	Animate LetterBack_Flap			xpos c-250	Accel	0 0
+	Animate LetterBack_Flap			ypos 500	Accel	0 0
+	Animate LetterBack_Flap			wide 500	Accel	0 0
+	Animate LetterBack_Flap			tall 0		Deaccel 0.6 0.4
+	Animate LetterBack_Top			ypos 500	Accel	0 0
+	SetVisible ReturnModel			0					0
+	Animate SendEvelopeButton		ypos 280	Accel	0 0
+	SetVisible	SendEvelopeButton		 0				0 
+	SetVisible ResponseTimeout		0					0
+	SetVisible WaitingForResponse	0					0
+
+	SetVisible ShowExplanationsButton1			1					0
+	SetVisible ShowExplanationsButton2			0					0
+	Animate TradeUpContainer	wide 800	Accel 0 0	
+
+	// Slide paper down
+	Animate TradeUpContainer Position	"0 60"	Deaccel	0	0.3
+
+	// Slider BG up
+	Animate BG			Position	"0 34"	Deaccel	0	0.3
+
+	// Fade dimmer down
+	Animate Dimmer Alpha "255" Linear 0 0.4
+}
+
+//Map vote percentage text
+event MapVoted
+{
+	Animate VotesLabel	ypos	42		Deaccel 0	0.05
+	Animate VotesLabel	ypos	40		Deaccel 0.05 0.1
+	Animate VotesLabelStroke	ypos	42		Deaccel 0	0.05
+	Animate VotesLabelStroke	ypos	40		Deaccel 0.05 0.1
 }

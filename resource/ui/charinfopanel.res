@@ -260,7 +260,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
-	"NotificationsPresentPanel"
+	"NotificationsPresentPanel" //move this from ui/econ/notificationspresentpanel.res instead
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
