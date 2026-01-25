@@ -20,4 +20,24 @@
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
 		"holiday_restriction"	"christmas"
 	}
+	"basic_soldier"
+	{
+		"image"	"../console/characters/soldier_sepia"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+	}
+	"halloween_soldier"
+	{
+		"image"	"../console/characters/soldier_sepia"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_soldier"
+	{
+		"image"	"../console/characters/soldier_sepia"
+		"item_url"	"soldier"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Soldier"
+		"holiday_restriction"	"christmas"
+	}
 }
