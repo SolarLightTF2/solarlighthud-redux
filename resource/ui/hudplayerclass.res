@@ -35,11 +35,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"55"
+		"xpos"			"8"		[$WIN32]
+		"ypos"			"r55"	[$WIN32]
+		"zpos"			"3"
+		"wide"			"60"
+		"tall"			"60"
+		"xpos_minmode"			"13"	[$WIN32]
+		"ypos_minmode"			"r40"	[$WIN32]
+		"wide_minmode"			"40"
+		"tall_minmode"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
