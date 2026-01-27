@@ -271,19 +271,6 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"20"	[$WIN32] //old 10
-		"ypos"		"r125"	[$WIN32] //old r70
-		"zpos"		"-1" //old 0
-		"wide"		"500"
-		"tall"		"200"
-	}
-
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -384,8 +371,8 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"170"
-		"ypos"				"r90"
+		"xpos"				"c-180"
+		"ypos"				"-3"
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"100"
@@ -1055,9 +1042,9 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
+		"xpos"			"c-77"
+		"ypos"			"c-75"
+		"wide"			"154"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}

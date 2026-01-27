@@ -620,6 +620,7 @@
 			"zpos"			"3"
 			"font"			"SLBoldSmaller"
 			"visible"		"1"
+			"visible_minmode"	"0"
 		}
 
 		if_competitive
