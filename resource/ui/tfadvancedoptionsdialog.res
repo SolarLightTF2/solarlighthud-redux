@@ -58,56 +58,22 @@
 		"enabled"		"1"
 	}	
 		
-	"bg"
+	"bgline"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bg"
-		"xpos"			"c-427"
+		"fieldName"		"bgline"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"854"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/bananabay"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-	}	
-	
-	"bg2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bg2"
-		"xpos"			"c-427"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"854"
-		"tall"			"480"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/linebg"
 		"scaleImage"	"1"
+		"alpha"			"255"
 		"mouseinputenabled"	"0"
-		"alpha"			"100"
-	}	
-	
-	"bggradient"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bggradient"
-		"xpos"			"0"
-		"ypos"			"40"
-		"zpos"			"4"
-		"wide"			"f0"
-		"tall"			"f80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"training/gradient_black"
-		"scaleImage"	"1"
-		"alpha"			"200"
-		"mouseinputenabled"	"0"
-		"drawcolor"        "0 0 120 255"    
-	}	
+	}
 	
 	"TitleLabel"
 	{
