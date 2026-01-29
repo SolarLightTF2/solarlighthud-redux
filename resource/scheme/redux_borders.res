@@ -25,13 +25,22 @@ Scheme
 			"image"					"replay/thumbnails/borders/button/menu_button_flicker"
 		}
 		
-		ButtonFlickerWideSaleGreen
+		ButtonFlickerClassBLU
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"SaleGreen"
+			"color"					"SolarTeamBLU"
 
-			"image"					"replay/thumbnails/borders/button/menu_button_flicker"
+			"image"					"replay/thumbnails/borders/button/class_button_flicker"
+		}
+		
+		ButtonFlickerClassRED
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"SolarTeamRED"
+
+			"image"					"replay/thumbnails/borders/button/class_button_flicker"
 		}
 
 		//SHAPES

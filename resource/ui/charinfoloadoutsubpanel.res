@@ -267,7 +267,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -365,7 +365,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -463,7 +463,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -560,7 +560,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -657,7 +657,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -755,7 +755,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -852,7 +852,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -949,7 +949,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"
@@ -1046,7 +1046,7 @@
 
 		"border"			"noborder"
 		"border_default"	"noborder"
-		"border_armed"	"BorderTargetIDRED"
+		"border_armed"	"ButtonFlickerClassRED"
 		"paintbackground"	"1"
 			
 		"defaultFgColor_override" 	"0 0 0 0"

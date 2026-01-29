@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/borders/button/class_button_flicker"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "4"
+		}
+	}
+
+}
+

@@ -121,7 +121,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -219,7 +219,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -317,7 +317,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -414,7 +414,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -511,7 +511,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -609,7 +609,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -706,7 +706,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -803,7 +803,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
@@ -900,7 +900,7 @@
 
 			"border"			"noborder"
 			"border_default"	"noborder"
-			"border_armed"	"BorderTargetIDBLU"
+			"border_armed"	"ButtonFlickerClassBLU"
 			"paintbackground"	"1"
 				
 			"defaultFgColor_override" 	"0 0 0 0"
