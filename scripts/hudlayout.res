@@ -1172,8 +1172,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150" //move stuff over to the right by 60
-		"ypos"					"0"
+		"xpos"					"c-150"
+		"ypos"					"12"
 		"wide"					"300"
 		"tall"					"100"
 	}
