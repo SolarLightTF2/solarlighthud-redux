@@ -287,7 +287,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/borders/border_tandarker_corners"
+		"image"			"replay/thumbnails/borders/border_tandarker_corners"
 		"scaleImage"	"1"
 		"src_corner_height"		"20"				// pixels inside the image
 		"src_corner_width"		"20"
@@ -310,7 +310,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/borders/border_tandarker_corners"
+		"image"			"replay/thumbnails/borders/border_tandarker_corners"
 		"scaleImage"	"1"
 		"alpha"			"230"
 		"src_corner_height"		"20"				// pixels inside the image

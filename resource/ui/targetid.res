@@ -54,7 +54,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/borders/border_tandark_corners"
+		"image"			"replay/thumbnails/borders/border_tandark_corners"
 		"scaleImage"	"1"
 		"src_corner_height"		"20"				// pixels inside the image
 		"src_corner_width"		"20"
