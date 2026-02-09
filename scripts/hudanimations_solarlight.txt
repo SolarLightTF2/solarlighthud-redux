@@ -60,6 +60,7 @@ event CompetitiveGame_RestoreChatWindow //runs on every spawn
 	RunEventChild HudPlayerClass ClassSpawnAnim 0.1
     RunEventChild HudWeaponAmmo AmmoSpawnAnim 0.1
 	RunEventChild HudMatchStatus HudTournament_DoorsCleanup 2.6 //this animation freezes when respawning, make everything invis. but not immediately, since players respawn during the door shut sequence
+	SetVisible	PostGameBGColor	0	1
 }
 
 event FlagOutlineHide //runs on every map load and every respawn, not ideal for hiding casual postgame bg :(
