@@ -721,7 +721,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/menu_bg/very_optimized_60fps_line_warp"
+				"image"			"replay/thumbnails/menu_bg/line_warp"
 				"scaleImage"	"0"
 				"tileImage"		"1"
 				"proportionaltoparent"	"0"
