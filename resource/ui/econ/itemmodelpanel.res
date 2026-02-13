@@ -59,7 +59,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"useparentbg"		"0"
+			"useparentbg"		"1"
 		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
@@ -68,8 +68,6 @@
 			"start_framed"		"1"
 
 			"disable_manipulation"	"1"
-			
-			"border"		"BorderTargetIDRED"
 
 			"model"
 			{
