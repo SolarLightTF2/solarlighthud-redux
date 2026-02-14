@@ -1,4 +1,4 @@
-#base "hudmatchstatus_def.res"
+#base "../hudmatchstatus/hudmatchstatus_def.res"
 
 "resource/ui/hudmatchstatus.res"
 {
@@ -31,7 +31,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Futura20"
 			"fgcolor"		"TanLight"
-			"xpos"			"175"
+			"xpos"			"183"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
