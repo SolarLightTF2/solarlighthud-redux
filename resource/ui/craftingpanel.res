@@ -66,7 +66,6 @@
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
-					"inventory_image_type" "1"
 					"allow_rot"				"0"
 				}
 			
@@ -75,10 +74,10 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"namelabel"
 					"xpos"			"0"
-					"ypos"			"20"
+					"ypos"			"0"
 					"zpos"			"2"
 					"wide"			"50"
-					"tall"			"10"
+					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -116,7 +115,7 @@
 		}
 		
 		"filter_xoffset"	"-290"
-		"filter_ypos"		"60"
+		"filter_ypos"		"70"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
 		
@@ -190,8 +189,8 @@
 		"fillcolor"		"TanDarker"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"proportionaltoparent"	"1"
 	}	
 	
@@ -230,7 +229,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"FuturaItalic16"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -242,7 +241,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"255 255 255 255"
 			"wrap"			"1"
 		}
 		
@@ -262,7 +261,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"255 255 255 255"
 			"wrap"			"1"
 		}
 	
@@ -282,7 +281,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"255 255 255 255"
 		}
 		"OutputLabel"
 		{
@@ -300,7 +299,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"CraftButton"
@@ -382,14 +381,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"recipecontainerscroller"
-		"xpos"			"p0.05"
-		"ypos"			"100"
+		"xpos"			"c-290"
+		"ypos"			"110"
 		"zpos"			"5"
-		"wide"			"p0.4"
+		"wide"			"280"
 		"tall"			"240"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
-		"bgcolor_override"	"0 0 0 00"
+		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
 	"recipecontainer"
@@ -470,7 +469,6 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -504,7 +502,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
