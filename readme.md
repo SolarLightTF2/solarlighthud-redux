@@ -71,7 +71,7 @@ To fix, or not to fix? That is the question.
 
 * The Main Menu, among other screens, have been completely overhauled.
 * Open the server browser or host your own server directly from the main menu screen.
-* Matchmaking button has been moved to the top next, next to the party avatar images.
+* Matchmaking button has been moved to the top left, next to the party avatar images.
 * Friends list is now hidden by default, and opened with a button on the main menu.
 * Menu now features custom SFM character images.
 * Implemented a Dimmer Fix (prevents the darkening effect from cutting off near the bottom of the screen when choosing a matchmaking mode/map)
