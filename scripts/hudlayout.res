@@ -20,6 +20,33 @@
 		"alpha" "0"
 	}	
 	
+	"CustomShaderOverlay"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-10000"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/sepia"
+		"visible"		"0"
+	}
+	
+	"BGColor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"BGColor"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-9999"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"bgcolor_override"		"177 146 101 150"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+	
 	"speed1"
 	{
 		"controlName" "CTFImagePanel"

@@ -700,9 +700,9 @@
 			"armedfgColor_override" "0 0 0 0"
 			"depressedfgColor_override" "0 0 0 0"
 			
-			"defaultbgColor_override" "0 0 0 64"
-			"armedbgColor_override" "0 0 0 64"
-			"depressedbgColor_override" "0 0 0 64"
+			"defaultbgColor_override" "0 0 0 32"
+			"armedbgColor_override" "0 0 0 32"
+			"depressedbgColor_override" "0 0 0 32"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"

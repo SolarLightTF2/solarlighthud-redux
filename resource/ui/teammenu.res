@@ -27,6 +27,37 @@
 		"image"			"replay/thumbnails/shaders/sepia"
 	}
 	
+	"BGColor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"BGColor"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-9999"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"bgcolor_override"		"177 146 101 150"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"DX8MenuDarken"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX8MenuDarken"
+		"visible" "0"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-13"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "180"
+		"image" "replay/thumbnails/shaders/DX8MenuDarken"
+		"scaleimage" "1"
+	}
+	
 	"DX9MenuDarken"
 	{
 		"controlName" "CTFImagePanel"
@@ -122,16 +153,11 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
-		"teambg_1"		"replay/thumbnails/linebg_transparent"
-		"teambg_2"		"replay/thumbnails/linebg_red_transparent"
-		"teambg_2_lodef"	"replay/thumbnails/linebg_red_transparent"
-		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
-		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
-		"alpha"			"150"
+		"alpha"			"255"
 		"mouseinputenabled"	"0"
-	}		
+	}	
 	
 	"BGBar"
 	{
@@ -354,41 +380,55 @@
 		"enabled"		"0"
 	}		
 	
-	"VSStar"
+	"VSStar_Rotate_BG"
 	{
 		"ControlName"	"ImagePanel"		
-		"fieldName"		"VSStar"
-		"xpos"			"c-13"
-		"ypos"			"89"
+		"fieldName"		"VSStar_Rotate_BG"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5-139"
 		"zpos"			"3"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"98"
+		"tall"			"98"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"glyph_achievements"
+		"image"			"replay/thumbnails/bgshapes/winpanel_star_bg"
 		"scaleImage"	"1"
-		"drawcolor" "TanLight"
+		"drawcolor" "TanDarker"
+		"proportionaltoparent"	"1"
 	}
 	
-	"VSLabel"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"VSLabel"
-		"font"			"Futura16"
-		"xpos"			"c-10"
-		"ypos"			"91"
+	"VSStar_Rotate_FG"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"		"VSStar_Rotate_FG"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5-139"
 		"zpos"			"4"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"wide"			"89"
+		"tall"			"89"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"vs."
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"fgcolor_override"	"CreditsGreen"
+		"image"			"replay/thumbnails/bgshapes/winpanel_star_fg"
+		"scaleImage"	"1"
+		"drawcolor" "TanLight"
+		"proportionaltoparent"	"1"
+	}
+	
+	"VSText"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"		"VSText"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.48-139"
+		"zpos"			"5"
+		"wide"			"33"
+		"tall"			"33"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bgshapes/arena_vs_text_only"
+		"scaleImage"	"1"
+		"drawcolor" "255 255 255 255"
+		"proportionaltoparent"	"1"
 	}
 	
 	"BlueCountIcon"
@@ -411,10 +451,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-165"
-		"ypos"			"90"
+		"ypos"			"87"
 		"zpos"			"4"
 		"wide"			"150"
-		"tall"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -433,10 +473,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCountShadow"
 		"xpos"			"c-165"
-		"ypos"			"90"
+		"ypos"			"87"
 		"zpos"			"3"
 		"wide"			"150"
-		"tall"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -470,10 +510,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c15"
-		"ypos"			"90"
+		"ypos"			"87"
 		"zpos"			"4"
 		"wide"			"150"
-		"tall"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -492,10 +532,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c15"
-		"ypos"			"90"
+		"ypos"			"87"
 		"zpos"			"3"
 		"wide"			"150"
-		"tall"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -805,7 +845,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarSpectateButton"
-		"xpos"			"c-75"
+		"xpos"			"c20"
 		"ypos"			"c160"
 		"zpos"			"6"
 		"wide"			"150"
@@ -820,18 +860,30 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkerCornersVerySmall"
+		"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 	
 	"SolarAutoSelectButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarAutoSelectButton"
-		"xpos"			"c-260"
+		"xpos"			"c-170"
 		"ypos"			"c160"
 		"zpos"			"6"
 		"wide"			"150"
@@ -846,19 +898,31 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam auto"
-		"font"			"Futura20"
-
+		"font"			"SLBoldMediumSmaller"
+		
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkerCornersVerySmall"
+		"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 	
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c110"
-		"ypos"			"c160"
+		"xpos"			"20"
+		"ypos"			"r35"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -872,11 +936,23 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkerCornersVerySmall"
+		"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 }
 

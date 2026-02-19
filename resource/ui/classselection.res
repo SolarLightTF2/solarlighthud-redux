@@ -62,6 +62,20 @@
 		"image"			"replay/thumbnails/shaders/sepia"
 	}
 	
+	"BGColor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"BGColor"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-9999"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"bgcolor_override"		"177 146 101 150"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	"DX8MenuDarken"
 	{
 		"controlName" "CTFImagePanel"
@@ -74,7 +88,7 @@
 		"wide" "f0"
 		"tall" "f0"
 
-		"alpha" "240"
+		"alpha" "180"
 		"image" "replay/thumbnails/shaders/DX8MenuDarken"
 		"scaleimage" "1"
 	}
@@ -173,16 +187,11 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
-		"teambg_1"		"replay/thumbnails/linebg_transparent"
-		"teambg_2"		"replay/thumbnails/linebg_red_transparent"
-		"teambg_2_lodef"	"replay/thumbnails/linebg_red_transparent"
-		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
-		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
-		"alpha"			"150"
+		"alpha"			"255"
 		"mouseinputenabled"	"0"
-	}
+	}	
 	
 	"class"
 	{
@@ -327,9 +336,38 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"				"9999"
-		"visible"			"0"
-		"enabled"			"0"	
+		"xpos"			"20"
+		"ypos"			"r35"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Cancel_NoKey"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"vguicancel"
+		"font"			"SLBoldMediumSmaller"
+		
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkerCornersVerySmall"
+		"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
