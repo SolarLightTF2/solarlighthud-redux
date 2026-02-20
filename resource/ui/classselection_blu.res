@@ -13,7 +13,7 @@
 			"zpos"			"-5"
 			"wide"			"f0"
 			"tall"			"180"
-			"fillcolor"		"104 124 155 20"
+			"fillcolor"		"104 124 155 70"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -60,22 +60,6 @@
 			"pin_to_sibling"	"YouLabel"
 			"pin_corner_to_sibling"		"4"
 			"pin_to_sibling_corner"		"4"
-		}
-		
-		"DrawHintIcon"
-		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"DrawHintIcon"
-			"xpos"			"2"
-			"ypos"			"32"
-			"zpos"			"-2"
-			"wide"			"26"
-			"tall"			"26"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"backpack_jewel_paint_splatter"
-			"scaleImage"	"1"
-			"drawcolor" "SolarTeamBLU"
 		}
 		"ScoutDeselected" //button texture when deselected, is a non-functioning image
 		{

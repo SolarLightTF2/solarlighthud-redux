@@ -13,7 +13,7 @@
 			"zpos"			"-5"
 			"wide"			"f0"
 			"tall"			"180"
-			"fillcolor"		"155 104 104 20"
+			"fillcolor"		"155 104 104 70"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

@@ -18,21 +18,27 @@
 	
 	"CustomShaderOverlay"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CustomShaderOverlay"
 		"xpos"		    "0"
 		"ypos"		    "0"
 		"zpos"		    "-10000"
 		"wide"		    "f0"
 		"tall"		    "480"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/sepia"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/shaders/persona_sepia"
+		"teambg_1"		"replay/thumbnails/shaders/persona_sepia"
+		"teambg_2"		"replay/thumbnails/shaders/redux_red"
+		"teambg_3"		"replay/thumbnails/shaders/redux_blue"
 	}
 	
 	"DX8MenuDarken"
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "DX8MenuDarken"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"xpos" "0"
 		"ypos" "0"
@@ -49,7 +55,7 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "DX9MenuDarken"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"xpos" "0"
 		"ypos" "0"
@@ -119,23 +125,18 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
-		"teambg_1"		"replay/thumbnails/linebg_transparent"
-		"teambg_2"		"replay/thumbnails/linebg_red_transparent"
-		"teambg_2_lodef"	"replay/thumbnails/linebg_red_transparent"
-		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
-		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
 		"alpha"			"150"
 		"mouseinputenabled"	"0"
-	}	
+	}		
 	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"c-210"
-		"ypos"			"80"
+		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"420"
 		"tall"			"32"
@@ -165,7 +166,7 @@
 		"fieldName"		"TFTextMessage"
 		"font"			"Futura12"
 		"xpos"			"c-208"
-		"ypos"			"125"
+		"ypos"			"145"
 		"zpos"			"1"
 		"wide"			"416"
 		"tall"			"240"
@@ -183,7 +184,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Box1"
 		"xpos"			"c-210"
-		"ypos"			"75"
+		"ypos"			"95"
 		"zpos"			"0"
 		"wide"			"420"
 		"tall"			"295"
@@ -216,24 +217,76 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c-75"
-		"ypos"			"r100"
-		"zpos"			"6"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"okedit" //had to make a new button to use custom borders
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"okedit"
+		"xpos"			"r170"
+		"ypos"			"r35"
+		"zpos"			"100"
 		"wide"			"150"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#TF_Continue"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		"brighttext"	"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmaller"
+		"fgcolor"		"TanLight"
+		
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkerCornersVerySmall"
+		"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		"border_armed"		"BorderTanDarkCornersVerySmall"
+	}
+	
+	"ContinueButton" // not ok
+	{
+		"controlname"	"CExButton"
+		"xpos"			"r165"
+		"ypos"			"r40"
+		"zpos"			"32767" // 3 makes button invisible			32767 max zpos before disappearing
+		"wide"			"130"
+		"tall"			"30"
+		"labeltext"		"#TF_Continue"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
+		"command"		"okay"
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"border_selected"	"MainMenuButtonDepressed"
+		"border_disabled"	"MainMenuButtonDisabled"
+		"paintbackground"	"0"
+
+		"visible"		"0"
+	//	"fgcolor"					"Black"
+		"defaultfgcolor_override"	"Black"
 	}
 	
 	"okfast" //continue but you can press E, doesn't need to be visible but needs visible 1 to work

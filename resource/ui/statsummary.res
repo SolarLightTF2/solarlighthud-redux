@@ -44,6 +44,43 @@
 		"drawcolor"		"TanDarker"
 	}
 	
+	"TFLogoSpinner"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogoSpinner"
+		"xpos"			"r40"
+		"ypos"			"15"
+		"zpos"			"20007"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/tf2logo/tf2_logo_spinner"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		"drawcolor"		"TanLightTransparent"
+	}
+	
+	"NowLoading"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Title"
+		"font"			"SLBoldMediumSmaller"
+		"labelText"		"#Redux_Loading"
+		"textAlignment"	"east"
+		"xpos"			"r345"
+		"ypos"			"15"
+		"zpos"			"20007"
+		"wide"			"300"
+		"tall"			"25"
+		"textinsetx"	"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "TanLightTransparent"
+	}
+	
 	"BackgroundEdit"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,6 +108,43 @@
 		"visible"	"0"
 		"enabled"	"1"
 		"bgcolor_override"	"TanDarker"
+	
+		"TFLogoSpinner"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TFLogoSpinner"
+			"xpos"			"r40"
+			"ypos"			"15"
+			"zpos"			"20007"
+			"wide"			"25"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/tf2logo/tf2_logo_spinner"
+			"scaleImage"	"1"
+			"mouseinputenabled"	"0"
+			"drawcolor"		"TanLightTransparent"
+		}
+		
+		"NowLoading"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Title"
+			"font"			"SLBoldMediumSmaller"
+			"labelText"		"#Redux_Loading"
+			"textAlignment"	"east"
+			"xpos"			"r345"
+			"ypos"			"15"
+			"zpos"			"20007"
+			"wide"			"300"
+			"tall"			"25"
+			"textinsetx"	"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override" "TanLightTransparent"
+		}
 	
 		"BackgroundEdit"
 		{
