@@ -80,4 +80,24 @@
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Scout"
 		"holiday_restriction"	"christmas"
 	}
+	"basic_heavy"
+	{
+		"image"	"../console/characters/heavy_sepia"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+	}
+	"halloween_heavy"
+	{
+		"image"	"../console/characters/heavy_sepia"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_heavy"
+	{
+		"image"	"../console/characters/heavy_sepia"
+		"item_url"	"heavy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Heavy"
+		"holiday_restriction"	"christmas"
+	}
 }
