@@ -227,6 +227,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -235,6 +236,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -276,6 +278,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"2"
 			{
@@ -284,6 +287,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"3"
 			{
@@ -292,6 +296,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"4"
 			{
@@ -300,6 +305,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"5"
 			{
@@ -308,6 +314,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 		}
 
@@ -320,6 +327,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"2"
 			{
@@ -328,6 +336,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"3"
 			{
@@ -336,6 +345,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"4"
 			{
@@ -344,6 +354,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 			"5"
 			{
@@ -352,6 +363,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
+				"antialias" 	"1"
 			}
 		}
 
@@ -417,10 +429,8 @@ Scheme
 
 		FrameBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			
-			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
+			// the game never asks for this panel in chatscheme, bummer -solar
+			"backgroundtype" "2"
 		}
 
 		DepressedBorder
@@ -431,7 +441,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -440,7 +450,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -470,7 +480,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -488,7 +498,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -810,12 +820,12 @@ Scheme
 		"2"		"resource/hl2ep2.ttf"		
 		"3"
 		{
-			"font" "resource/fonts/futura.ttf"
+			"font" "resource/scheme/fonts/futura.ttf"
 			"name" "futurano2d_demibold"
 		}
 		"4"
 		{
-			"font" "resource/fonts/asimov.otf"
+			"font" "resource/scheme/fonts/asimov.otf"
 			"name" "asimov"
 		}
 	}
