@@ -789,16 +789,16 @@
 		"item_tall"	"24"
 		
 		"show_avatar"		"1"
-		"avatar_xpos"			"-13"
+		"avatar_xpos"			"-6"
 		"avatar_ypos"			"0"
 		"avatar_wide"			"24"
 		"avatar_tall"			"24"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
+		"dead_xpos"			"-2"
+		"dead_ypos"			"6"
+		"dead_wide"			"13"
+		"dead_tall"			"13"
 		
 		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
