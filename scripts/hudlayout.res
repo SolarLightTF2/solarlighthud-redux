@@ -29,22 +29,8 @@
 		"wide"		    "f0"
 		"tall"		    "480"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/sepia"
+		"image"			"replay/thumbnails/shaders/redux_sepia"
 		"visible"		"0"
-	}
-	
-	"BGColor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"BGColor"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"		    "-9999"
-		"wide"		    "f0"
-		"tall"		    "480"
-		"bgcolor_override"		"177 146 101 150"
-		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"speed1"
@@ -65,6 +51,7 @@
 		"image" "replay/thumbnails/speedo/speed1"
 		"scaleimage" "1"
 	}
+	
 	"speed2"
 	{
 		"controlName" "CTFImagePanel"
@@ -387,8 +374,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-180"
-		"ypos"				"-3"
+		"xpos"				"-3"
+		"xpos_minmode"				"18"
+		"ypos"				"r113"
+		"ypos_minmode"				"r93"
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"100"
@@ -800,16 +789,16 @@
 		"item_tall"	"24"
 		
 		"show_avatar"		"1"
-		"avatar_xpos"			"-13"
+		"avatar_xpos"			"-6"
 		"avatar_ypos"			"0"
 		"avatar_wide"			"24"
 		"avatar_tall"			"24"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
+		"dead_xpos"			"-2"
+		"dead_ypos"			"6"
+		"dead_wide"			"13"
+		"dead_tall"			"13"
 		
 		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
@@ -932,7 +921,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"

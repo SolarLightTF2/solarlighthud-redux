@@ -228,6 +228,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			""
@@ -237,8 +239,11 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"visible"		"0"
 			"enabled"		"0"
+			"alpha"			"0"
 		}
 		"MoveableSymbolIcon"
 		{

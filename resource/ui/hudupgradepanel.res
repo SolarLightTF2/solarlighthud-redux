@@ -260,7 +260,7 @@
 			"fieldName"		"MouseOverTabPanel"
 			"xpos"			"14"
 			"ypos"			"9"
-			"zpos"			"-2"
+			"zpos"			"-3"
 			"wide"			"72"
 			"tall"			"54"
 			"autoResize"	"0"

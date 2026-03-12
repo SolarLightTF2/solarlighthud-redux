@@ -836,11 +836,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Futura12"
-		"bgcolor_override"    "TanDarkerTransparent"
+		"bgcolor_override"    "0 0 0 0"
 		"auto_wide_tocontents"	"1"
 		"centerwrap"	"0"
 		"textinsetx"	"0"
 		"textAlignment"	"center"
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
 		
 		"colors"
 		{

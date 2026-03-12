@@ -59,15 +59,51 @@
 		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-100"
+		"zpos"			"-13"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg"
-		"scaleImage"	"1"
-		"alpha"			"255"
+		"image"			"replay/thumbnails/menu_bg/line_warp"
+		"scaleImage"	"0"
+		"tileImage"	"1"
 		"mouseinputenabled"	"0"
+		"drawcolor"     "0 0 0 64"  
+	}	
+	
+	"bggradient"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bggradient"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-14"
+		"wide"			"f-20"
+		"tall"			"f-20"
+		"drawcolor"     "32 32 32 255"    
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"training/gradient_black"
+		"alpha"			"150"
+		"proportionaltoparent"	"1"
+	}	
+	
+	"bgcolorsolid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgcolorsolid"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"TanDark"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	"TopBar"
@@ -101,23 +137,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
-	"BGDarken"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-50"
-		"wide"			"f0"
-		"tall"			"f0"
-		"fillcolor"		"0 0 0 120"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
 	
 	"classimageoutline"
 	{
@@ -166,15 +185,33 @@
 		"fgcolor_override"	"Orange"
 	}
 	
+	"TitleAnchor"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TitleAnchor"
+		"xpos"					"c0"
+		"ypos"					"75"
+		"zpos"					"6"
+		"wide"					"0"
+		"tall"					"0"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"SolarTeamBLU"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"SLBoldSmall"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"75"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -182,6 +219,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"auto_wide_tocontents"	"1"
+		"textinsetx"	"40"
+		"textinsety"	"6"
+		"border"		"BorderTargetIDTanDarker"
+
+		"pin_to_sibling"	"TitleAnchor"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 	
 	"ItemCountLabel"
@@ -239,6 +285,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextitem"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -262,6 +309,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"previtem"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -287,8 +335,21 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 		"default"		"1"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 	"OpenLoadoutButton"
 	{
@@ -310,8 +371,21 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"changeloadout"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 	
 	"DiscardButton"

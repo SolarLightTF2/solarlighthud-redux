@@ -13,7 +13,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 		"textinsetx"	"20"
 	}	
@@ -32,7 +32,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 		"textinsetx"	"20"
 		"pin_to_sibling"	"Currency"

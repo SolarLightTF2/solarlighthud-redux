@@ -19,8 +19,8 @@ Scheme
 	    
 	    "TFTanLightBright"          "235 226 202 90"
 	    "TFTanLightDark"            "90 90 90 90"
-	    
 	    "TFOrangeBright"            "178 82 22 255"
+		"Orange"			"255 155 0 255"
 	    
 	    "TFTextBright"              "235 226 202 150"
 	    "TFTextLight"               "TanLight"
@@ -40,7 +40,7 @@ Scheme
 		"ControlBG"			"76 76 76 255"		// background color of controls
 		"ControlDarkBG"		"117 107 94 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"46 43 42 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"255 213 0 255"	// background color of any selected text or menu item
+		"SelectionBG"		"76 107 34 255"	// background color of any selected text or menu item. - RECOLORED GREEN FOR REDUX SERVER BROWSER
 		"SelectionBG2"		"46 43 42 255"		// selection background in window w/o focus
 		"ListBG"			"46 43 42 255"		// background of server browser, buddy list, etc.
 	}
@@ -55,13 +55,27 @@ Scheme
 		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
 		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
+		Button.TextColor				"TanLight"
 		Button.BgColor					"TFTanLight"
 		Button.ArmedTextColor			"TFDarkBrown"
 		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
+		Button.DepressedTextColor		"TFDarkBrown"	//pressing leftclick
+		Button.DepressedBgColor			"TFTanLight"	//pressing leftclick	
 		Button.FocusBorderColor			"TransparentBlack"
+		
+		//server browser tabs
+		PropertySheet.TextColor			"TanLight"
+		PropertySheet.SelectedTextColor	"TanLight"
+		PropertySheet.TransitionEffectTime	"0.1"	// time to change from one tab to another
+		
+		//Tiny text in options menu (e.g. "Movement")
+		SectionedListPanel.HeaderTextColor	"TanLight"
+		
+		//Options menu list text color
+		SectionedListPanel.BrightTextColor	"TanLight"
+		
+		//Options menu selected BG Green
+		SectionedListPanel.SelectedBgColor	"76 107 34 255"
 		
 		CheckButton.TextColor			"TFTextBright"
 		CheckButton.SelectedTextColor		"TFTextBright"
@@ -92,15 +106,17 @@ Scheme
 		FrameTitleButton.FgColor		"TFTanBright"
 		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
 		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
+		FrameTitleBar.DisabledTextColor	"TFTanBright"
 		
-		Label.TextDullColor				"TFTextDull"
+		Label.TextDullColor				"TFTextBright"
 		Label.TextColor					"TFTextBright"
 		Label.TextBrightColor			"TFTextBright"
 		Label.SelectedTextColor			"TFTextBright"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
+
+		//Somewhere in here contains the text colors for when a button is disabled
+		Label.BgColor					"0 0 0 0"
+		Label.DisabledFgColor1			"TanDarker"	
+		Label.DisabledFgColor2			"TanDarker"	
 		
 		ListPanel.TextColor					"TFTextBright"
 		ListPanel.BgColor					"ListBG"
@@ -115,7 +131,7 @@ Scheme
 		Menu.FgColor			"TFTextLight"
 		Menu.BgColor			"ListBG"
 		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.ArmedBgColor		"76 107 34 255"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"TFDarkBrown"
@@ -134,9 +150,9 @@ Scheme
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
 		
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		TextEntry.TextColor			        "TFTextBright" //dropdown boxes (such as "include" on the server browser)
+		TextEntry.DisabledTextColor	        "TanDark" //dropdown boxes when disabled ("team fortress 2")
+		TextEntry.SelectedBgColor	        "76 107 34 255" //dropdown boxes when selected
 		
 		PropertySheet.TransitionEffectTime    "0.0"
 	}
@@ -201,6 +217,18 @@ Scheme
 			}
 		}
 		
+		"SimplifiedListMapTitle" //redux
+		{
+			"1"
+			{
+				"name"		"futurabt_extrablack"
+				"tall"		"25"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"DefaultLarge"
 		{
 			"1"
@@ -221,6 +249,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"40"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"HUDNumber1"
@@ -230,6 +259,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"41"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"HUDNumber2"
@@ -239,6 +269,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"42"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"HUDNumber3"
@@ -248,6 +279,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"43"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"HUDNumber4"
@@ -257,6 +289,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"44"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"HUDNumber5"
@@ -266,6 +299,7 @@ Scheme
 				"name"		"futurano2d_demibold"
 				"tall"		"45"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		
@@ -358,6 +392,80 @@ Scheme
 				"name"		"asimov"
 				"tall"		"17"
 				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"UiBold"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"asimov"
+				"tall"		"12"
+				"weight"	"1000"
+				"antialias" "1"
+			}
+		}
+		
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [$X360]
+				"name"		 "Verdana" [$POSIX]
+				"tall"		"11" [$OSX]
+				"tall"		"14" [$LINUX]
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Italic" [$OSX]
+				"tall"		"16"
+				"weight"	"500"
+				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana Bold" [$POSIX]
+				"tall"		"16"
+				"weight"	"900"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana Bold Italic" [$POSIX]
+				"tall"		"16"
+				"weight"	"900"
+				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -370,6 +478,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -378,6 +487,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -531,18 +641,23 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/futura.ttf"
+			"font" "resource/scheme/fonts/futura.ttf"
 			"name" "futurano2d_demibold"
 		}
 		"8"
 		{
-			"font" "resource/fonts/asimov.otf"
+			"font" "resource/scheme/fonts/asimov.otf"
 			"name" "asimov"
 		}
 		"9"
 		{
-			"font" "resource/fonts/futura_extra_black_italic.ttf"
+			"font" "resource/scheme/fonts/futura_extra_black_italic.ttf"
 			"name" "futura_extra_black_italic"
+		}
+		"10"
+		{
+			"font" "resource/scheme/fonts/futurabt_extrablack.ttf"
+			"name" "futurabt_extrablack"
 		}
 	}
 }

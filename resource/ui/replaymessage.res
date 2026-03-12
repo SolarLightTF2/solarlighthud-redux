@@ -1,0 +1,60 @@
+"Resource/UI/ReplayMessage.res"
+{
+	"ReplayMessagePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ReplayMessagePanel"
+		"zpos"			"0"
+		"tall"			"0"
+		"wide"			"0"
+		"autoResize"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"ReplayLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ReplayLabel"
+		"font"			"Default"
+		"xpos"			"9"
+		"ypos"			"4"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"#Replay_ReplayMsgTitle"
+		"textAlignment"	"west"
+		"fgcolor"		"Blank"
+	}
+	"MessageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MessageLabel"
+		"font"			"Default"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"west"
+		"fgcolor"		"Blank"
+		"centerwrap"	"0"
+		"wrap"			"1"
+	}
+	"Icon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Icon"
+		"xpos"			"8"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ico_replay"
+		"scaleImage"	"1"	
+	}		
+}

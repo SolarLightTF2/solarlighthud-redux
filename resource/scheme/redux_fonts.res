@@ -2616,6 +2616,16 @@ Scheme
 			}
 		}
 
+		"SLItalicMediumSmaller"
+		{
+			"1"
+			{
+				"name"		"futura_extra_black_italic"
+				"tall"		"20"
+				"antialias" 	"1"
+			}
+		}
+		
 		"SLItalicMediumSmall"
 		{
 			"1"

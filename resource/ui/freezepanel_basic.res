@@ -253,24 +253,12 @@
 				"image"			"../hud/leaderboard_nemesis_freezecam"
 				"scaleImage"	"1"	
 			}		
-			"NemesisLabel"
+			"NemesisLabel" //EVIL. DIE
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"SLItalicMedium" //currently too big for "new nemesis"
-				"xpos"			"186"
-				"ypos"			"23"
-				"zpos"			"6"
-				"wide"			"112"
-				"tall"			"30"
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"visible_minmode"		"0"
-				"enabled"		"1"
-				"labelText"		"%nemesisname%"
-				"textAlignment"		"west"
-				"textinsetx"	"10"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 			"NemesisLabel2"
 			{	

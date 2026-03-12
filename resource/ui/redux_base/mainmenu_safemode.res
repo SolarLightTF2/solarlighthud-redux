@@ -1,3 +1,7 @@
+#base "../../../../solarlighthud-redux/resource/ui/redux_customization/folder_warning/hud_customization_folder_set.res"
+#base "../redux_customization/folder_warning/hud_customization_folder.res"
+
+
 //modified from loophud because lazy and dumb
 
 "resource/ui/mainmenuoverride.res"

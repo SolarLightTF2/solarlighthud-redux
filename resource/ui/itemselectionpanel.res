@@ -414,7 +414,7 @@
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"c-90"
-		"ypos"			"380"
+		"ypos"			"315"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"25"

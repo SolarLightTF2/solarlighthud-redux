@@ -49,6 +49,12 @@ event HudTournament_AnimateTeams_Out
 {
 }
 
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining	Position		"c-160 57"		Linear 0 0
+	Animate ObjectiveStatusTraining	Position		"c-160 47"		Bounce 0.0 2.0
+}
+
 event CompetitiveGame_LowerChatWindow
 {
 }

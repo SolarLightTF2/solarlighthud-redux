@@ -22,7 +22,9 @@ Below this is the intended readme
 
 A heavily modified version of the old SolarLightHUD from 2018, with tons of new HUD elements, fonts, colors, images, features and settings.
 
+# IMPORTANT NOTE FOR LINUX USERS:
 
+The fonts in this HUD are sized incorrectly on Linux, which breaks the outline effects. We've tried fixing this, but it appears to be a difficult task. To prevent further stalling, we've elected to release the HUD for Windows first, with the hope of fixing the Linux jank post-release. If anyone is interested in and capable of fixing the fonts for Linux, we will gladly accept any working pull requests, so long as they don't break things on Windows.
 
 # What does it look like?
 
@@ -49,7 +51,7 @@ To fix, or not to fix? That is the question.
 
 
 
-# REDUX PATCH NOTES (compared to old 2018 SolarLightHUD:
+# REDUX PATCH NOTES (compared to old 2018 SolarLightHUD):
 
 # MAJOR:
 
@@ -59,7 +61,6 @@ To fix, or not to fix? That is the question.
 * Completely overhauled the HUD! By default, it is essentially a brand new one, with a similar layout to TF2's default HUD, and lots of new shapes.
 * You can still play with the "classic" layout by enabling it in the Customization menu.
 * Added a Customization Menu! More details in the "CUSTOMIZATION" section.
-* Replaced all of the in-game tips with over 200 custom ones, most of which are for Demoknight. English only.
 * Added new fonts, used all over the HUD.
 * Tons of fonts are now sporting a thick outline for better visibility (plus it looks cool). This actually inspired my videos, not the other way round.
 * Minmode has been updated. See the "Minmode" section for more details.
@@ -96,7 +97,7 @@ To fix, or not to fix? That is the question.
 
 
 * Added an option to move chat to the top left. \[todo - menu button]
-* Added an option to change PASS Time's HUD to the one from MEME vs. META. \[todo - make this not the default one]
+* Added an option to change PASS Time's HUD to the one from MEME vs. META.
 
 
 
@@ -108,9 +109,9 @@ To fix, or not to fix? That is the question.
 * Matchmaking menus have been replaced with full-screen menus.
 * New scrolling background patterns for the loadout screen, backpack, class selection and other places.
 * Loadout screen now uses "allow\_manip", like many other custom HUDs. The layout has also been changed with vertical preset panels, and the class preview is larger.
-* New war paint inspection menus and redeem menus
-* New trade-up screen
-* Moved Casual rank display to the Stats screen. Thanks to DarSitam for letting me "borrow"...
+* New war paint inspection menus and redeem menus.
+* New trade-up screen.
+* Stats screen bars now only show time played per class. Other stats are prone to getting messed up in wacky community servers anyway.
 * Added the new Mann Co. Catalog buttons from that one October 2025 GitHub patch.
 * Added custom war paint inspection menu. Some buttons were "borrowed" from Wiethoofd's greenscreen war paint menu and then edited to not be too derivative.
 * Advanced Options screen has also been updated to take on a similar appearance to the new Customization screen.
@@ -118,12 +119,14 @@ To fix, or not to fix? That is the question.
 * Fixed issues regarding the backpack page buttons added in Summer 2024.
 * Raised quality of item icons by adding "inventory\_image\_type" "1" to several itemmodelpanels.
 * New popup for pending alerts when in the loadout/backpack/etc.
-* Panel that appears when queuing has been updated.
+* Panels that appear when queuing, being invited to a party, and finding matches have been reduxed.
 * Added button sounds to... buttons.
 * New pop-up warnings (abandon/disconnect, delete item, etc.)
 * New borders when mousing over items in the loadout/backpack.
 * New screen for crafting chemistry sets / killstreak fabricators
 * New item model panels (loadout / backpack item display)
+* New loading screens.
+* New bottom-right icon upon game launch.
 
 
 # IN-GAME MENUS
@@ -158,7 +161,9 @@ To fix, or not to fix? That is the question.
 
 * Reintroduced the doors. The 3D models are replaced with 2D assets and custom animations.
 * New "round begins" text for Casual mode (replaces the 3D sign model that appears on round start).
-* New post-game summary screen for Casual mode.
+* New post-game summary screen for Casual mode, including the map vote.
+* Choosing preferred maps in the menu is now fullscreen and easier to navigate.
+* Moved Casual rank display to the Stats screen. Thanks to DarSitam for letting me "borrow"...
 
 
 
@@ -172,10 +177,18 @@ To fix, or not to fix? That is the question.
 # COMPETITIVE PLAY (THIRD-PARTY LEAGUES ETC.)
 
 * Classlimits are more clearly visible in the class selection screen and have special colors.
-* Reduxed Tournament Mode and Stopwatch Mode (in-progress).
+* Reduxed Tournament Mode and Stopwatch Mode.
 * Reduxed tournament spectator UI.
 * Reduxed tournament mode ready-up UI.
-* (IDEA: Add useful resources in place of where Comp Matchmaking would otherwise be.)
+
+
+
+# TRAINING MODE:
+
+* Basic menu replacements.
+* Pop-up text bubbles now appear at the top of the screen to avoid conflicts with HP and ammo.
+* Pop-up annotations (such as those that point where to go, or shoot) have been tweaked as well.
+
 
 
 
@@ -194,13 +207,16 @@ To fix, or not to fix? That is the question.
 * The HUD now uses colors from TF2's color palette. No more solid white, no more oversaturated team colors, less solid black boxes with more brown instead.
 * Some instances of text now feature multi-color. English only.
 * Removed the white killfeed icons. This HUD is now compatible with other killfeed mods, such as the Consistent Kill Icons Pack.
+* This HUD is now designed for 1080p rather than 720p, which means several fixes were made on the positioning of certain HUD elements. This may not look right at lower resolutions anymore.
+* Several references to videos are sprinkled around the HUD.
+* Disabled constant pop-up nagging while in a replay-enabled server.
+
+# TEXT REPLACEMENTS:
+
+* Replaced all of the in-game tips with over 200 custom ones, most of which are for Demoknight. English only.
 * Some text edits were made to make things more concise, notably in PASS Time. (Thanks, flareshmoney!) English only. Some text panels may be too small in other languages.
 * Weapon quality names have been removed. You can re-enable them by removing the overrides I've made in chat\_english.txt (the file includes instructions at the top)
 * Some weapons now provide additional information in their descriptions. English only.
-* New loading screens.
-* This HUD is now designed for 1080p rather than 720p, which means several fixes were made on the positioning of certain HUD elements. This may not look right at lower resolutions anymore.
-* Several references to videos are sprinkled around the HUD.
-
 
 
 # WEAPONS / CLASSES
@@ -214,12 +230,14 @@ To fix, or not to fix? That is the question.
 
 # TIMER / MATCH STATUS
 
-* Match Status now features health bars as backgrounds behind the class images, making it a lot easier to see your team's HP at a glance.
+* Match Status was remade several times throughout development before finally settling on a remixed version of the SolarLightHUD Classic panels.
+* Overall size is smaller compared to SolarLightHUD Classic.
+* Options have been added to replace the small health bars with background-sized health bars, and to add player names.
 * New timer appearance, and borders on the player panels.
 * New respawn text appearance.
-* Added names to the player panels. (An option to turn it off may be added later.)
+* No custom animations. No plans to add the ones from MEME vs. META either, as they have a tendency to break. Even the default TF2 HUD breaks here.
 * Some things have been moved around to accommodate for these changes.
-* The Match HUD and timer went through many iterations through development, but the final version most closely resembles the one from SolarLightHUD Classic in terms of layout. How funny.
+* Options to change the timer appearance are nearly done but are currently bugged, so console-command-only for now. This may arrive later.
 
 
 
@@ -227,7 +245,7 @@ To fix, or not to fix? That is the question.
 
 * Slight visual and color update.
 * Moved server info and player stats to the top and bottom of the screen.
-* (In-progress) Added an option for 6v6 and 9v9 scoreboards.
+* Added options for 6v6 and 9v9 scoreboards.
 * The option to show/hide player stats through editing the .res file has been removed, in favor of the new customizations menu.
   * There is also a new option for just showing Kills, Deaths and Assists while hiding the top and bottom bars.
 * Fixed missing Casual medals - a bug that appeared in Scream Fortress 2024.
@@ -237,6 +255,7 @@ To fix, or not to fix? That is the question.
 
 # GAMEMODES:
 
+* Existing gamemode HUDs have been reduxed.
 * Added support for Versus Saxton Hale Vscript.
 * Added custom boss health bars for VSH, Halloween, Carrier and MvM.
 * Added support for Arena Mode. This includes both the original Arena maps and certain Vscript maps in the official Casual rotation.
@@ -244,7 +263,9 @@ To fix, or not to fix? That is the question.
 * Added support for Cowerhouse's flank route countdown HUD.
 * Added support for bumper car minigames.
 * Reduxed CTF HUD, with consideration for mutators like Mannpower, Special Delivery and Haarp.
-* Reduxed PASS Time HUD. Customization menu includes a 4v4 version with no "bonus" meter, and a "ball only" mode, also intended for 4v4 gameplay.
+	* Haarp no longer breaks. 
+* Reduxed PASS Time HUD. Default appearance has no bonus goal meter, since it fills rather quick through passing and lasts a long time.
+	* Customization menu includes a version based on the one shown in MEME vs. META, and also a "ball only" mode, intended for 4v4 gameplay.
 * Minmodes are included for each PASS Time HUD, each one varying slightly depending on which option you picked. (TODO: Default PASS Minmode)
 * Every official PD map has been checked for issues and some fixes were made on a per-map basis, since PD lets me do that.
 * Tried to edit the HUD used in Perks but it's still a bit jank due to limitations, sorry.
@@ -253,21 +274,21 @@ To fix, or not to fix? That is the question.
 
 # MANN VS. MACHINE:
 
-* (TODO: Lose panel, loot panel, canteen, scoreboard, bomb carrier hud.)
+* (TODO: Lose panel, bomb carrier hud.)
 * Improved support for MvM and Freaky Fair, including a new upgrade screen.
-* New wave status UI
-* Fixed missing money, which apparently broke in a TF2 update
+* New wave status UI.
+* Fixed missing money, which apparently broke in a TF2 update.
 
 
 
-CONTROLLER / STEAM DECK:
+# CONTROLLER / STEAM DECK:
 
 * Added controller support for the team select and class select menus. These menus will appear slightly different than usual, due to limitations.
-* (In-progress) Entire thing is outdated by this point, needs a copy paste job
+* (In-progress) Entire thing is outdated by this point, needs a copy paste job or #base.
 
 
 
-MINMODE:
+# MINMODE:
 
 * Minmode hides many large shapes from the HUD, and makes others transparent, mostly keeping the text intact.
 * HP and ammo now remain the same size as default.
@@ -275,7 +296,7 @@ MINMODE:
 
 
 
-MINOR TWEAKS/FIXES:
+# MINOR TWEAKS/FIXES:
 
 * Many minor bugfixes that I've forgotten by now.
 * Ran the HUD through Cueki's HUD Normalizer.

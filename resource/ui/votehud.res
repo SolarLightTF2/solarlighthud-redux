@@ -402,7 +402,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteFailed"
 		"xpos"			"10"
-		"ypos"			"c-80"
+		"ypos"			"15" //c-80 if chat is at top
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"

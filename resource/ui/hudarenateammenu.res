@@ -94,21 +94,28 @@
 	
 	"CustomShaderOverlay"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CustomShaderOverlay"
 		"xpos"		    "0"
 		"ypos"		    "0"
 		"zpos"		    "-10000"
 		"wide"		    "f0"
 		"tall"		    "480"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/sepia"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/shaders/persona_sepia"
+		"teambg_1"		"replay/thumbnails/shaders/persona_sepia"
+		"teambg_2"		"replay/thumbnails/shaders/redux_red"
+		"teambg_3"		"replay/thumbnails/shaders/redux_blue"
 	}
+
 	
 	"DX9MenuDarken"
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "DX9MenuDarken"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"xpos" "0"
 		"ypos" "0"
@@ -199,32 +206,44 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
-		"teambg_1"		"replay/thumbnails/linebg_transparent"
-		"teambg_2"		"replay/thumbnails/linebg_red_transparent"
-		"teambg_2_lodef"	"replay/thumbnails/linebg_red_transparent"
-		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
-		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
-		"alpha"			"150"
+		"alpha"			"255"
 		"mouseinputenabled"	"0"
 	}		
+	
+	"LoadingBars"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "LoadingBars"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-12"
+		"wide" "f0"
+		"tall" "f0"
+
+		"image" "replay/thumbnails/loadingbars2048"
+		"scaleimage" "1"
+		"drawcolor"	"32 32 32 255"
+	}
 	
 	"BGBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGBar"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"
-		"wide"			"550"
+		"wide"			"280"
 		"tall"			"280"
 		"fillcolor"		"0 0 0 0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"BorderBlackCornersTransparentVerySmall"
+		"border"		"BorderTanDarkerCornersVerySmall"
 		"proportionaltoparent"	"1"
 	}	
 
@@ -256,13 +275,13 @@
 		"ControlName"		"Label"
 		"fieldName"		"mapname"
 		"xpos"			"cs-0.5"
-		"ypos"			"70"
+		"ypos"			"68"
 		"wide"			"150"
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"south"
 		"dulltext"		"0"
@@ -374,8 +393,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c10"
-		"ypos"			"c160"
+		"xpos"			"20"
+		"ypos"			"r35"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -389,11 +408,23 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 		
 	"TeamMenuAuto"
@@ -448,8 +479,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarSpectateButton"
-		"xpos"			"c-160"
-		"ypos"			"c160"
+		"xpos"			"c-75"
+		"ypos"			"c170"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -463,11 +494,23 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "235 226 202 255"
+			
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+			
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 }
 

@@ -631,7 +631,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"Command"		"find_game"
+			"Command"		"find_game" //todo - test comp access panel with ShowCompAccess command
 			"proportionaltoparent"	"1"
 			"labeltext"		" "
 			"mouseinputenabled"	"1"
