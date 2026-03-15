@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/menu_bg/music_bg"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{	
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.05
+			"texturescrollangle" 315
+		}
+	}
+}
+
