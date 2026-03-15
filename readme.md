@@ -2,10 +2,12 @@
 
 Known issues:
 
-* HUD is not designed with ultrawide in mind. I will probably have to make new menu backgrounds to account for this
-* Some buttons present in customization menu. Commands must be executed manually via launching customization.cfg and then looking for the commands within it (beneath //Actual changes for each section)
-* Many placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic"
+* Some customization features are in an incomplete state and are thus not included via menu buttons yet. They can still be executed via the console, but may be buggy or cause overlapping issues.
+* Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files
 * Some tip text is probably too long and probably cuts off while loading, especially in 4:3
+* Forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
+* MvM Lose panel is unedited
+* Check mvm buyback just in case...
 
 Below this is the intended readme
 
@@ -26,15 +28,25 @@ A heavily modified version of the old SolarLightHUD from 2018, with tons of new 
 
 The fonts in this HUD are sized incorrectly on Linux, which breaks the outline effects. We've tried fixing this, but it appears to be a difficult task. To prevent further stalling, we've elected to release the HUD for Windows first, with the hope of fixing the Linux jank post-release. If anyone is interested in and capable of fixing the fonts for Linux, we will gladly accept any working pull requests, so long as they don't break things on Windows.
 
-# What does it look like?
+# What does the HUD look like?
 
 Screenshots here: [https://imgur.com/a/fNbgnk2](https://imgur.com/a/fNbgnk2)
+
+# ASPECT RATIO
+
+This HUD was intended for 16:9. You can try using it in other aspect ratios, but some HUD modes may have overlapping HUD elements in 4:3, and ultrawide was hardly tested, though some precautions were made in the menus to account for it.
+Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rather than the Default mode. In 4:3, Centered is most prone to issues, and Default may serve better.
+
+# THE ADD-ON PACK
+
+This HUD has DLC! The add-on pack enables some extra UI tweaks that technically aren't "HUD edits". Also, jam to 90+ tracks from a variety of SolarLight videos with the Music Pack.
+(link here)
 
 # Join our Discord!
 
 Join the SolarLight Discord for updates: [https://discord.gg/solarlight](https://discord.gg/solarlight)
 
-# Recommended mods
+# Recommended mods (Besides the REDUX ADD-ON Pack)
 
 Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.com/sounds/71875)
 
@@ -44,11 +56,9 @@ Consistent Kill Icons: [https://gamebanana.com/mods/591386](https://gamebanana.c
 # Known issues
 
 * ~~Pip-boy Engineer HUD does not work correctly~~ temp reuse of the default engie ui
-* Menu backgrounds do not support ultrawide
 * Need to optimize by removing unused elements
 
 To fix, or not to fix? That is the question.
-
 
 
 # REDUX PATCH NOTES (compared to old 2018 SolarLightHUD):
@@ -81,6 +91,12 @@ To fix, or not to fix? That is the question.
 
 * Removed Discord server button from main menu. It was outdated and broken anyway.
 
+# SOURCESCHEME / CHATSCHEME:
+* Updated sourcescheme menus (e.g. Server Browser, Developer Console) to better match the rest of the HUD.
+  * This was pain.
+* Updated chat box with more fitting colors.
+* Some other chat box adjustments, including to text.
+
 
 
 # CUSTOMIZATION:
@@ -95,9 +111,8 @@ To fix, or not to fix? That is the question.
   * *Classic HUD mode* turns HP and ammo into floating numbers in the middle of the screen. This resembles the 2018 "SolarLightHUD Classic" HUD layout from 2018, and is more suitable for competitive / serious play.
 
 
-
-* Added an option to move chat to the top left. \[todo - menu button]
-* Added an option to change PASS Time's HUD to the one from MEME vs. META.
+* This screen will not work unless the HUD folder is named "solarlighthud-redux".
+  * A warning screen will appear if the folder name is incorrect.
 
 
 
@@ -129,10 +144,17 @@ To fix, or not to fix? That is the question.
 * New bottom-right icon upon game launch.
 
 
+
+# MUSIC PICKER
+* Unavailable without using the REDUX ADD-ON pack's menu music pack.
+* Allows the user to manually play the startup themes.
+* Requires manual stopping via a button to prevent sounds from overlapping.
+
+
+
 # IN-GAME MENUS
 
 * Reduxed the Team Select and Class Select menus. There's a fun surprise. (Also, they now include Highlander and MvM support.)
-* (In progress) Added controller-mode versions of the Team Select, Class Select and Spectator UIs (check MvM upgrade icons there too)
 * Added new class selection buttons to replace the old ones.
 * Reduxed the disguise menu, largely contributed by Techno.
 * Basic, minimal taunt menu replacement for now.
@@ -145,6 +167,7 @@ To fix, or not to fix? That is the question.
 * Re-added the health cross to the HP, smaller, to the left.
 * Reduxed Engineer building HUD.
 * Moved text and voice chat
+* Updated voice chat appearance
 * Moved the health pickup notification text.
 * Damage indicators are now using the small ones present in many other HUDs. The old Quake-Champions-inspired ones were quite big.
 * New freeze cam UI.
@@ -154,7 +177,6 @@ To fix, or not to fix? That is the question.
 * "Queued for Casual" etc. display on the top right has been updated.
 * Reduxed spectator UI and respawn counter.
 * New notifications for switching teams, autobalance, current objective, etc.
-
 
 
 # CASUAL MODE:
@@ -213,18 +235,20 @@ To fix, or not to fix? That is the question.
 
 # TEXT REPLACEMENTS:
 
-* Replaced all of the in-game tips with over 200 custom ones, most of which are for Demoknight. English only.
+* Replaced all of the in-game tips with over 250 custom ones, most of which are for Demoknight. Many unfunny jokes. English only.
 * Some text edits were made to make things more concise, notably in PASS Time. (Thanks, flareshmoney!) English only. Some text panels may be too small in other languages.
-* Weapon quality names have been removed. You can re-enable them by removing the overrides I've made in chat\_english.txt (the file includes instructions at the top)
+* Weapon quality names have been removed. You can re-enable them by removing the overrides I've made in chat\_english.txt (the file includes instructions at the top).
 * Some weapons now provide additional information in their descriptions. English only.
+* Item levels are hidden. Sorry trader mains, neat for everyone else though.
+
 
 
 # WEAPONS / CLASSES
 
 * Updated Stickybomb counter with a new icon.
-* Updated Engineer metal count with a team-colored icon.
+* Updated Engineer metal count with an icon.
 * New meters, contributed by Techno.
-* Items that use counters now have new icons (joint effort between me and Techno)
+* Items that use counters now have new icons (joint effort between me and Techno). These may get updated, as I'm not happy with some of them.
 
 
 
@@ -241,7 +265,7 @@ To fix, or not to fix? That is the question.
 
 
 
-# SCOREBOARD (in-progress):
+# SCOREBOARD:
 
 * Slight visual and color update.
 * Moved server info and player stats to the top and bottom of the screen.
@@ -260,6 +284,7 @@ To fix, or not to fix? That is the question.
 * Added custom boss health bars for VSH, Halloween, Carrier and MvM.
 * Added support for Arena Mode. This includes both the original Arena maps and certain Vscript maps in the official Casual rotation.
 * Added support for Player Destruction with a new HUD. Timer changes color depending on the map, since PD lets me do that.
+* Added a basic Robot Destruction HUD.
 * Added support for Cowerhouse's flank route countdown HUD.
 * Added support for bumper car minigames.
 * Reduxed CTF HUD, with consideration for mutators like Mannpower, Special Delivery and Haarp.
@@ -274,7 +299,6 @@ To fix, or not to fix? That is the question.
 
 # MANN VS. MACHINE:
 
-* (TODO: Lose panel, bomb carrier hud.)
 * Improved support for MvM and Freaky Fair, including a new upgrade screen.
 * New wave status UI.
 * Fixed missing money, which apparently broke in a TF2 update.
@@ -283,8 +307,8 @@ To fix, or not to fix? That is the question.
 
 # CONTROLLER / STEAM DECK:
 
-* Added controller support for the team select and class select menus. These menus will appear slightly different than usual, due to limitations.
-* (In-progress) Entire thing is outdated by this point, needs a copy paste job or #base.
+* Added controller-mode versions of the Team Select, Class Select, Spectator, MOTD, Map Info and Taunt menus
+* These menus will appear slightly different than usual, due to limitations.
 
 
 
@@ -298,6 +322,8 @@ To fix, or not to fix? That is the question.
 
 # MINOR TWEAKS/FIXES:
 
+* Added several sprays, based on the menu art and logos.
+* Added first-launch hints for new users.
 * Many minor bugfixes that I've forgotten by now.
 * Ran the HUD through Cueki's HUD Normalizer.
 * Fixed font scaling issues that were introduced in Scream Fortress 2024.
@@ -306,4 +332,3 @@ To fix, or not to fix? That is the question.
 * Attempted to fix incorrect health/ammo color when respawning.
 * Fixed MvM/Casual pre-game timer cutting off.
 * Fixed \[unknown] label appearing on item inspect panels when spectating or dead in a tournament match
-* (In-progress) Fixed forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
