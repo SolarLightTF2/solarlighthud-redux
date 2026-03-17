@@ -24,18 +24,17 @@ Below this is the intended readme
 
 A heavily modified version of the old SolarLightHUD from 2018, with tons of new HUD elements, fonts, colors, images, features and settings.
 
-# IMPORTANT NOTE FOR LINUX USERS:
-
-The fonts in this HUD are sized incorrectly on Linux, which breaks the outline effects. We've tried fixing this, but it appears to be a difficult task. To prevent further stalling, we've elected to release the HUD for Windows first, with the hope of fixing the Linux jank post-release. If anyone is interested in and capable of fixing the fonts for Linux, we will gladly accept any working pull requests, so long as they don't break things on Windows.
+> [!WARNING]
+> # IMPORTANT NOTE FOR LINUX USERS:
+>The fonts in this HUD are sized incorrectly on Linux, which breaks the outline effects. We've tried fixing this, but it appears to be a difficult task. To prevent further stalling, we've elected to release the HUD for Windows first, with the hope of fixing the Linux jank post-release. If anyone is interested in and capable of fixing the fonts for Linux, we will gladly accept any working pull requests, so long as they don't break things on Windows.
+># ASPECT RATIO
+>This HUD was intended for 16:9 at 1080p. You can try using it in other aspect ratios, but some HUD modes may have overlapping HUD elements in 4:3, and ultrawide was hardly tested, though some precautions were made in the menus to account for it.
+Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rather than the Default mode. In 4:3, Centered is most prone to issues, and Default may serve better.
 
 # What does the HUD look like?
 
 Screenshots here: [https://imgur.com/a/fNbgnk2](https://imgur.com/a/fNbgnk2)
 
-# ASPECT RATIO
-
-This HUD was intended for 16:9. You can try using it in other aspect ratios, but some HUD modes may have overlapping HUD elements in 4:3, and ultrawide was hardly tested, though some precautions were made in the menus to account for it.
-Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rather than the Default mode. In 4:3, Centered is most prone to issues, and Default may serve better.
 
 # THE ADD-ON PACK
 
@@ -52,7 +51,19 @@ Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.co
 
 Consistent Kill Icons: [https://gamebanana.com/mods/591386](https://gamebanana.com/mods/591386)
 
+# Experimental settings
+SolarLightHUD Redux has some bonus settings that are not currently in the menus.
 
+> [!NOTE]
+> These settings are not fully polished and may result in some HUD elements overlapping with others, or may just look bad.
+> If you still insist, just put the following commands in the console, and then reload the HUD with hud_reloadscheme.
+
+hudchat_def
+
+hudchat_top
+
+ClassicerHPAmmo
+ 
 # Known issues
 
 * ~~Pip-boy Engineer HUD does not work correctly~~ temp reuse of the default engie ui
