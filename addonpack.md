@@ -1,0 +1,3 @@
+<img width="2048" height="1024" alt="logo wide ADDON PACK" src="https://github.com/user-attachments/assets/b6de8dcb-fcf7-49d9-9c72-0ef53bc6285a" />
+
+...Add link here when available...
