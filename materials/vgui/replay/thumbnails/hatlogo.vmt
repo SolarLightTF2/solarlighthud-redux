@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/logos/menutextures/hatlogo"
+	"$basetexture" "vgui/replay/thumbnails/hatlogo"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

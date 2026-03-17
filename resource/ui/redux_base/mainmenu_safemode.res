@@ -1835,7 +1835,7 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"../vgui/logos/menutextures/hatlogo"
+					"image"			"../vgui/replay/thumbnails/hatlogo"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
 				}		
