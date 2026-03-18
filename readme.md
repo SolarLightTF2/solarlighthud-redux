@@ -1,24 +1,3 @@
-# THIS HUD IS UNFINISHED and is not intended for public usage.
-
-Known issues:
-
-* Some customization features are in an incomplete state and are thus not included via menu buttons yet. They can still be executed via the console, but may be buggy or cause overlapping issues.
-* Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files
-* Some tip text is probably too long and probably cuts off while loading, especially in 4:3
-* Forgotten glow element in PLR when near the end of the track (appeared on helltower from what I saw)
-* MvM Lose panel is unedited
-* Check mvm buyback just in case...
-
-Below this is the intended readme
-
-
-
-
-
-
-
-
-
 # SolarLightHUD REDUX
 <img width="2560" height="1280" alt="thumbnail" src="https://github.com/user-attachments/assets/fee65220-2855-477d-b247-6e95168fb799" />
 
@@ -30,6 +9,8 @@ A heavily modified version of the old SolarLightHUD from 2018, with tons of new 
 ># ASPECT RATIO
 >This HUD was intended for 16:9 at 1080p. You can try using it in other aspect ratios, but some HUD modes may have overlapping HUD elements in 4:3, and ultrawide was hardly tested, though some precautions were made in the menus to account for it.
 Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rather than the Default mode. In 4:3, Centered is most prone to issues, and Default may serve better.
+> # LANGUAGE
+> This HUD features lots of custom text, but it was only made for the English language, so things may break on other languages.
 
 # What does the HUD look like?
 
@@ -46,6 +27,8 @@ This HUD has DLC! The add-on pack enables some extra UI tweaks that technically 
 Join the SolarLight Discord for updates: [https://discord.gg/solarlight](https://discord.gg/solarlight)
 
 # Recommended mods (Besides the REDUX ADD-ON Pack)
+
+Accurate class images: [https://gamebanana.com/mods/641043](https://gamebanana.com/mods/641043)
 
 Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.com/sounds/71875)
 
@@ -64,10 +47,26 @@ hudchat_top
 
 ClassicerHPAmmo
  
-# Known issues
+# Room for improvement
 
-* ~~Pip-boy Engineer HUD does not work correctly~~ temp reuse of the default engie ui
-* Need to optimize by removing unused elements
+Desired improvements for later:
+* Pyro, Engineer, Sniper and Spy currently do not have main menu renders
+* Some weapon counter icons should probably have their icons replaced with a team-colored "K" crit icon.
+* Centered Meters for the 'Classic' HUD Mode were nearly complete (courtesy of Techno), but were too buggy to ship in the current release
+* The Customization menus could benefit from better button layouts and more preview images
+* MvM robot carrier level-up meter is currently unchanged
+* CTF radars could benefit from new icons
+* Contract buttons and Alert buttons do not have unique appearances
+* Some materials could be updated to use vertexcolor
+* This HUD could be optimized a bit
+* Some outlined text could benefit from expanding backgrounds, similar to the one used for HP when the number exceeds 1000
+
+Issues:
+* Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files
+* Some tip text probably cuts off while loading, especially in 4:3, and even more noticeable when using a controller (which auto-enlarges sourcescheme elements)
+* Pibble HUD (for 2v2 PASS Time) looks too bland and could use an update
+* Some unofficial Vscript gamemodes (i.e. Freezetag, Prophunt) are unedited
+* Not all buttons have a consistent appearance
 
 To fix, or not to fix? That is the question.
 
@@ -76,7 +75,7 @@ To fix, or not to fix? That is the question.
 
 # MAJOR:
 
-* Added a startup video. Remove -novid from your launch options if you're curious.
+* Added a startup video.
 	* If you're using -novid in your launch options, there is a main menu button to view it anyway.
 	* If it stutters, switch to windowed mode or windowed borderless mode.
 * Completely overhauled the HUD! By default, it is essentially a brand new one, with a similar layout to TF2's default HUD, and lots of new shapes.
@@ -96,10 +95,6 @@ To fix, or not to fix? That is the question.
 * Matchmaking button has been moved to the top left, next to the party avatar images.
 * Friends list is now hidden by default, and opened with a button on the main menu.
 * Menu now features custom SFM character images.
-* Implemented a Dimmer Fix (prevents the darkening effect from cutting off near the bottom of the screen when choosing a matchmaking mode/map)
-
-  * Cons: Requires a hud\_reloadscheme which ends up disabling startup music, and very slightly increases startup time. Sorry! Blame Valve.
-
 * Removed Discord server button from main menu. It was outdated and broken anyway.
 
 # SOURCESCHEME / CHATSCHEME:
@@ -124,11 +119,7 @@ To fix, or not to fix? That is the question.
 
 * This screen will not work unless the HUD folder is named "solarlighthud-redux".
   * A warning screen will appear if the folder name is incorrect.
-
-
-
 &nbsp;
-
 # OTHER MENUS:
 
 * The existing menu replacements were completely overhauled.
@@ -197,6 +188,16 @@ To fix, or not to fix? That is the question.
 * New post-game summary screen for Casual mode, including the map vote.
 * Choosing preferred maps in the menu is now fullscreen and easier to navigate.
 * Moved Casual rank display to the Stats screen. Thanks to DarSitam for letting me "borrow"...
+
+
+
+# MANN VS. MACHINE:
+
+* Improved support for MvM and Freaky Fair, including a new upgrade screen.
+* New wave status UI.
+* Fixed missing money, which apparently broke in a TF2 update.
+* Moved the revive panel up a bit
+* Moved the buyback panel next to the respawn count panel
 
 
 
@@ -308,18 +309,11 @@ To fix, or not to fix? That is the question.
 
 
 
-# MANN VS. MACHINE:
-
-* Improved support for MvM and Freaky Fair, including a new upgrade screen.
-* New wave status UI.
-* Fixed missing money, which apparently broke in a TF2 update.
-
-
-
 # CONTROLLER / STEAM DECK:
 
-* Added controller-mode versions of the Team Select, Class Select, Spectator, MOTD, Map Info and Taunt menus
-* These menus will appear slightly different than usual, due to limitations.
+* Added controller-mode versions of the Team Select, Arena Team Select, Class Select, Spectator, MOTD, Map Info, Taunt menus, Build Menu, and Disguise Menu
+* These menus will appear slightly different than usual due to limitations and the need to add button hints.
+* Note: Disconnect prompts still show no button icons, I'm not sure how to fix that yet
 
 
 
