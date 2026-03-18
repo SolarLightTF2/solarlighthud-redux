@@ -2626,6 +2626,16 @@ Scheme
 			}
 		}
 		
+		"SLItalicMediumSmallerStroke"
+		{
+			"1"
+			{
+				"name"		"futurabt_extremestroke"
+				"tall"		"20"
+				"antialias" 	"1"
+			}
+		}
+		
 		"SLItalicMediumSmall"
 		{
 			"1"
