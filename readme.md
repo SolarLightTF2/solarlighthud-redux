@@ -69,6 +69,7 @@ Issues:
 * Pibble HUD (for 2v2 PASS Time) looks too bland and could use an update
 * Some unofficial Vscript gamemodes (i.e. Gun Game) are unedited
 * Not all buttons have a consistent appearance
+* Team Comtress 2 is not supported
 
 To fix, or not to fix? That is the question.
 
