@@ -61,6 +61,7 @@ Desired improvements for later:
 * This HUD could be optimized a bit
 * Some outlined text could benefit from expanding backgrounds, similar to the one used for HP when the number exceeds 1000
 * Could add speedometer options
+* Report a Bug button may get removed/minimized for a 'cleaner' main menu appearance
 
 Issues:
 * Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files
