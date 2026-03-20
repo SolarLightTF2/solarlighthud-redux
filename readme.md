@@ -70,6 +70,7 @@ Issues:
 * Some unofficial Vscript gamemodes (i.e. Gun Game) are unedited
 * Not all buttons have a consistent appearance
 * Team Comtress 2 is not supported without modifications
+* The autobalance panel can conflict with the winpanel
 
 To fix, or not to fix? That is the question.
 
