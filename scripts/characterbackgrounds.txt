@@ -120,4 +120,44 @@
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Pyro"
 		"holiday_restriction"	"christmas"
 	}
+	"basic_sniper"
+	{
+		"image"	"../console/characters/sniper_sepia"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+	}
+	"halloween_sniper"
+	{
+		"image"	"../console/characters/sniper_sepia"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_sniper"
+	{
+		"image"	"../console/characters/sniper_sepia"
+		"item_url"	"sniper"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Sniper"
+		"holiday_restriction"	"christmas"
+	}
+	"basic_spy"
+	{
+		"image"	"../console/characters/spy_sepia"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+	}
+	"halloween_spy"
+	{
+		"image"	"../console/characters/spy_sepia"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"christmas_spy"
+	{
+		"image"	"../console/characters/spy_sepia"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"christmas"
+	}
 }
