@@ -127,4 +127,11 @@
 		"tooltip" 		"#MainMenu_Video"
 		"OnlyAtMenu"	"1"
 	}
+	
+	"TFLogoOctagonButton"
+	{
+		"label"			""
+		"Command"		"engine showconsole"
+		"tooltip" 		"#MainMenu_Console"
+	}
 }

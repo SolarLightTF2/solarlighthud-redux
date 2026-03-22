@@ -901,6 +901,7 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
 	}	
+
 	"TFLogoSpinner"
 	{
 		"ControlName"	"ImagePanel"
@@ -920,6 +921,82 @@
 		"pin_to_sibling"	"TFLogoOctagon"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
+	}
+	
+	"TFLogoOctagonButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"TFLogoOctagonButton"
+		"xpos"			"-47"
+		"ypos"			"-14"
+		"zpos"			"100"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		
+		"pin_to_sibling"	"TFLogoImage"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"p1"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			"paintbackgroundtype"	"0"
+			
+			"defaultFgColor_override" "0 0 0 0"
+			"armedFgColor_override" "0 0 0 0"
+			"depressedFgColor_override" "0 0 0 0"
+			
+			"defaultbgColor_override" "Blank"
+			"armedbgColor_override" "Blank"
+			"depressedbgColor_override" "Blank"
+			
+			"border_default"	"NoBorder"
+			"border_depressed"	"NoBorder"
+			"border_armed"		"NoBorder"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"255 255 255 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"22"
+				"tall"			"22"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/bgshapes/octagon_tandark"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
 	}
 	
 	"TFCharacterImage"
