@@ -1,5 +1,7 @@
 "resource/hudlayout.res"
 {
+
+//dimmer fix
 	MainMenuOverride
 	{
 		"ControlName"	"CHudMainMenuOverride"
@@ -13,26 +15,36 @@
     	}	
 	}
 
+//hide payload swoop
 	"EscortHilightSwoop"
 	{
 		"ControlName" "CControlPointIconSwoop"
 		"xpos" "9999"
 		"alpha" "0"
 	}	
-	
-	"CustomShaderOverlay"
+
+//fix console errors, these are moved to their respective .res files
+	HudMedicCharge
 	{
-		"ControlName"	"ImagePanel"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"		    "-10000"
-		"wide"		    "f0"
-		"tall"		    "480"
-		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/valve_mode"
-		"visible"		"0"
+		"fieldName"		"HudMedicCharge"
 	}
 	
+	DisguiseStatus
+	{
+		"fieldName" "DisguiseStatus"
+	}
+	
+	CHealthAccountPanel
+	{
+		"fieldName"				"CHealthAccountPanel"
+	}
+	
+	HudWeaponAmmo
+	{
+		"fieldName" "HudWeaponAmmo"
+	}
+
+//unused speedometer
 	"speed1"
 	{
 		"controlName" "CTFImagePanel"

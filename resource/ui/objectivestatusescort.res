@@ -331,7 +331,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"9999"
-			"ypos"			"16"
+			"ypos"			"9999"
 			"zpos"			"4"
 			"wide"			"10"
 			"tall"			"10"
@@ -341,7 +341,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"replay/thumbnails/cart_arrow_right"
+			"image"			""
 			"scaleImage"	"1"
 
 			"if_multiple_trains_top"

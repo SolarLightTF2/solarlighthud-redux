@@ -809,5 +809,6 @@
 			"ypos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"	
+		}
 	}	
 }
