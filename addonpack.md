@@ -1,5 +1,9 @@
 <img width="2048" height="1024" alt="logo wide ADDON PACK" src="https://github.com/user-attachments/assets/b6de8dcb-fcf7-49d9-9c72-0ef53bc6285a" />
 
+# DOWNLOAD:
+
+https://drive.google.com/drive/folders/1q2So4HBEP8C2MN0te3ByZo7D4FBGbkM5?usp=sharing
+
 This mod pack includes the following:
 
 # Music pack
