@@ -384,6 +384,15 @@
 		"visible"			"0"
 		"enabled"			"0"	
 	}
+    "EditLoadoutBind" //press e to access class loadout, this needs atleast visible 1, everything else not needed -techno
+    {
+        "ControlName"       	"CExButton"
+        "fieldName"           	"EditLoadoutBind"
+        "xpos"               	"9999"
+        "visible"           	"1"
+        "labelText"          	"&E"
+        "Command"           	"openloadout"
+    }
 
 	"ResetButton" [$WIN32] 
 	{
