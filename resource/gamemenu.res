@@ -116,7 +116,7 @@
 	"ComfigHUDsButton"
 	{
 		"label"			"#MainMenu_Comfig"
-		"Command"		"url https://comfig.app/huds/page/solarlight-hud/"
+		"Command"		"url https://comfig.app/huds/page/solarlight-hud-redux/"
 		"tooltip" 		"#MainMenu_Comfig"
 	}
 	
