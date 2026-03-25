@@ -14,11 +14,6 @@ Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rath
 > # DXLEVEL
 > This HUD uses some custom shaders in some of the menus. They require DX9 to work, but the HUD is still usable on DX8. If you're not aware of what DXLevel is, you don't have to worry. There may be some other minor differences in DX8 that I did not get around to tweaking for the release.
 
-# What does the HUD look like?
-
-Screenshots here: [https://imgur.com/a/fNbgnk2](https://imgur.com/a/fNbgnk2)
-
-
 # THE ADD-ON PACK
 
 This HUD has DLC! The add-on pack enables some extra UI tweaks that technically aren't "HUD edits". Also, jam to 90+ tracks from a variety of SolarLight videos with the Music Pack.
@@ -37,7 +32,7 @@ Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.co
 Consistent Kill Icons: [https://gamebanana.com/mods/591386](https://gamebanana.com/mods/591386)
 
 # Experimental settings
-SolarLightHUD Redux has some bonus settings that are not currently in the menus.
+SolarLightHUD REDUX has some bonus settings that are not currently in the menus.
 
 > [!NOTE]
 > These settings are not fully polished and may result in some HUD elements overlapping with others, or may just look bad.
