@@ -17,7 +17,7 @@ Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rath
 # THE ADD-ON PACK
 
 This HUD has DLC! The add-on pack enables some extra UI tweaks that technically aren't "HUD edits". Also, jam to 90+ tracks from a variety of SolarLight videos with the Music Pack.
-(link here)
+[Link](https://github.com/SolarLightTF2/solarlighthud-redux/blob/main/addonpack.md)
 
 # Join our Discord!
 
