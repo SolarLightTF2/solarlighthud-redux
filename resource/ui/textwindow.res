@@ -216,16 +216,6 @@
 	"ok" //continue
 	{
 		"ControlName"		"CExButton"
-		"fieldName"		"ok"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	"okedit" //had to make a new button to use custom borders
-	{
-		"ControlName"		"CExButton"
 		"fieldName"		"okedit"
 		"xpos"			"r170"
 		"ypos"			"r35"
@@ -253,13 +243,14 @@
 		"armedFgColor_override" "46 43 42 255"
 		"depressedFgColor_override" "235 226 202 255"
 			
-		"defaultbgColor_override" "Blank"
-		"armedbgColor_override" "Blank"
-		"depressedbgColor_override" "Blank"
-			
-		"border_default"	"BorderTanDarkerCornersVerySmall"
-		"border_depressed"	"BorderTanDarkerCornersVerySmall"
-		"border_armed"		"BorderTanDarkCornersVerySmall"
+		"defaultbgColor_override" "Black"
+		"armedbgColor_override" "TanDark"
+		"depressedbgColor_override" "Black"
+		
+		//none of these work...
+		//"border_default"	"BorderTanDarkerCornersVerySmall"
+		//"border_depressed"	"BorderTanDarkerCornersVerySmall"
+		//"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 	
 	"ContinueButton" // not ok

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "console/characters/medic_sepia"
+	"$baseTexture" "vgui/replay/thumbnails/characters/demoman_sepia"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

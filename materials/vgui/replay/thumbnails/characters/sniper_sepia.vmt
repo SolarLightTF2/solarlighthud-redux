@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "console/characters/heavy_sepia"
+	"$baseTexture" "vgui/replay/thumbnails/characters/sniper_sepia"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

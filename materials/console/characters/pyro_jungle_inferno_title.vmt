@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "console/characters/pyro_jungle_inferno_title"
-	"$ignorez" 1
-	"$no_fullbright" "1"
-	"$nolod" "1"
-	"$translucent" "1"
-	"%keywords" "tf"
-}
