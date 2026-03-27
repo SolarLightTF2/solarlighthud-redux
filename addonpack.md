@@ -9,7 +9,7 @@ This mod pack includes the following:
 # Music pack
 
 Will work in Casual mode, but will break in competitive servers.
-Use the Casual preloader to bypass this breakage, if it is allowed where you're playing.
+This apparently breaks with Cueki's Casual Preloader. Investigating...
 
 # Casual Mode Themes
 
