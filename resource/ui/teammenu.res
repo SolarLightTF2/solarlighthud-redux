@@ -867,7 +867,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"jointeam spectatearena"
+		"command"		"jointeam spectate"
 		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
