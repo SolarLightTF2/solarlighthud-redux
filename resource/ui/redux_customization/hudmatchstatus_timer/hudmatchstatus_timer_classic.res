@@ -31,7 +31,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Futura20"
 			"fgcolor"		"TanLight"
-			"xpos"			"175"
+			"xpos"			"183"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
