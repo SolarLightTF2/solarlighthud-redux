@@ -1,5 +1,9 @@
 <img width="2048" height="1024" alt="logo wide ADDON PACK" src="https://github.com/user-attachments/assets/b6de8dcb-fcf7-49d9-9c72-0ef53bc6285a" />
 
+# HOW TO INSTALL:
+
+Just place the .vpk files in your custom folder, next to the solarlighthud-redux folder. Some people make the mistake of putting it inside the HUD folder, so don't do that.
+
 # DOWNLOAD:
 
 https://drive.google.com/drive/folders/1q2So4HBEP8C2MN0te3ByZo7D4FBGbkM5?usp=sharing
