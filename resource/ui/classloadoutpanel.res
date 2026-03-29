@@ -497,8 +497,9 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		"border"		"BorderREDCornersVerySmall"
 	}
 	
 	"TauntHintLabel"

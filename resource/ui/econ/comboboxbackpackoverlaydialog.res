@@ -12,14 +12,14 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"BorderBlackCornersVerySmall"
+		"border"				"EconItemBorder"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"SLBoldSmall"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -118,6 +118,18 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+		
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanDarkCornersVerySmall"
+		"border_armed"		"BorderREDCornersVerySmall"
 	}
 	
 	"OkButton"
@@ -143,5 +155,17 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultbgColor_override" "Blank"
+		"armedbgColor_override" "Blank"
+		"depressedbgColor_override" "Blank"
+		
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanDarkCornersVerySmall"
+		"border_armed"		"BorderREDCornersVerySmall"
 	}
 }
