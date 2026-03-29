@@ -606,7 +606,7 @@
 						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDDefault"
 						"scaleImage"	"1"
 						"paintBackground"   "1"
-					"proportionaltoparent"	"1"
+						"proportionaltoparent"	"1"
 					}	
 				}
 				
@@ -650,7 +650,95 @@
 						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDCenter"
 						"scaleImage"	"1"
 						"paintBackground"   "1"
+						"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"FloatyHPAmmoButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"FloatyHPAmmoButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"FloatyHPAmmo"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"486"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"225"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine FloatyHPAmmo"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
 					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDFloaty"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+						"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"FloatyCenterHPAmmoButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"FloatyCenterHPAmmoButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"CenterHPAmmo"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"716"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"225"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine FloatyCenterHPAmmo"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDFloatyCenter"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+						"proportionaltoparent"	"1"
 					}	
 				}
 				
@@ -662,7 +750,7 @@
 					"labelText"		"ClassicHPAmmo"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"486"
+					"ypos"			"946"
 					"zpos"			"11"
 					"wide"			"400"
 					"tall"			"225"
@@ -694,7 +782,7 @@
 						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDClassic"
 						"scaleImage"	"1"
 						"paintBackground"   "1"
-					"proportionaltoparent"	"1"
+						"proportionaltoparent"	"1"
 					}	
 				}
                 // ================================================

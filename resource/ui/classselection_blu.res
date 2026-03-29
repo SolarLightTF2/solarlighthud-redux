@@ -154,7 +154,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Scout"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}	
 		
@@ -253,7 +253,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Soldier"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}	
 		
@@ -350,7 +350,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Pyro"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}	
 
@@ -447,7 +447,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Demoman"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}	
 		
@@ -544,7 +544,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_HWGuy"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}	
 		
@@ -642,7 +642,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Engineer"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}		
 		
@@ -739,7 +739,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Medic"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}		
 		
@@ -836,7 +836,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Sniper"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}		
 		
@@ -933,7 +933,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_Spy"
 			"textAlignment"	"center"
-			"font"			"Futura12"
+			"font"			"futura10"
 			"fgcolor"		"HudOffWhite"
 		}				
 	}
