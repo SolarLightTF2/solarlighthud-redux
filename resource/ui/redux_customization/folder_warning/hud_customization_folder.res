@@ -1,4 +1,4 @@
-"resource/ui/customizations/#customization_menu/hud_customization_folder.res"
+"resource/ui/redux_customization/folder_warning/hud_customization_folder.res"
 {
 	"SafeMode"
 	{
