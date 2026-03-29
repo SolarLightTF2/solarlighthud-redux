@@ -31,7 +31,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"55"
-		"ypos"			"r68"
+		"ypos"			"r67"
 		"wide"			"40"
 		"tall"			"40"
 	}	
@@ -40,7 +40,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"53"
-		"ypos"			"r70"
+		"ypos"			"r69"
 		"wide"			"44"
 		"tall"			"44"
 	}	
@@ -49,7 +49,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"90"
-		"ypos"			"r83"
+		"ypos"			"r82"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -74,14 +74,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"55"
-		"ypos"			"r85"	[$WIN32]
+		"ypos"			"r84"	[$WIN32]
 	}
 	"PlayerStatusMaxHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
 		"xpos"			"55"
-		"ypos"			"r85"	[$WIN32]
+		"ypos"			"r84"	[$WIN32]
 	}
 	"SolarHPBG"
 	{
