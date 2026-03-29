@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Folder.res"
+"resource/ui/customizations/#customization_menu/hud_customization_folder.res"
 {
 	"SafeMode"
 	{

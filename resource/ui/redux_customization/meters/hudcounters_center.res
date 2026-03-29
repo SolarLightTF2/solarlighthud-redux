@@ -3,7 +3,7 @@
 	HudItemEffectMeter
 	{
 		"xpos"			"c-205"	//idk where to put this either (breaks in 4:3, ill fix it later -techno)
-		"ypos"			"r68"	//idk where to put this either
+		"ypos"			"r71"	//idk where to put this either
 	}
 	"BackgroundNew"
 	{

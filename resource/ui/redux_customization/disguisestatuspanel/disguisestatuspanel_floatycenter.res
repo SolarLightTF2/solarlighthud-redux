@@ -1,3 +1,5 @@
+//idk what to do with this, so it's the same as non-centered floaty
+
 "resource/ui/itemmodelpanel.res"
 {
 	DisguiseStatus
@@ -5,10 +7,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"20"	[$WIN32] //old 10
-		"xpos_minmode"		"76"	[$WIN32] //old 10
-		"ypos"		"r125"	[$WIN32] //old r70
-		"ypos_minmode"	"r100"
+		"xpos"		"60"	[$WIN32] //old 10
+		"xpos_minmode"		"53"	[$WIN32] //old 10
+		"ypos"		"r55"	[$WIN32] //old r70
+		"ypos_minmode"	"r55"
 		"zpos"		"-1" //old 0
 		"wide"		"500"
 		"tall"		"200"

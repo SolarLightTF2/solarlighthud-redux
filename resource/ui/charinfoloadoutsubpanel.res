@@ -41,10 +41,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"bg"
-		"xpos"			"c-427"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-15"
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -316,7 +316,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Scout"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 	
@@ -415,7 +415,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Soldier"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 	
@@ -512,7 +512,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Pyro"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 
@@ -609,7 +609,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Demoman"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 	
@@ -706,7 +706,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_HWGuy"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 	
@@ -804,7 +804,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Engineer"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}		
 	
@@ -901,7 +901,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Medic"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}		
 	
@@ -998,7 +998,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Sniper"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}		
 	
@@ -1095,7 +1095,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spy"
 		"textAlignment"	"center"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"fgcolor"		"HudOffWhite"
 	}	
 

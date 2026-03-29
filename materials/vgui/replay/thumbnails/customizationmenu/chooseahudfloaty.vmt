@@ -1,8 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/pd/pd_timer_bg_white_mirrored"
+	"$basetexture" "vgui/replay/thumbnails/customizationmenu/chooseahudfloaty"
 	"$vertexcolor" 1
-	"$vertexalpha" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
