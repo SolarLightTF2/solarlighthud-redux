@@ -1259,7 +1259,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"#CraftingExplanation_Title"
+		"labelText"		"CRAFTING"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
