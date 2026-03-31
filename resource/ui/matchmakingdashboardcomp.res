@@ -1,34 +1,19 @@
 #base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardMvMCriteria.res"
+"Resource/UI/MatchMakingDashboardComp.res"
 {
-	"MVMCriteria"
+	"CompStats"
 	{
-		"fieldName"		"MVMCriteria"
+		"fieldName"		"CompStats"
 		"xpos"			"r0"
 		"ypos"			"0"
-		"zpos"			"1003"
+		"zpos"			"1002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
-	"criteria"
-	{
-		"ControlName"	"CMVMCriteriaPanel"
-		"fieldName"		"criteria"
-		"xpos"			"cs-0.5"
-		"ypos"			"45"
-		"zpos"			"100"
-		"wide"			"410"
-		"tall"			"f50"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"pinCorner"		"2"
-	}
-	
 	"shade"
 	{
 		"visible"	"0"
@@ -49,11 +34,6 @@
 		"visible"	"0"
 	}
 	
-	"TitleGradient"
-	{
-		"visible"	"0"
-	}
-
 	"TopBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -85,7 +65,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"bggradient"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -128,8 +108,8 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}	
-
-	"BLUTint"
+	
+	"REDTint"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BLUTint"
@@ -138,198 +118,209 @@
 		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"		"SolarTeamBLU"
+		"fillcolor"		"SolarTeamRED"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+	}	
+
+	"titlegradient"
+	{
+		"visible"	"0"
 	}
 	
-	"BackButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-205"
-		"ypos"			"r73"
-		"zpos"			"101"
-		"wide"			"90"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"back"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_Back"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		//"actionsignallevel"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+	"TitleAnchor"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TitleAnchor"
+		"xpos"					"c0"
+		"ypos"					"30"
+		"zpos"					"6"
+		"wide"					"0"
+		"tall"					"0"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"SolarTeamBLU"
+		"PaintBackgroundType"	"0"
 	}
-
-	"MannUpToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpToolTipButtonHack"
-		"xpos"			"r210"
-		"ypos"			"445"
-		"zpos"			"101"
-		"wide"			"180"
-		"tall"			"26"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
-	}
-
-	"MannUpQueueButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MannUpQueueButton"
-		"xpos"			"r210"
-		"ypos"			"445"
-		"zpos"			"101"
-		"wide"			"180"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"SLBoldSmall"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"start_search"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
-		"allcaps"		"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
-	}
-
-	"BootCampToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BootCampToolTipButtonHack"
-		"xpos"			"r210"
-		"ypos"			"445"
-		"zpos"			"101"
-		"wide"			"180"
-		"tall"			"26"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
-	}
-
-	"BootCampQueueButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BootCampQueueButton"
-		"xpos"			"r210"
-		"ypos"			"445"
-		"zpos"			"101"
-		"wide"			"180"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"SLBoldSmall"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"start_search"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
-		"allcaps"		"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
-	}
-
-	"NextButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"r73"
-		"zpos"			"101"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"select_tour"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MvM_SelectChallenge"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		//"actionsignallevel"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"JoinLateCheckButton"
-	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"JoinLateCheckButton"
-		"xpos"		"r350"
-		"ypos"		"r32"
-		"zpos"		"102"
-		"wide"		"140"
-		"tall"		"20"
-		"font"			"HudFontSmallest"
-		"labelText"		""
-		"proportionaltoparent"	"1"
-	}
-
-	"JoinLateLabel"
+	
+	"Title"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"JoinLateLabel"
-		"xpos"		"r325"
-		"ypos"		"r32"
-		"zpos"		"102"
-		"wide"		"115"
-		"tall"		"20"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Matchmaking_JoinInProgress"
+		"fieldName"		"Title"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"f0"
+		"tall"		"35"
 		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
+		"textAlignment"	"center"
+		"font"			"SLItalicMedium"
+		"fgcolor_override"	"TanLight"
+		"auto_wide_tocontents"	"1"
+		"textinsetx"	"20"
+		"allcaps"		"0"
+		
+		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"	"TitleAnchor"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+	
+	"TitleStroke"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TitleStroke"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"98"
+		"wide"		"f0"
+		"tall"		"35"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
+		"textAlignment"	"center"
+		"font"			"SLItalicMediumStroke"
+		"fgcolor_override"	"TanDarker"
+		"border"		"BorderTargetIDTanDarker"
+		"auto_wide_tocontents"	"1"
+		"textinsetx"	"20"
+		"allcaps"		"1"
+		"visible"		"1"
+		"enabled"		"0"
+		
+		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"	"TitleAnchor"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+
+	"ShowExplanationsButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ShowExplanationsButton"
+		"xpos"			"rs1-21"
+		"ypos"			"20"
+		"zpos"			"100"
+		"wide"			"15"
+		"tall"			"o1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"?"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"show_explanations"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"actionsignallevel"	"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"r50"
+		"ypos"			"15"
+		"zpos"			"1000"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+	
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
+	}
+
+	"stats"
+	{
+		"fieldName"		"stats"
+		"xpos"			"cs-0.5"
+		"ypos"			"40"
+		"zpos"			"100"
+		"wide"			"258"
+		"tall"			"f80"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+	
+	"StatsBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StatsBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"99"
+		"zpos"			"100"
+		"wide"			"260"
+		"tall"			"271"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
+
+	"QueueButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"QueueButton"
+		"xpos"			"r210"
+		"ypos"			"445"
+		"zpos"			"101"
+		"wide"			"180"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontMediumSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"find_game"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_StartSearch"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+		"actionsignallevel"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"GreenSolid"
 	}
 	
 	"ExitButton" //same as safemode

@@ -131,16 +131,16 @@
 		"mouseinputenabled"	"0"
 	}	
 
-	"REDTint"
+	"BLUTint"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"REDTint"
+		"fieldName"		"BLUTint"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"		"SolarTeamRED"
+		"fillcolor"		"SolarTeamBLU"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

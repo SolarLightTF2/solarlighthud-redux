@@ -149,12 +149,29 @@
 		"fillcolor"		"TanDark"
 	}
 
+	"RankPanelBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RankPanelBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"260"
+		"zpos"			"99"
+		"wide"			"385"
+		"tall"			"97"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"BorderTanDarkerCornersVerySmall"
+		"proportionaltoparent"	"1"
+	}
+		
 	"RankPanel_Casu" //"borrowed" from darhud smh. time to redux it
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel_Casu"
 		"xpos"			"cs-0.5"
-		"ypos"			"282"
+		"ypos"			"260"
 		"zpos"			"100"
 		"wide"			"385"
 		"tall"			"50"
@@ -171,20 +188,19 @@
 		"show_name"		"0"
 
 		"bgcolor_override"	"0 0 0 0"
-		"border"		"BorderTanDarkerCornersVerySmall"
 	}
 	
 	"RankPanel_Comp" //keeping this just in case
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel_Comp"
-		"xpos"			"c-285"
-		"ypos"			"385"
+		"xpos"			"cs-0.5"
+		"ypos"			"308"
 		"zpos"			"100"
 		"wide"			"385"
 		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -195,7 +211,7 @@
 		"show_progress" "1"
 		"show_name"		"0"
 
-		"bgcolor_override"	"0 0 0 80"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	
 	"MainBackground"
@@ -271,7 +287,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"-100"
+		"ypos"		"-122"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
