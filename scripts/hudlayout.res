@@ -1390,9 +1390,9 @@
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
-		"xpos"			"0"			
+		"xpos"			"-5"			
 		"ypos"			"0"
-		"wide"			"640"
+		"wide"			"650"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

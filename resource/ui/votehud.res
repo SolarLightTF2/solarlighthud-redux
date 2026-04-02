@@ -101,7 +101,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
@@ -172,7 +172,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option2CountLabel"
@@ -191,7 +191,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		// Vote lists for both 2-vote and 5-vote
@@ -212,7 +212,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option1Background_Selected"
@@ -244,7 +244,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option2Background_Selected"
@@ -276,7 +276,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option3Background_Selected"
@@ -308,7 +308,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option4Background_Selected"
@@ -340,7 +340,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"Option5Background_Selected"
@@ -385,7 +385,7 @@
 		"fieldName"		"CallVoteFailed"
 		"xpos"			"-5"
 		"ypos"			"35" //c-80 if chat is at top
-		"wide"			"200"
+		"wide"			"240"
 		"tall"			"33"
 		"visible"		"0"
 		"enabled"		"1"
@@ -419,7 +419,7 @@
 			"fieldName"		"FailedReason"
 			"xpos"			"35"
 			"ypos"			"8"
-			"wide"			"200"
+			"wide"			"240"
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"

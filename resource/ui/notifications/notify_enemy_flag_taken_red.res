@@ -4,6 +4,11 @@
 {	
 	"Notification_Background_Redux"
 	{
+		"wide"			"110"
+	}
+	
+	"Notification_Background_Redux"
+	{
 		"image"			"replay/thumbnails/borders/border_blu_corners_transparent"
 	}
 	

@@ -24,7 +24,7 @@
 		"proportionaltoparent"	"1"
 
 		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_casual"
-		"button_token"		"#MMenu_PlayList_Casual_Button"
+		"button_token"		"#Casual_Allcaps"
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"		"7" // k_eTFMatchGroup_Casual_12v12
@@ -34,10 +34,10 @@
 		}
 	}
 
-	"CompetitiveEntry"
+	"MvMEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CompetitiveEntry"
+		"fieldName"		"MvMEntry"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"tall"			"45"
@@ -55,10 +55,10 @@
 		}
 	}
 
-	"MvMEntry"
+	"CompetitiveEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"MvMEntry"
+		"fieldName"		"CompetitiveEntry"
 		"xpos"			"295"
 		"ypos"			"20"
 		"tall"			"250"
@@ -66,7 +66,7 @@
 		"proportionaltoparent"	"1"
 
 		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_mvm"
-		"button_token"		"#MMenu_PlayList_Competitive_Button"
+		"button_token"		"#Competitive_Allcaps"
 		"button_command"	"play_competitive"
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
@@ -150,7 +150,7 @@
 		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 
-		"labeltext"		"Training"
+		"labeltext"		"#Training_Allcaps"
 		"proportionaltoparent"	"1"
 		"command"		"play_training"
 	
@@ -205,7 +205,7 @@
 		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 
-		"labeltext"		"MvM"
+		"labeltext"		"#MvM_Allcaps"
 		"proportionaltoparent"	"1"
 		"command"		"play_mvm"
 	
