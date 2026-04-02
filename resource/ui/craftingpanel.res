@@ -243,7 +243,6 @@
 		"scaleImage"	"1"
 		"tileImage"	"1"
 		"mouseinputenabled"	"0"
-		"drawcolor"     "255 255 255 128"  
 		"proportionaltoparent"	"1"
 	}	
 	
