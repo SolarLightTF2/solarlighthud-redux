@@ -13,30 +13,36 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"NewBG"
 		"xpos"			"0"	[$WIN32]
-		"ypos"			"10"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"ypos"			"30"
 		"zpos"			"0"
 		"wide"			"154"
-		"tall"			"85"
+		"tall"			"106"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bgtransparent"	
+		"image"			"replay/thumbnails/blank"	
 		"scaleImage"		"1"	
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
+	}
+
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"fillcolor"		"0 0 0 0"
 	}
 	
-	"DestroyIcon"	
+	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"DestroyIcon"
+		"fieldName"		"BuildIcon"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
+	"BuildIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -45,9 +51,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Futura20"
+		"font"			"SLBoldMediumSmall"
 		"xpos"			"0"			// align me to the left edge of the first selection
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"154"
 		"tall"			"38"
@@ -61,13 +67,34 @@
 		"brighttext"	"0"
 	}
 	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"SLBoldMediumSmallStroke"
+		"xpos"			"0"			// align me to the left edge of the first selection
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"154"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_menu_demolish_title"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"TanDarker"
+	}
+	
 	"CancelLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"Futura10"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"154"
 		"tall"			"13"
@@ -86,7 +113,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_1"
 		"xpos"			"2"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
@@ -98,7 +125,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_2"
 		"xpos"			"40"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
@@ -110,7 +137,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_3"
 		"xpos"			"78"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
@@ -122,106 +149,154 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_4"
 		"xpos"			"116"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
 		"visible"		"1"
 	}
 	
-	"inactive_item_1"
+	"already_built_item_1"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
-		"fieldName"		"inactive_item_1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"already_built_item_1"
 		"xpos"			"2"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
-	"inactive_item_2"
+	"already_built_item_2"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
-		"fieldName"		"inactive_item_2"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"already_built_item_2"
 		"xpos"			"40"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
-	"inactive_item_3"
+	"already_built_item_3"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
-		"fieldName"		"inactive_item_3"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"already_built_item_3"
 		"xpos"			"78"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
-	"inactive_item_4"
+	"already_built_item_4"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
-		"fieldName"		"inactive_item_4"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"already_built_item_4"
 		"xpos"			"116"
-		"ypos"			"47"
+		"ypos"			"67"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
+	}
+	
+	"cant_afford_item_1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"cant_afford_item_1"
+		"xpos"			"2"
+		"ypos"			"67"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"124"
+		"visible"		"0"
 	}	
+	
+	"cant_afford_item_2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"cant_afford_item_2"
+		"xpos"			"40"
+		"ypos"			"67"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"124"
+		"visible"		"0"
+	}	
+	
+	"cant_afford_item_3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"cant_afford_item_3"
+		"xpos"			"78"
+		"ypos"			"67"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"124"
+		"visible"		"0"
+	}	
+	
+	"cant_afford_item_4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"cant_afford_item_4"
+		"xpos"			"116"
+		"ypos"			"67"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"124"
+		"visible"		"0"
+	}
 
 	"unavailable_item_1"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_1"
-		"xpos"			"2"
-		"ypos"			"47"
+		"xpos"			"25"
+		"ypos"			"67"
 		"zpos"			"1"
-		"wide"			"36"
+		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
 	"unavailable_item_2"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_2"
-		"xpos"			"40"
-		"ypos"			"47"
+		"xpos"			"125"
+		"ypos"			"67"
 		"zpos"			"1"
-		"wide"			"36"
+		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
 	"unavailable_item_3"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_3"
-		"xpos"			"78"
-		"ypos"			"47"
+		"xpos"			"225"
+		"ypos"			"67"
 		"zpos"			"1"
-		"wide"			"36"
+		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
 	"unavailable_item_4"
 	{
-		"ControlName"	"CEngyDestroyMenuItem"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_item_4"
-		"xpos"			"116"
-		"ypos"			"47"
+		"xpos"			"325"
+		"ypos"			"67"
 		"zpos"			"1"
-		"wide"			"36"
+		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
-	}
+		"visible"		"0"
+	}	
 }

@@ -19,8 +19,9 @@
 		"tall"			"106"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bgtransparent"	
-		"scaleImage"		"1"
+		"image"			"replay/thumbnails/blank"	
+		"scaleImage"		"1"	
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
 	}
 
 	"Divider"
@@ -50,7 +51,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"FuturaItalic28"
+		"font"			"SLBoldMediumSmall"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"ypos"			"10"
 		"zpos"			"2"
@@ -70,8 +71,21 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"visible"		"0"
-		"enabled"		"0"
+		"font"			"SLBoldMediumSmallStroke"
+		"xpos"			"0"			// align me to the left edge of the first selection
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"154"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_menu_build_title"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"TanDarker"
 	}
 	
 	"CancelLabel"
