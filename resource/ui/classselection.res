@@ -393,6 +393,16 @@
         "labelText"          	"&E"
         "Command"           	"openloadout"
     }
+	
+	"RandomClassBind"
+	{
+        "ControlName"       	"CExButton"
+        "fieldName"           	"RandomClassBind"
+		"xpos"										"9999"
+		"visible"									"1"
+		"labelText"									"&R"
+		"Command"									"joinclass random"
+	}
 
 	"ResetButton" [$WIN32] 
 	{
