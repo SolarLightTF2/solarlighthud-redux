@@ -40,6 +40,14 @@ Replaces the Medic call and revive bubbles with custom ones.
 
 Is blocked by sv_pure. Requires a preloader.
 
+# Voice chat bubbles
+
+Replaces the voice chat speech bubbles that appear over a player, and in the HUD.
+
+This includes both the team-colored variants (used when alltalk is disabled), as well as the generic one used for alltalk servers.
+
+This is most likely blocked by sv_pure and requires a preloader, but I did not test.
+
 # Match HUD portraits
 
 Replaces the class images at the top of the screen (by the timer) with the scoreboard class icons.
