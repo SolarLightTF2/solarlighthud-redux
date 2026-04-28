@@ -12,22 +12,44 @@ This mod pack includes the following:
 
 # Music pack
 
+Replaces the startup themes with 90+ custom ones, and enables a menu for manually playing them.
+
+Requires manual stopping via a button on some occasions.
+
 Will work in Casual mode, but will break in competitive servers.
+
 This apparently breaks with Cueki's Casual Preloader. Investigating...
 
 # Casual Mode Themes
 
-Will work in Casual
+Replaces the match start and match end themes in Casual mode.
+
+Will work in Casual, without the need of a preloader.
 
 # Round Outcome Themes
 
-Will work in Casual, but will break in competitive servers.
-Use the Casual preloader to bypass this breakage, if it is allowed where you're playing.
+Replaces the round end themes. (Win, loss, stalemate).
+
+Will work in Casual without a preloader, but will break in competitive (sv_pure 2) servers.
+
+Use the Casual preloader to bypass this breakage, if it is allowed where you're playing, but bear in mind that this may break the Music Pack.
 
 # Medic call bubbles
 
-Is blocked by sv_pure. Requires a preloader
+Replaces the Medic call and revive bubbles with custom ones.
+
+Is blocked by sv_pure. Requires a preloader.
+
+# Voice chat bubbles
+
+Replaces the voice chat speech bubbles that appear over a player, and in the HUD.
+
+This includes both the team-colored variants (used when alltalk is disabled), as well as the generic one used for alltalk servers.
+
+This is most likely blocked by sv_pure and requires a preloader, but I did not test.
 
 # Match HUD portraits
 
-Is blocked by sv_pure. Requires a preloader
+Replaces the class images at the top of the screen (by the timer) with the scoreboard class icons.
+
+Is blocked by sv_pure. Requires a preloader.

@@ -1,4 +1,4 @@
-"resource/ui/destroy_menu/base_active.res"
+"resource/ui/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{	
@@ -9,17 +9,18 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"36"
-		"tall"			"15"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Dispenser"
+		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -28,38 +29,57 @@
 		"enabled"		"0"
 	}
 	
-	"DestroyIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"DestroyIcon"
-		"xpos"			"13"
-		"ypos"			"18"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"70"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_demolish"
-		"iconColor"		"255 255 255 255"
-	}
-		
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_dispenser"
-		"iconColor"		"255 255 255 128"
+		"icon"			"hud_menu_sentry_build"
+		"iconColor"		"255 255 255 255"
 	}
-		
+	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"9"
+		"ypos"			"9"
+		"zpos"			"1"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"TanDark"
+	}
+	
+	"ModeLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDarker"
+		"xpos"			"33"
+		"ypos"			"17"
+		"zpos"			"1"
+		"wide"			"44"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"East"	
+	}
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -69,29 +89,29 @@
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"TanDarker"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"Futura24"
+		"fgcolor"		"0 161 0 255"
 		"xpos"			"0"
-		"ypos"			"98"
-		"zpos"			"1"
+		"ypos"			"68"
+		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"2"
+		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"

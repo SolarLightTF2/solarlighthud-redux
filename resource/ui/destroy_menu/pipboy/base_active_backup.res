@@ -1,4 +1,4 @@
-"resource/ui/build_menu/base_inactive.res"
+"resource/ui/destroy_menu/base_active.res"
 {
 	"ItemNameLabel"
 	{	
@@ -6,19 +6,18 @@
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"36"
-		"tall"			"12"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_dispenser"
+		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"TanLight"
 	}
 	
 	"ItemBackground"
@@ -29,26 +28,38 @@
 		"enabled"		"0"
 	}
 	
-	"NotBuiltLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NotBuiltLabel"
-		"font"			"Futura10"
+	"DestroyIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"DestroyIcon"
+		"xpos"			"13"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"70"
+		"tall"			"70"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+		"icon"			"ico_demolish"
+		"iconColor"		"255 255 255 255"
+	}
+		
+	"BuildingIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildingIcon"
 		"xpos"			"0"
-		"ypos"			"60"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"36"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_NotBuilt"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}	
-			
+		"scaleImage"	"1"	
+		"icon"			"obj_status_dispenser"
+		"iconColor"		"255 255 255 128"
+	}
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -62,7 +73,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 128"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"

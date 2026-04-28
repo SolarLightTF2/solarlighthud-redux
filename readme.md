@@ -7,7 +7,7 @@ A heavily modified version of the old SolarLightHUD from 2018, with tons of new 
 > # IMPORTANT NOTE FOR LINUX USERS:
 >The fonts in this HUD are sized incorrectly on Linux, which breaks the outline effects. We've tried fixing this, but it appears to be a difficult task. To prevent further stalling, we've elected to release the HUD for Windows first, with the hope of fixing the Linux jank post-release. If anyone is interested in and capable of fixing the fonts for Linux, we will gladly accept any working pull requests, so long as they don't break things on Windows.
 ># CUSTOMIZATION BREAKAGE
->Some people are using mods that contain a valve.rc file. This conflicts with the valve.rc file used in REDUX to create a "redux_customization" folder in the game's cfg directory (not the HUD's directory, but in the game files). If your customizations fail to apply, make sure this folder is present first. More importantly, remove any other mods that may conflict with REDUX.
+>Some people are using mods that contain a valve.rc file. This conflicts with the valve.rc file used in REDUX to create a "redux_customization" folder in the game's cfg directory (not the HUD's directory, but in the game files). If your customizations fail to apply, make sure this folder is present first. More importantly, remove any other mods that may conflict with REDUX. Alternately, create the necessary folder and then add 'exec customization' to your autoexec.
 ># ASPECT RATIO
 >This HUD was intended for 16:9 at 1080p. You can try using it in other aspect ratios, but some HUD modes may have overlapping HUD elements in 4:3, and ultrawide was hardly tested, though some precautions were made in the menus to account for it.
 Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rather than the Default mode. In 4:3, Centered is most prone to issues, and Default may serve better.
@@ -29,7 +29,7 @@ Join the SolarLight Discord for updates: [https://discord.gg/solarlight](https:/
 
 Accurate class images: [https://gamebanana.com/mods/641043](https://gamebanana.com/mods/641043)
 
-Persona 5 UI sounds: [https://gamebanana.com/sounds/71875](https://gamebanana.com/sounds/71875)
+Persona 5 UI sounds (may cause a loud sound while alt-tabbed and queueing): [https://gamebanana.com/sounds/71875](https://gamebanana.com/sounds/71875)
 
 Consistent Kill Icons: [https://gamebanana.com/mods/591386](https://gamebanana.com/mods/591386)
 

@@ -10,7 +10,7 @@
 	"BuildingIcon"	
 	{
 		"xpos"			"4"
-		"ypos"			"15"
+		"ypos"			"35"
 		"wide"			"28"
 		"tall"			"28"
 		"icon"			"obj_status_tele_entrance"

@@ -922,7 +922,7 @@
 		"xpos"					"c-275"
 		"ypos"					"20"
 		"wide"					"550"
-		"tall"					"300"
+		"tall"					"460"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
