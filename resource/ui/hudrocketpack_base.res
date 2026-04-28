@@ -52,6 +52,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override" "140 135 132 255"
 	}
 	"ItemEffectMeter2"
 	{
@@ -81,7 +82,7 @@
 		"zpos"						"4"
 		"wide"						"30"
 		"tall"						"5"
-		"visible"					"0"
+		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
 		"image" 					"replay/thumbnails/ColorTanLightModulate"
