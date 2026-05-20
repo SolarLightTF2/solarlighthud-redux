@@ -2592,8 +2592,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"12"	[$WINDOWS]
-				"tall"		"15"	[$LINUX]
+				"tall"		"15"
 				"antialias" 	"1"
 			}
 		}
@@ -2613,8 +2612,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"16"	[$WINDOWS]
-				"tall"		"20"	[$LINUX]
+				"tall"		"20"
 				"antialias" 	"1"
 			}
 		}
@@ -2634,8 +2632,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"20"	[$WINDOWS]
-				"tall"		"25"	[$LINUX]
+				"tall"		"25"
 				"antialias" 	"1"
 			}
 		}
@@ -2655,8 +2652,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"24"	[$WINDOWS]
-				"tall"		"30"	[$LINUX]
+				"tall"		"30"
 				"antialias" 	"1"
 			}
 		}
@@ -2676,8 +2672,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"32"	[$WINDOWS]
-				"tall"		"40"	[$LINUX]
+				"tall"		"40"
 				"antialias" 	"1"
 			}
 		}
@@ -2697,8 +2692,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"52"	[$WINDOWS]
-				"tall"		"65"	[$LINUX]
+				"tall"		"65"
 				"antialias" 	"1"
 			}
 		}
@@ -2730,8 +2724,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"8"	[$WINDOWS]
-				"tall"		"11"	[$LINUX]
+				"tall"		"11"
 				"antialias" 	"1"
 			}
 		}
@@ -2768,8 +2761,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"12"	[$WINDOWS]
-				"tall"		"16"	[$LINUX]
+				"tall"		"16"
 				"antialias" 	"1"
 			}
 		}
@@ -2789,8 +2781,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"16"	[$WINDOWS]
-				"tall"		"21"	[$LINUX]
+				"tall"		"21"
 				"antialias" 	"1"
 			}
 		}
@@ -2810,8 +2801,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"20"	[$WINDOWS]
-				"tall"		"26"	[$LINUX]
+				"tall"		"26"
 				"antialias" 	"1"
 			}
 		}
@@ -2831,8 +2821,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"24"	[$WINDOWS]
-				"tall"		"31"	[$LINUX]
+				"tall"		"31"
 				"antialias" 	"1"
 			}
 		}
@@ -2852,8 +2841,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"32"	[$WINDOWS]
-				"tall"		"41"	[$LINUX]
+				"tall"		"41"
 				"antialias" 	"1"
 			}
 		}
@@ -2885,8 +2873,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"48"	[$WINDOWS]
-				"tall"		"60"	[$LINUX]
+				"tall"		"60"
 				"antialias" 	"1"
 			}
 		}
@@ -2906,8 +2893,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"32"	[$WINDOWS]
-				"tall"		"40"	[$LINUX]
+				"tall"		"40"
 				"antialias" 	"1"
 			}
 		}
@@ -2927,8 +2913,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"36"	[$WINDOWS]
-				"tall"		"45"	[$LINUX]
+				"tall"		"45"
 				"antialias" 	"1"
 			}
 		}
@@ -2948,8 +2933,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"20"	[$WINDOWS]
-				"tall"		"25"	[$LINUX]
+				"tall"		"25"
 				"antialias" 	"1"
 			}
 		}
@@ -2959,8 +2943,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"48"	[$WINDOWS]
-				"tall"		"60"	[$LINUX]
+				"tall"		"60"
 				"antialias" 	"1"
 			}
 		}
@@ -2970,8 +2953,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"48"	[$WINDOWS]
-				"tall"		"60"	[$LINUX]
+				"tall"		"60"
 				"antialias" 	"1"
 			}
 		}
@@ -2991,8 +2973,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke3"
-				"tall"		"16"	[$WINDOWS]
-				"tall"		"21"	[$LINUX]
+				"tall"		"21"
 				"antialias" 	"1"
 			}
 		}
@@ -3012,8 +2993,7 @@ Scheme
 			"1"
 			{
 				"name"		"futurabt_extremestroke"
-				"tall"		"24"	[$WINDOWS]
-				"tall"		"30"	[$LINUX]
+				"tall"		"30"
 				"antialias" 	"1"
 			}
 		}
