@@ -33,7 +33,6 @@
 		"textAlignment"	"west"
 		"font"			"SLHealthAmmo"
 		"fgcolor"		"TanLight"
-		"auto_wide_tocontents"	"1"
 		"centerwrap"			"1"
 		"proportionaltoparent"	"1"
 		"textinsetx"	"20" //didn't work either
@@ -49,8 +48,36 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectTeamLabelSolarOutline"
 		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"9"
+		"wide"			"f0"
+		"tall"			"52"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Arena_SuddenDeathPanel"
+		"textAlignment"	"west"
+		"font"			"SLHealthAmmoOutline"
+		"fgcolor"		"TanDarker"
+		"centerwrap"			"1"
+		"proportionaltoparent"	"1"
+		"textinsetx"	"20" //didn't work either
+		"allcaps"		"1"
+		
+		"pin_to_sibling"	"SelectTeamLabelAnchor"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+
+	"SelectTeamLabelSolarBorder" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectTeamLabelSolarBorder"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"
+		"zpos"			"8"
 		"wide"			"f0"
 		"tall"			"40"
 		"autoResize"	"0"
@@ -61,9 +88,9 @@
 		"labelText"		"#TF_Arena_SuddenDeathPanel"
 		"textAlignment"	"west"
 		"font"			"SLHealthAmmoOutline"
-		"fgcolor"		"TanDarker"
+		"fgcolor"		"0 0 0 0"
 		"auto_wide_tocontents"	"1"
-		"centerwrap"			"1"
+		"centerwrap"			"0"
 		"border"		"BorderTargetIDTanDarker"
 		"proportionaltoparent"	"1"
 		"textinsetx"	"20" //didn't work either
