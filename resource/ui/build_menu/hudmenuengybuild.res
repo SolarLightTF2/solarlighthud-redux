@@ -73,10 +73,10 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"SLBoldMediumSmallStroke"
 		"xpos"			"0"			// align me to the left edge of the first selection
-		"ypos"			"10"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"154"
-		"tall"			"38"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -88,7 +88,7 @@
 		"labelText"		"#TF_Arena_SuddenDeathPanel"
 		"textAlignment"	"west"
 		"font"			"SLHealthAmmoOutline"
-		"fgcolor"		"0 0 0 0"
+		"fgcolor"		"Blank"
 		"auto_wide_tocontents"	"1"
 		"centerwrap"			"0"
 		"border"		"BorderTargetIDTanDarker"
