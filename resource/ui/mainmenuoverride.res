@@ -2476,12 +2476,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SLHRCustomizationButtonOutline"
 		"xpos"			"250"
-		"ypos"			"rs1+8"	[$WINDOWS]
-		"ypos"			"rs1+10"	[$LINUX]
+		"ypos"			"rs1+10"
 		"zpos"			"-1"
 		"wide"			"190"
-		"tall"			"45"	[$WINDOWS]
-		"tall"			"52"	[$LINUX]
+		"tall"			"52"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"

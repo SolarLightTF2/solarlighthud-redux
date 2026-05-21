@@ -162,12 +162,10 @@
 			"labelText"		"#Customization_Title"
 			"textAlignment"	"center"
 			"xpos"			"cs-0.5"
-			"ypos"			"20"	[$WINDOWS]
-			"ypos"			"15"	[$LINUX]
+			"ypos"			"15"
 			"zpos"			"-10"
 			"wide"			"550"
-			"tall"			"20"	[$WINDOWS]
-			"tall"			"25"	[$LINUX]
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
