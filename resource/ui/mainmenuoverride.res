@@ -152,11 +152,83 @@
 	  "pin_to_sibling"    "MapVoteAnchor"
 	}
 	
+	"SLHRReportBugButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"SLHRReportBugButton"
+		"xpos"			"r80"
+		"ypos"			"r27"
+		"zpos"			"12"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"p1"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_armed"		"UI/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"1"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"defaultbgColor_override" "Blank"
+			"armedbgColor_override" "Blank"
+			"depressedbgColor_override" "Blank"
+			
+			"border_default"	"BorderTanDarkerCornersVerySmall"
+			"border_depressed"	"BorderTanDarkerCornersVerySmall"
+			"border_armed"		"BorderTanDarkCornersVerySmall"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/button_glyphs/glyph_sentry_destroy"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
+	
 	"SLHRStoreButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SLHRStoreButton"
-		"xpos"			"r114"
+		"xpos"			"r107"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -228,7 +300,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SLHRAchievementsButton"
-		"xpos"			"r87"
+		"xpos"			"r134"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -300,7 +372,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GithubButton"
-		"xpos"			"r60"
+		"xpos"			"r53"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -372,7 +444,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ComfigHUDsButton"
-		"xpos"			"r33"
+		"xpos"			"r26"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -444,7 +516,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayVideoButton"
-		"xpos"			"r154"
+		"xpos"			"r161"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -492,6 +564,75 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_tv"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
+	
+	"PlayVideoButtonInGame"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayVideoButtonInGame"
+		"xpos"			"r161"
+		"ypos"			"r27"
+		"zpos"			"12"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"p1"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"paintbackground"	"0"
+			"paintbackgroundtype"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"defaultbgColor_override" "Blank"
+			"armedbgColor_override" "Blank"
+			"depressedbgColor_override" "Blank"
+			
+			"border_default"	"BorderTanDarkerCornersVerySmall"
+			"border_depressed"	"BorderTanDarkerCornersVerySmall"
+			"border_armed"		"BorderTanDarkerCornersVerySmall"
+			
+			"image_drawcolor"	"208 125 125 255"
+			"image_armedcolor"	"208 125 125 255"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -588,7 +729,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DebugReloadButton"
 		"xpos"			"5"
-		"ypos"			"rs1-40"
+		"ypos"			"rs1-80"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
@@ -1246,8 +1387,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"r40"
-		"ypos"			"r164"
+		"xpos"			"r74"
+		"ypos"			"r64"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -1352,8 +1493,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r40"
-		"ypos"			"r130"
+		"xpos"			"r36"
+		"ypos"			"r64"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -1669,7 +1810,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"r208"
+		"xpos"			"r80"
 		"ypos"			"r27"
 		"zpos"			"11"
 		"wide"			"25"
@@ -1741,7 +1882,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"r181"
+		"xpos"			"r53"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"
@@ -2356,122 +2497,14 @@
 		"fgcolor_override"	"TanDark"
 	}
 	
-	"SLHRReportBugClickBlocker" //the report bug button is a weird shape so I need to block mouse-clicks on the blank area with a panel on top
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SLHRReportBugClickBlocker"
-		"xpos"			"r190"
-		"ypos"			"r90"
-		"zpos"			"3"
-		"wide"			"160"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"fgcolor_override"	"0 0 0 0"
-	}
-	
-	"SLHRReportBugButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"SLHRReportBugButton"
-		"xpos"			"r190"
-		"ypos"			"r90"
-		"zpos"			"2"
-		"wide"			"190"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"use_proportional_insets" "1"
-		"font"			"SLBoldSmall"
-		"textAlignment"	"south-east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"command"		"url https://github.com/SolarLightTF2/solarlighthud-redux/issues/new"
-		"labeltext"		"#MMenu_Tooltip_ReportBug"
-		"sound_armed"		"UI/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"proportionaltoparent"	"1"
-		"paintbackground"	"1"
-		"textinsetx"	"30"
-		"textinsety"	"0"
-		
-		"border_default"	""
-		"border_armed"		""		
-		
-		"image_drawcolor"	"235 226 202 255"
-		
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		
-		"defaultfgColor_override" 	"TanDarker"
-		"armedfgColor_override" 	"TanLight"
-		"depressedfgColor_override" "Orange" //clicked on
-		"depressedfgColor_override" "Orange" //clicked on
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/icons/report_bug_button"
-			"proportionaltoparent"	"1"
-		}		
-	}
-	
-	"SLHRReportBugButtonOutline"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SLHRReportBugButtonOutline"
-		"xpos"			"r190"
-		"ypos"			"r90"
-		"zpos"			"-1"
-		"wide"			"190"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"use_proportional_insets" "1"
-		"font"			"SLBoldSmallStroke"
-		"textAlignment"	"south-east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"labeltext"		"#MMenu_Tooltip_ReportBug"
-		"proportionaltoparent"	"1"
-		"paintbackground"	"1"
-		"fgcolor"	"TanDark"
-		"textinsetx"	"30"
-		"textinsety"	"0"
-	}
-
-
 	"BottomRightButtonBorder"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomRightButtonBorder"
-		"xpos"			"r125"
+		"xpos"			"r164"
 		"ypos"			"r30"
 		"zpos"			"0"
-		"wide"			"150"
+		"wide"			"174"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -2485,7 +2518,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"r154"
+		"xpos"			"r26"
 		"ypos"			"r27"
 		"zpos"			"12"
 		"wide"			"25"

@@ -106,11 +106,20 @@
 		"tooltip" 		"#MMenu_Tooltip_Achievements"
 	}
 	
+	"SLHRReportBugButton"
+	{
+		"label"			"#MMenu_Tooltip_ReportBug"
+		"Command"		"url https://github.com/SolarLightTF2/solarlighthud-redux/issues/new"
+		"tooltip" 		"#MMenu_Tooltip_ReportBug"
+		"OnlyAtMenu"	"1"
+	}
+	
 	"GithubButton"
 	{
 		"label"			"#MainMenu_Github"
 		"Command"		"url https://github.com/SolarLightTF2/SolarLightHUD-REDUX/"
 		"tooltip" 		"#MainMenu_Github"
+		"OnlyAtMenu"	"1"
 	}
 
 	"ComfigHUDsButton"
@@ -118,6 +127,7 @@
 		"label"			"#MainMenu_Comfig"
 		"Command"		"url https://comfig.app/huds/page/solarlighthud-redux/"
 		"tooltip" 		"#MainMenu_Comfig"
+		"OnlyAtMenu"	"1"
 	}
 	
 	"PlayVideoButton"
@@ -126,6 +136,14 @@
 		"Command"		"engine playvideo redux_intro"
 		"tooltip" 		"#MainMenu_Video"
 		"OnlyAtMenu"	"1"
+	}
+	
+	"PlayVideoButtonInGame"
+	{
+		"label"			"#MainMenu_Video_InGame"
+		"Command"		"engine playgamesound TV.Tune"
+		"tooltip" 		"#MainMenu_Video_InGame"
+		"OnlyInGame"	"1"
 	}
 	
 	"TFLogoOctagonButton"

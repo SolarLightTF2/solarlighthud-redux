@@ -1232,12 +1232,12 @@
 		"border"		"BorderTanLightCornersVerySmall"
 		
 		"force_close"	"0"
-		"end_x"			"c-20"
+		"end_x"			"c-40"
 		"end_y"			"c0"
 		"end_wide"		"250"
 		"end_tall"		"240"
-		"callout_inparents_x"	"r80"
-		"callout_inparents_y"	"r55"
+		"callout_inparents_x"	"r71"
+		"callout_inparents_y"	"r30"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#TF_ReduxBugTip_Title"
