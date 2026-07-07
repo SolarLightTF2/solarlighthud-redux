@@ -15,6 +15,8 @@ Ultrawide users are encouraged to use the "Centered" or "Classic" HUD modes rath
 > This HUD features lots of custom text, but it was only made for the English language, so things may break on other languages.
 > # DXLEVEL
 > This HUD uses some custom shaders in some of the menus. They require DX9 to work, but the HUD is still usable on DX8. If you're not aware of what DXLevel is, you don't have to worry. There may be some other minor differences in DX8 that I did not get around to tweaking for the release.
+> # THE BUG WHERE YOU BECOME BLIND
+> There's an extremely rare bug where the screen turns black. We don't know what causes this, yet. If this ever happens, press the reload button on the bottom left of the main menu.
 
 # THE ADD-ON PACK
 
