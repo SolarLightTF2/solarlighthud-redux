@@ -1,7 +1,7 @@
 # SolarLightHUD REDUX
 <img width="2560" height="1280" alt="thumbnail" src="https://github.com/user-attachments/assets/fee65220-2855-477d-b247-6e95168fb799" />
 
-A heavily modified version of the old SolarLightHUD from 2018, with tons of new HUD elements, fonts, colors, images, features and settings.
+A heavily modified version of da old SolarLightHUD from 2018, with tons of new HUD elements, fonts, colors, images, features and settings.
 
 > [!WARNING]
 > # IMPORTANT NOTE FOR LINUX USERS:
