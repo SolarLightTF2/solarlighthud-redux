@@ -180,4 +180,11 @@
 		"store_text"		"#TF_Trial_MainMenu_Upsell_Engineer"
 		"holiday_restriction"	"christmas"
 	}
+	"summer_bbq"
+	{
+		"image"	"replay/thumbnails/characters/demoman_summer_sepia"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+		"holiday_restriction"	"summer"
+	}
 }
