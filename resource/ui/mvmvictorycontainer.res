@@ -86,4 +86,22 @@
 		"visible"			"0"
 		"enabled"			"1"		
 	}
+	//hackfix for when the victory screen vanishes for some reason, thanks fellen
+	"ClickOffButton"
+	{
+		"ControlName"    "Button"
+		"xpos"            "cs-0.5"
+		"ypos"            "cs-0.5"
+		"zpos"            "-1"
+		"wide"            "106"
+		"tall"            "25"
+		"default"       "1"
+		"labelText"        "#TF_Support_Message_Show_Later"
+		"font"            "HudFontSmallBold"
+		"textAlignment"    "center"
+		"Command"        "done"
+		"sound_depressed"    "UI/buttonclick.wav"
+		"sound_released"    "UI/buttonclickrelease.wav"
+	}
+
 }
