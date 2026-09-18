@@ -42,6 +42,15 @@ Scheme
 
 			"image"					"replay/thumbnails/borders/button/class_button_flicker"
 		}
+		
+		ButtonFlickerClassTanLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"TanLight"
+
+			"image"					"replay/thumbnails/borders/button/class_button_flicker"
+		}
 
 		//SHAPES
 		SolarNoClipRectangleBG
