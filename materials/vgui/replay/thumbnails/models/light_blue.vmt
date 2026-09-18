@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/models/light_blue"
+	"$additive" "1"
+	"$model" "1"
+
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/models/light_spectate"
+	"$additive" "1"
+	"$model" "1"
+}

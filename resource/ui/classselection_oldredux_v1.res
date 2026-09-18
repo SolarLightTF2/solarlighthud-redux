@@ -1,37 +1,32 @@
+#base "classselection_blu.res"
+#base "classselection_red.res"
+
+//Some team specific HUD elements and buttons are in the other two files!
+//Don't get confused wondering why something is missing!
+//Some of the text is team colored, so they're not here. Such as the text used for the number of each class (classlimits).
+//Anchors for the class limits are still here, so they can be moved without editing them twice.
+
 "resource/ui/classselection.res"
 {
 
-	"CloseButtonBind" //press q to close
+	"YourTeam" [$WIN32] //outline is in the team-colored files
 	{
-		"ControlName"       	"CExButton"
-		"fieldName"           	"CloseButtonBind"
-		"xpos"               	"9999"
-		"visible"           	"1"
-		"labelText"          	"&Q"
-		"Command"           	"close"
-	}
-	
-	"Title"
-	{
-		"ControlName"	 "CExLabel"
-		"fieldName"		"Title"
-		"xpos"			"cs-0.5"
-		"ypos"			"20"
-		"zpos"			"-8"
-		"wide"			"620"
-		"tall"			"50"
-		"autoResize"	"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"YourTeam"
+		"xpos"			"c-100"
+		"ypos"			"40"
+		"zpos"			"-2"
+		"wide"			"200"
+		"tall"			"45"
+		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"east"
-		"font"			"FuturaItalic60"
+		"labelText"		"#TF_Arena_Team_Layout"
+		"textAlignment"	"south"
+		"font"			"SLHealthAmmo"
 		"fgcolor"		"TanLight"
-		"bgcolor_override"		"blank"
-		"mouseinputenabled"	"0"
-		"textinsetx"	"10"
 	}
 	
 	"bggradient"
@@ -67,10 +62,10 @@
 		"scaleimage"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/shaders/redux_valve_black"
-		"teambg_1"		"replay/thumbnails/shaders/redux_valve_black"
-		"teambg_2"		"replay/thumbnails/shaders/redux_valve_black"
-		"teambg_3"		"replay/thumbnails/shaders/redux_valve_black"
+		"image"			"replay/thumbnails/shaders/persona_sepia"
+		"teambg_1"		"replay/thumbnails/shaders/persona_sepia"
+		"teambg_2"		"replay/thumbnails/shaders/redux_red"
+		"teambg_3"		"replay/thumbnails/shaders/redux_blue"
 	}
 	
 	"BGColor"
@@ -140,40 +135,13 @@
 		"proportionaltoparent"	"1"
 	}	
 	
-//	TF2 Classified
-//	
-//	"BGClassesCivilian"
-//	{
-//		"ControlName"	"ImagePanel"
-//		"fieldName"		"BGClasses"
-//		"xpos"			"c230"
-//		"ypos"			"c132"
-//		"zpos"			"-6"
-//		"wide"			"80"
-//		"tall"			"90"
-//		"fillcolor"		"0 0 0 0"
-//		"autoResize"	"0"
-//		"pinCorner"		"0"
-//		"visible"		"0"
-//		"enabled"		"0"
-//		"alpha"			"255"
-//		"border"		"BorderTanDarkCornersVerySmall"
-//		"proportionaltoparent"	"1"
-//		
-//		"if_special_classes"
-//		{
-//			"visible"	"1"
-//			"enabled"	"1"
-//		}
-//	}	
-	
 	"BGHeader"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BGHeader"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-9"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"25"
 		"fillcolor"		"0 0 0 0"
@@ -184,9 +152,9 @@
 		"image"			"replay/thumbnails/ColorTanLight"
 		"teambg_1"		"replay/thumbnails/ColorTanLight"
 		"teambg_2"		"replay/thumbnails/ColorRED"
+		"teambg_2_lodef"	"replay/thumbnails/ColorRED"
 		"teambg_3"		"replay/thumbnails/ColorBLU"
-		"teambg_4"		"replay/thumbnails/ColorGRN"
-		"teambg_5"		"replay/thumbnails/ColorYLW"
+		"teambg_3_lodef"	"replay/thumbnails/ColorBLU"
 		"alpha"			"255"
 	}
 	
@@ -207,10 +175,11 @@
 		"image"			"replay/thumbnails/ColorTanLight"
 		"teambg_1"		"replay/thumbnails/ColorTanLight"
 		"teambg_2"		"replay/thumbnails/ColorRED"
+		"teambg_2_lodef"	"replay/thumbnails/ColorRED"
 		"teambg_3"		"replay/thumbnails/ColorBLU"
-		"teambg_4"		"replay/thumbnails/ColorGRN"
-		"teambg_5"		"replay/thumbnails/ColorYLW"
+		"teambg_3_lodef"	"replay/thumbnails/ColorBLU"
 		"alpha"			"255"
+		"draw_corner_height" "11"
 	}
 	
 	"bgline"
@@ -229,67 +198,6 @@
 		"alpha"			"255"
 		"mouseinputenabled"	"0"
 	}	
-
-	"ClassSelectBackgroundShape"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ClassSelectBackgroundShape"
-		"xpos"			"c-80"
-		"ypos"			"cs-0.5"
-		"zpos"			"-11"
-		"wide"			"500"
-		"tall"			"500"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/class_selection/bg_shape_blue" //TanLight
-		"teambg_1"		"replay/thumbnails/class_selection/bg_shape_blue" //TanLight
-		"teambg_2"		"replay/thumbnails/class_selection/bg_shape_red"
-		"teambg_3"		"replay/thumbnails/class_selection/bg_shape_blue"
-		"teambg_4"		"replay/thumbnails/class_selection/bg_shape_green"
-		"teambg_5"		"replay/thumbnails/class_selection/bg_shape_yellow"
-	}
-	
-	"ClassSelectBackgroundShape2" //Lazy hack to darken it
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ClassSelectBackgroundShape2"
-		"xpos"			"c-80"
-		"ypos"			"cs-0.5"
-		"zpos"			"-10"
-		"wide"			"500"
-		"tall"			"500"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/class_selection/bg_shape_blue" //TanLight
-		"teambg_1"		"replay/thumbnails/class_selection/bg_shape_blue" //TanLight
-		"teambg_2"		"replay/thumbnails/class_selection/bg_shape_red"
-		"teambg_3"		"replay/thumbnails/class_selection/bg_shape_blue"
-		"teambg_4"		"replay/thumbnails/class_selection/bg_shape_green"
-		"teambg_5"		"replay/thumbnails/class_selection/bg_shape_yellow"
-		"drawcolor"		"0 0 0 0"
-		"alpha"			"180"
-	}
-	
-	"LoadingBars"
-	{
-		"controlName" "CTFImagePanel"
-		"fieldName" "LoadingBars"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "-12"
-		"wide" "f0"
-		"tall" "f0"
-
-		"image" "replay/thumbnails/loadingbars2048"
-		"scaleimage" "1"
-		"drawcolor"	"32 32 32 255"
-	}
 	
 	"class"
 	{
@@ -337,203 +245,39 @@
 		"enabled"		"0"
 	}
 	
+	"Chalkboard"
+	{
+		"ControlName"    "CDrawingPanel"
+		"xpos"            "0"
+		"ypos"            "0"
+		"wide"            "f0"
+		"tall"            "f0"
+		"bgcolor_override"    "0 0 0 0"
+		"linecolor"        "255 255 255 255"
+		"zpos"            "0"
+		"team_colors"		"1"
+	}
+	
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-245"
-		"ypos"				"r100"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"70"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 1"
-		"Default"		"0"
-		
-		"image_default"		"class_sel_sm_scout_inactive"
-		"image_armed"		"class_sel_sm_scout_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-30"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_scout_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"
 	}
 	"soldier"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-190"
-		"ypos"				"r105"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 3"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_soldier_inactive"
-		"image_armed"		"class_sel_sm_soldier_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_soldier_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"		
 	}
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-135"
-		"ypos"				"r100"
-		"zpos"				"1"
-		"wide"					"50"
-		"tall"					"70"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 7"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_pyro_inactive"
-		"image_armed"		"class_sel_sm_pyro_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-30"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_pyro_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"					
 	}
 	
 	"Defense"
@@ -547,200 +291,22 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-80"
-		"ypos"				"r105"
-		"zpos"				"1"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 4"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_demo_inactive"
-		"image_armed"		"class_sel_sm_demo_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_demo_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"			
 	}	
 	"heavyweapons"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-25"
-		"ypos"				"r105"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 6"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_heavy_inactive"
-		"image_armed"		"class_sel_sm_heavy_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_heavy_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"		
 	}
-	
 	"engineer"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c30"
-		"ypos"				"r100"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"70"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 9"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_engineer_inactive"
-		"image_armed"		"class_sel_sm_engineer_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-30"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_heavy_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"			
 	}
 	
 	"Support"
@@ -754,275 +320,23 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c85"
-		"ypos"				"r105"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 5"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_medic_inactive"
-		"image_armed"		"class_sel_sm_medic_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_medic_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"		
 	}
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c140"
-		"ypos"				"r105"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"north"
-		"textinsety"			"0"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 2"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_sniper_inactive"
-		"image_armed"		"class_sel_sm_sniper_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_sniper_inactive"
-		}
+		"visible"			"0"
+		"enabled"			"0"			
 	}
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c195"
-		"ypos"				"r105"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"80"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 8"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_spy_inactive"
-		"image_armed"		"class_sel_sm_spy_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-20"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_spy_inactive"
-		}
-	}
-	
-	"civilian"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"civilian"
-		"xpos"				"c255"
-		"ypos"				"r95"
-		"zpos"				"2"
-		"wide"					"50"
-		"tall"					"70"
-		"autoResize"			"0"
-		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"south"
-		"font"					"futura10"
-
-		"paintborder"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"	"ButtonFlickerClassTanLight"
-		"border_selected"	"ButtonFlickerClassTanLight"
-
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"0"
-
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"1"
-		
-		"defaultFgColor_override" 	"0 0 0 255"
-		"armedFgColor_override" 	"0 0 0 255"
-		"depressedFgColor_override" "0 0 0 255"
-		"selectedFgColor_override" "0 0 0 255"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		"selectedbgColor_override" "0 0 0 0"
-		
-		"labelText"		""
-		"Command"		"select 10"
-		"Default"		"1"
-		
-		"image_default"		"class_sel_sm_civilian_inactive"
-		"image_armed"		"class_sel_sm_civilian_inactive"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"-35"
-			"wide"			"50"
-			"tall"			"100"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"class_sel_sm_civilian_inactive"
-		}
-		
-		//TF2C
-		"if_special_classes"
-		{
-			"visible"	"1"
-			"enabled"	"1"
-		}
-	}
+		"visible"			"0"
+		"enabled"			"0"			
+	}	
 
 	"CancelButton" [$WIN32] 
 	{
@@ -1143,16 +457,31 @@
 		"enabled"		"0"
 	}		
 	
+	"localPlayerImage" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"c-155"
+		"ypos"			"9999" //90
+		"zpos"			"-1"
+		"wide"			"50"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-280"
-		"ypos"			"0"
-		"zpos"			"-7"
-		"wide"			"900"
-		"tall"			"480"
+		"xpos"			"c-180"
+		"ypos"			"90"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"100"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1160,8 +489,8 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
-		"allow_rot"		"1"
+		"fov"			"25"
+		"allow_rot"		"0"
 
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
@@ -1172,15 +501,15 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "160" //rotation
+			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "260" //how close to camera, lower is closer
-			"origin_y" "0" //Left-right. Lower = move right
-			"origin_z" "-55" //Up-down.
+			"origin_x" "260"
+			"origin_y" "0"
+			"origin_z" "-60"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight" "0"
 		
 			"modelname"		""
 			"vcd"		"class_select.vcd"
@@ -1200,126 +529,6 @@
 				"exponent"                "5"
 			}
 		}
-		
-		"customclassdata"
-		{
-			"Undefined Class"
-			{
-				"fov"       "15"
-				"angles_x" "0"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "0" //Left-right. Lower = move right
-				"origin_z" "-55" //Up-down.
-			}
-			"scout"
-			{
-				"fov"       "24"
-				"angles_x" "0"
-				"angles_y" "160" //rotation
-				"angles_z" "-2"
-				"origin_x" "300" //how close to camera, lower is closer
-				"origin_y" "-3" //Left-right. Lower = move right
-				"origin_z" "-54" //Up-down.
-			}
-			"sniper"
-			{
-				"fov"       "27"
-				"angles_x" "-5"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "0" //Left-right. Lower = move right
-				"origin_z" "-55" //Up-down.
-			}
-			"soldier"
-			{
-				"fov"       "27"
-				"angles_x" "-10"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "0" //Left-right. Lower = move right
-				"origin_z" "-55" //Up-down.
-			}
-			"demoman"
-			{
-				"fov"       "25"
-				"angles_x" "-10"
-				"angles_y" "200" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "-7" //Left-right. Lower = move right
-				"origin_z" "-55" //Up-down.
-
-			}
-			"medic"
-			{
-				"fov"       "27"
-				"angles_x" "-5"
-				"angles_y" "190" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "0" //Left-right. Lower = move right
-				"origin_z" "-55" //Up-down.
-
-			}
-			"heavyweapons"
-			{
-				"fov"       "30"
-				"angles_x" "-5"
-				"angles_y" "210" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "0" //Left-right. Lower = move right
-				"origin_z" "-50" //Up-down.
-
-			}
-			"pyro"
-			{
-				"fov"       "27"
-				"angles_x" "-10"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "-5" //Left-right. Lower = move right
-				"origin_z" "-50" //Up-down.
-
-			}
-
-			"spy"
-			{
-				"fov"       "25"
-				"angles_x" "-7"
-				"angles_y" "220" //rotation
-				"angles_z" "-7"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "-5" //Left-right. Lower = move right
-				"origin_z" "-57" //Up-down.
-
-			}
-			"engineer"
-			{
-				"fov"       "25"
-				"angles_x" "-7"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "-1" //Left-right. Lower = move right
-				"origin_z" "-50" //Up-down.
-			}
-			"civilian"
-			{
-				"fov"       "27"
-				"angles_x" "0"
-				"angles_y" "160" //rotation
-				"angles_z" "0"
-				"origin_x" "260" //how close to camera, lower is closer
-				"origin_y" "-5" //Left-right. Lower = move right
-				"origin_z" "-40" //Up-down.
-			}
-		}
 	}
 	
 	"localPlayerBG"
@@ -1328,48 +537,6 @@
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-	}
-	
-	"YourTeam" [$WIN32]
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"YourTeam"
-		"xpos"			"50"
-		"ypos"			"30"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"45"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Arena_Team_Layout"
-		"textAlignment"	"west"
-		"font"			"SLBoldSmall"
-		"fgcolor"		"TanLight"
-		"textinsetx"	"10"
-	}
-	
-	"YourTeamOutline" [$WIN32]
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"YourTeamOutline"
-		"xpos"			"50"
-		"ypos"			"30"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"45"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Arena_Team_Layout"
-		"textAlignment"	"west"
-		"font"			"SLBoldSmallStroke"
-		"fgcolor"		"TanDark"
-		"textinsetx"	"10"
 	}
 	
 	"YouBox"
@@ -1384,8 +551,8 @@
 		"fillcolor"		"TanDarker"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"draw_corner_height" "11"
 		"border"		"StoreHighlightedBackgroundBorder"
 		"alpha"			"128"
@@ -1412,7 +579,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"YouLabel"
-		"xpos"			"35"
+		"xpos"			"c-155"
 		"ypos"			"102"
 		"zpos"			"-1"
 		"wide"			"53"
@@ -1428,50 +595,55 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"YouStar"
+	"DrawHintLabel" [$WIN32]
 	{
-		"ControlName"	"ImagePanel"		
-		"fieldName"		"YouStar"
+		"ControlName"	"CExLabel"
+		"fieldName"		"DrawHintLabel"
 		"xpos"			"0"
-		"ypos"			"25"
-		"zpos"			"-2"
-		"wide"			"40"
-		"tall"			"40"
+		"ypos"			"35"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"glyph_achievements"
-		"scaleImage"	"1"
-		"drawcolor" "TanDark"
-		
-		"pin_to_sibling"	"YouLabel"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"4"
-	}	
+		"tabPosition"	"0"
+		"labelText"		"Try scribbling."
+		"textAlignment"	"west"
+		"font"			"Futura12"
+		"fgcolor"		"TanLight"
+		"wrap"			"1"
+		"textinsetx"	"70"
+		"textinsety"	"5"
+		"auto_wide_tocontents"	"1"
+	}
 	
-	"localPlayerImage" [$WIN32]
+	"DrawHintBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerImage"
-		"xpos"			"40"
-		"ypos"			"52" //90
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
-		"visible"		"0"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"DrawHintBG"
+		"xpos"			"-10"
+		"ypos"			"16"
+		"zpos"			"-4"
+		"wide"			"110"
+		"tall"			"55"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			""	
+		"image"			"replay/thumbnails/bgshapes/SHAPES_HP_BG"
 		"scaleImage"	"1"	
+		"drawcolor"		"TanDarker"
 	}
 	
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"80"
-		"ypos"			"48" //90
+		"xpos"			"c-103"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1482,11 +654,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"120"
-		"ypos"			"46" //90
+		"xpos"			"c-51"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1497,11 +669,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"160"
-		"ypos"			"42" //90
+		"xpos"			"c1"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1512,11 +684,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"200"
-		"ypos"			"38" //90
+		"xpos"			"c53"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1527,11 +699,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"240"
-		"ypos"			"34" //90
+		"xpos"			"c105"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1542,11 +714,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"40"
-		"ypos"			"116" //90
+		"xpos"			"c-155"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1557,11 +729,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"80"
-		"ypos"			"112" //90
+		"xpos"			"c-103"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1572,11 +744,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"120"
-		"ypos"			"108" //90
+		"xpos"			"c-51"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1587,11 +759,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"160"
-		"ypos"			"104" //90
+		"xpos"			"c1"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1602,11 +774,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"200"
-		"ypos"			"100" //90
+		"xpos"			"c53"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -1617,11 +789,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"240"
-		"ypos"			"96" //90
+		"xpos"			"c105"
+		"ypos"			"170"
 		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
@@ -2530,7 +1702,118 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
+
+	"StartExplanation"
+	{
+		"ControlName"	"CExplanationPopup"
+		"fieldName"		"StartExplanation"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"250"
+		"tall"			"165"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground" "0"
+		"border"		"MainMenuHighlightBorder"
 		
+		"force_close"	"1"
+		"end_x"			"c-170"
+		"end_y"			"115"
+		"end_wide"		"300"
+		"end_tall"		"240"
+		"callout_inparents_x"	"c-270"
+		"callout_inparents_y"	"40"
+		"next_explanation"		"VoucherExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
+			"textAlignment"	"north"
+			"xpos"			"20"
+			"ypos"			"10"
+			"wide"			"260"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"wrap"			"1"
+			"fgcolor_override" "46 43 42 255"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TextLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_MvM_UpgradeExplanation_Text"
+			"textAlignment"	"north-west"
+			"xpos"			"20"
+			"ypos"			"45"
+			"wide"			"260"
+			"tall"			"170"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"wrap"			"1"
+			"fgcolor_override" "46 43 42 255"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"CloseButton"
+			"xpos"			"280"
+			"ypos"			"5"
+			"zpos"			"10"
+			"wide"			"14"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labeltext"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"0"
+			"sound_armed"		"ui/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"Command"		"close"
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "200 80 60 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"close_button"
+				"scaleImage"	"1"
+			}				
+		}
+	}
+	
 	"ClassTipsPanel"
 	{
 		"ControlName"	"CTFClassTipsPanel"
@@ -2650,23 +1933,5 @@
 				"scaleImage"	"1"
 			}				
 		}
-	}
-		
-	"BGTeammates"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGTeammates"
-		"xpos"			"0"
-		"ypos"			"c-140"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"180"
-		"fillcolor"		"104 124 155 70"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"alpha"			"255"
-		"draw_corner_height" "11"
-	}
+	}		
 }
